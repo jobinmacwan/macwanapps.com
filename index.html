@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Macwan Apps - Crafting Apps That Move You</title>
+<meta name="description" content="Macwan Apps builds iOS apps that help you build better habits. Explore our collection of thoughtfully designed applications.">
+<meta property="og:title" content="Macwan Apps - Crafting Apps That Move You">
+<meta property="og:description" content="iOS apps that help you build better habits. Explore our collection.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://macwanapps.com">
+<meta property="og:image" content="https://macwanapps.com/images/walkfirst-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Nav */
+  nav {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding: 16px 24px;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+  }
+  nav .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .brand {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-decoration: none;
+  }
+  nav .brand span { color: #FF8C00; }
+  nav .nav-links { display: flex; gap: 28px; list-style: none; }
+  nav .nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  nav .nav-links a:hover { color: #FF8C00; }
+
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .hamburger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #1a1a1a;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+  @media (max-width: 768px) {
+    .hamburger { display: flex; }
+    nav .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0; right: 0;
+      background: rgba(255,255,255,0.98);
+      backdrop-filter: blur(20px);
+      flex-direction: column;
+      padding: 16px 24px 24px;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      gap: 16px;
+    }
+    nav .nav-links.open { display: flex; }
+  }
+
+  /* Hero */
+  .hero {
+    padding: 140px 24px 80px;
+    text-align: center;
+    background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%);
+  }
+  .hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .hero h1 span { color: #FF8C00; }
+  .hero p {
+    font-size: 20px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 48px;
+    line-height: 1.6;
+  }
+
+  /* Apps Grid */
+  .apps-section {
+    padding: 80px 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .section-label {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #FF8C00;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .app-card {
+    background: #fff;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    padding: 40px 32px;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+  }
+  .app-card:hover {
+    border-color: #FF8C00;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(255, 140, 0, 0.12);
+  }
+  .app-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 22%;
+    margin-bottom: 20px;
+  }
+  .app-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .app-card .app-tagline {
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .app-card .app-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF8C00, #FF5933);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .app-card .app-badge.coming-soon {
+    background: #e0e0e0;
+    color: #888;
+  }
+
+  /* About */
+  .about-section {
+    padding: 80px 24px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  .about-section .inner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .about-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  /* Contact */
+  .contact-section {
+    padding: 80px 24px;
+    text-align: center;
+  }
+  .contact-section a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .contact-section a:hover { text-decoration: underline; }
+
+  /* Footer */
+  footer {
+    background: #1a1a1a;
+    color: #999;
+    padding: 40px 24px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  footer a { color: #FF8C00; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 34px; }
+    .hero p { font-size: 17px; }
+    .section-title { font-size: 28px; }
+    .apps-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="brand">Macwan <span>Apps</span></a>
+    <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Crafting Apps That<br><span>Move You Forward</span></h1>
+  <p>We build iOS apps that help you build better habits, stay focused, and make the most of your time.</p>
+</section>
+
+<!-- Apps -->
+<section class="apps-section" id="apps">
+  <div class="section-label">Our Apps</div>
+  <h2 class="section-title">Apps designed with purpose</h2>
+  <div class="apps-grid">
+
+    <a href="https://walkfirst.macwanapps.com" class="app-card">
+      <img src="images/walkfirst-icon.png" alt="WalkFirst App Icon">
+      <h3>WalkFirst</h3>
+      <p class="app-tagline">Block distracting apps until you reach your daily step goal. Walk more, scroll less.</p>
+      <span class="app-badge">Available Now</span>
+    </a>
+
+    <div class="app-card" style="cursor: default; opacity: 0.7;">
+      <div style="width:100px;height:100px;border-radius:22%;background:linear-gradient(135deg,#e0e0e0,#ccc);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-size:40px;">?</div>
+      <h3>Coming Soon</h3>
+      <p class="app-tagline">We're working on something new. Stay tuned for our next app that helps you live better.</p>
+      <span class="app-badge coming-soon">In Development</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- About -->
+<section class="about-section" id="about">
+  <div class="inner">
+    <div class="section-label">About</div>
+    <h2 class="section-title">Built by Jobin Macwan</h2>
+    <p>Macwan Apps is an indie iOS development studio focused on building apps that genuinely improve daily life. Every app is thoughtfully designed with clean UI, smooth performance, and a clear purpose.</p>
+    <p>We believe technology should help you move forward, not hold you back.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact-section" id="contact">
+  <div class="section-label">Get in Touch</div>
+  <h2 class="section-title">We'd love to hear from you</h2>
+  <p style="font-size:18px;color:#666;margin-bottom:24px;">For support, feedback, or just to say hello:</p>
+  <a href="mailto:support@macwanapps.com">support@macwanapps.com</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 Macwan Apps. All rights reserved.</p>
+  <p>Developer: Jobin Macwan</p>
+  <p style="margin-top: 8px;">
+    <a href="https://walkfirst.macwanapps.com/privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+    <a href="https://walkfirst.macwanapps.com/terms.html">Terms of Service</a>
+  </p>
+</footer>
+
+</body>
+</html>
