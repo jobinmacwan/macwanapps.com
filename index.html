@@ -26,14 +26,17 @@
     --text-light: #999;
     --border: #eee;
     --border-light: rgba(0,0,0,0.05);
-    --accent: #FF8C00;
-    --accent-end: #FF5933;
+    --accent: #1a1a1a;
+    --accent-end: #545458;
+    --accent-mid: #1a1a1a;
+    --accent-soft: #7C7C80;
     --nav-bg: rgba(255,255,255,0.92);
     --footer-bg: #111;
     --footer-text: #888;
     --card-shadow: rgba(0,0,0,0.04);
-    --card-hover-shadow: rgba(255,140,0,0.15);
-    --value-icon-bg: rgba(255,140,0,0.07);
+    --card-hover-shadow: rgba(0,0,0,0.12);
+    --value-icon-bg: rgba(0,0,0,0.05);
+    --footer-hover-bg: rgba(255,255,255,0.12);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -47,12 +50,17 @@
       --text-light: #666;
       --border: #222;
       --border-light: rgba(255,255,255,0.05);
+      --accent: #f0f0f0;
+      --accent-end: #a0a0a0;
+      --accent-mid: #f0f0f0;
+      --accent-soft: #d4d4d4;
       --nav-bg: rgba(14,14,14,0.92);
       --footer-bg: #080808;
       --footer-text: #666;
       --card-shadow: rgba(0,0,0,0.3);
-      --card-hover-shadow: rgba(255,140,0,0.2);
-      --value-icon-bg: rgba(255,140,0,0.1);
+      --card-hover-shadow: rgba(255,255,255,0.14);
+      --value-icon-bg: rgba(255,255,255,0.06);
+      --footer-hover-bg: rgba(255,255,255,0.14);
     }
   }
 
@@ -199,7 +207,7 @@
     margin-bottom: 24px;
   }
   .hero h1 .gradient-text {
-    background: linear-gradient(135deg, var(--accent), var(--accent-end), #FF8C00, #FFB347);
+    background-image: linear-gradient(135deg, var(--accent), var(--accent-end), var(--accent-mid), var(--accent-soft));
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -500,7 +508,7 @@
     background: rgba(255,255,255,0.06);
     transition: all 0.2s;
   }
-  .footer-social a:hover { background: rgba(255,140,0,0.15); }
+  .footer-social a:hover { background: var(--footer-hover-bg); }
   .footer-social a svg { width: 16px; height: 16px; fill: var(--footer-text); }
   .footer-social a:hover svg { fill: var(--accent); }
   .footer-links {
@@ -539,6 +547,7 @@
     <div class="nav-links">
       <a href="#apps">Apps</a>
       <a href="#about">About</a>
+      <a href="/profile/">Profile</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
