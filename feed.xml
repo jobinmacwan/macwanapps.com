@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Macwan Apps Blog</title>
+  <link>https://macwanapps.com/blog/</link>
+  <description>Notes from an indie iOS studio — launches, lessons, and what it's like building apps solo. By Jobin Macwan.</description>
+  <language>en</language>
+  <atom:link href="https://macwanapps.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Introducing WalkFirst: your steps are the key to your apps</title>
+    <link>https://macwanapps.com/blog/introducing-walkfirst/</link>
+    <guid>https://macwanapps.com/blog/introducing-walkfirst/</guid>
+    <pubDate>Tue, 07 Jul 2026 09:00:00 +0000</pubDate>
+    <description>Why I built an app that blocks distracting apps until you've walked enough — and how Apple's Screen Time framework makes it possible without your data ever leaving your phone.</description>
+  </item>
+  <item>
+    <title>Introducing Rockiva: point your camera at a rock, learn what it is</title>
+    <link>https://macwanapps.com/blog/introducing-rockiva/</link>
+    <guid>https://macwanapps.com/blog/introducing-rockiva/</guid>
+    <pubDate>Tue, 07 Jul 2026 09:00:00 +0000</pubDate>
+    <description>An AI-powered rock and gem identifier that gives you real mineralogy instead of a guess — localized in 35 languages, including the AI's answers themselves.</description>
+  </item>
+</channel>
+</rss>

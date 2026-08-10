@@ -4,683 +4,293 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Macwan Apps - Crafting Apps That Move You</title>
-<meta name="description" content="Macwan Apps builds iOS apps that help you build better habits. Explore our collection of thoughtfully designed applications.">
+<meta name="description" content="Every app Macwan Apps builds has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more thoughtfully designed iOS apps.">
+<link rel="canonical" href="https://macwanapps.com/">
 <meta property="og:title" content="Macwan Apps - Crafting Apps That Move You">
-<meta property="og:description" content="iOS apps that help you build better habits. Explore our collection.">
+<meta property="og:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://macwanapps.com">
-<meta property="og:image" content="https://macwanapps.com/images/walkfirst-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/ma-favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/ma-favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/ma-apple-touch-icon.png">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  :root {
-    --bg: #ffffff;
-    --bg-alt: #fafafa;
-    --bg-card: #ffffff;
-    --text: #1a1a1a;
-    --text-secondary: #555;
-    --text-muted: #888;
-    --text-light: #999;
-    --border: #eee;
-    --border-light: rgba(0,0,0,0.05);
-    --accent: #1a1a1a;
-    --accent-end: #545458;
-    --accent-mid: #1a1a1a;
-    --accent-soft: #7C7C80;
-    --nav-bg: rgba(255,255,255,0.92);
-    --footer-bg: #111;
-    --footer-text: #888;
-    --card-shadow: rgba(0,0,0,0.04);
-    --card-hover-shadow: rgba(0,0,0,0.12);
-    --value-icon-bg: rgba(0,0,0,0.05);
-    --footer-hover-bg: rgba(255,255,255,0.12);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0e0e0e;
-      --bg-alt: #161616;
-      --bg-card: #1a1a1a;
-      --text: #f0f0f0;
-      --text-secondary: #aaa;
-      --text-muted: #777;
-      --text-light: #666;
-      --border: #222;
-      --border-light: rgba(255,255,255,0.05);
-      --accent: #f0f0f0;
-      --accent-end: #a0a0a0;
-      --accent-mid: #f0f0f0;
-      --accent-soft: #d4d4d4;
-      --nav-bg: rgba(14,14,14,0.92);
-      --footer-bg: #080808;
-      --footer-text: #666;
-      --card-shadow: rgba(0,0,0,0.3);
-      --card-hover-shadow: rgba(255,255,255,0.14);
-      --value-icon-bg: rgba(255,255,255,0.06);
-      --footer-hover-bg: rgba(255,255,255,0.14);
+<meta property="og:image" content="https://macwanapps.com/images/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Macwan Apps - Crafting Apps That Move You">
+<meta name="twitter:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more.">
+<meta name="twitter:image" content="https://macwanapps.com/images/og-card.png">
+<link rel="alternate" type="application/rss+xml" title="Macwan Apps Blog" href="/feed.xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+<noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://macwanapps.com/#org",
+      "name": "Macwan Apps",
+      "url": "https://macwanapps.com",
+      "logo": "https://macwanapps.com/images/ma-icon-192.png",
+      "email": "support@macwanapps.com",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://macwanapps.com/profile/#person",
+        "name": "Jobin Macwan",
+        "url": "https://macwanapps.com/profile/",
+        "jobTitle": "Founder & iOS Developer"
+      },
+      "sameAs": [
+        "https://github.com/jobinmacwan",
+        "https://apps.apple.com/developer/jobin-macwan/id1842789098"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Walk to Unlock Apps: WalkFirst",
+      "operatingSystem": "iOS",
+      "applicationCategory": "HealthApplication",
+      "url": "https://macwanapps.com/apps/walkfirst/",
+      "installUrl": "https://apps.apple.com/app/walkfirst-earn-screen-time/id6758828207",
+      "description": "An app blocker that makes you earn screen time: your most distracting apps stay locked until you hit your daily step goal.",
+      "author": { "@id": "https://macwanapps.com/#org" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Rock & Gem Identifier: Rockiva",
+      "operatingSystem": "iOS",
+      "applicationCategory": "ReferenceApplication",
+      "installUrl": "https://apps.apple.com/app/rock-gem-identifier-rockiva/id6753161907",
+      "description": "Point your camera at any rock, crystal, or gemstone and identify it in seconds — with real mineralogy, not just a guess.",
+      "author": { "@id": "https://macwanapps.com/#org" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
     }
-  }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    line-height: 1.6;
-  }
-
-  /* Scroll animations */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .fade-in.delay-1 { transition-delay: 0.1s; }
-  .fade-in.delay-2 { transition-delay: 0.2s; }
-  .fade-in.delay-3 { transition-delay: 0.3s; }
-
-  /* Hero logo float animation */
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
-  @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  @keyframes shimmer {
-    0% { background-position: -200% center; }
-    100% { background-position: 200% center; }
-  }
-
-  /* Nav */
-  nav {
-    background: var(--nav-bg);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border-bottom: 1px solid var(--border-light);
-    padding: 14px 24px;
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 100;
-  }
-  nav .nav-inner {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav .brand {
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--text);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    letter-spacing: -0.3px;
-  }
-  nav .brand img {
-    width: 30px;
-    height: 30px;
-    border-radius: 22%;
-  }
-  nav .brand span { color: var(--accent); }
-  nav .nav-links { display: flex; gap: 32px; list-style: none; }
-  nav .nav-links a {
-    text-decoration: none;
-    color: var(--text-muted);
-    font-size: 14px;
-    font-weight: 500;
-    transition: color 0.2s;
-    letter-spacing: 0.2px;
-  }
-  nav .nav-links a:hover { color: var(--text); }
-
-  .hamburger {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 4px;
-    flex-direction: column;
-    gap: 5px;
-  }
-  .hamburger span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: var(--text);
-    border-radius: 2px;
-    transition: all 0.3s;
-  }
-  .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-  .hamburger.open span:nth-child(2) { opacity: 0; }
-  .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-
-  @media (max-width: 768px) {
-    .hamburger { display: flex; }
-    nav .nav-links {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0; right: 0;
-      background: var(--nav-bg);
-      backdrop-filter: blur(24px);
-      flex-direction: column;
-      padding: 16px 24px 24px;
-      border-bottom: 1px solid var(--border-light);
-      gap: 16px;
-    }
-    nav .nav-links.open { display: flex; }
-  }
-
-  /* Hero */
-  .hero {
-    padding: 160px 24px 100px;
-    text-align: center;
-    background: var(--bg);
-  }
-  .hero-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 22%;
-    margin: 0 auto 32px;
-    display: block;
-    animation: float 4s ease-in-out infinite;
-  }
-  .hero h1 {
-    font-size: 56px;
-    font-weight: 800;
-    letter-spacing: -2px;
-    line-height: 1.05;
-    margin-bottom: 24px;
-  }
-  .hero h1 .gradient-text {
-    background-image: linear-gradient(135deg, var(--accent), var(--accent-end), var(--accent-mid), var(--accent-soft));
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: gradientShift 4s ease infinite;
-  }
-  .hero .subtitle {
-    font-size: 19px;
-    color: var(--text-secondary);
-    max-width: 520px;
-    margin: 0 auto;
-    line-height: 1.7;
-    letter-spacing: 0.1px;
-  }
-
-  /* Values */
-  .values-section {
-    padding: 64px 24px;
-    border-top: 1px solid var(--border);
-  }
-  .values-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    max-width: 820px;
-    margin: 0 auto;
-  }
-  .value-item {
-    text-align: center;
-    padding: 28px 20px;
-    border-radius: 16px;
-    transition: background 0.3s;
-  }
-  .value-item:hover { background: var(--bg-alt); }
-  .value-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
-    background: var(--value-icon-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    margin: 0 auto 12px;
-  }
-  .value-item h3 {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 6px;
-    letter-spacing: -0.2px;
-  }
-  .value-item p {
-    font-size: 13px;
-    color: var(--text-muted);
-    line-height: 1.6;
-  }
-  @media (max-width: 600px) {
-    .values-grid { grid-template-columns: 1fr; gap: 8px; }
-  }
-
-  /* Section styles */
-  .section-label {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--accent);
-    margin-bottom: 12px;
-    text-align: center;
-  }
-  .section-title {
-    font-size: 36px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    text-align: center;
-    margin-bottom: 48px;
-    line-height: 1.1;
-  }
-
-  /* Apps Grid */
-  .apps-section {
-    padding: 80px 24px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  .apps-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 28px;
-    max-width: 860px;
-    margin: 0 auto;
-  }
-
-  .app-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 0;
-    text-align: center;
-    transition: all 0.35s ease;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
-  }
-  .app-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-6px) scale(1.01);
-    box-shadow: 0 20px 60px var(--card-hover-shadow);
-  }
-  .app-card-inner {
-    padding: 36px 28px 28px;
-  }
-  .app-card .app-icon {
-    width: 80px;
-    height: 80px;
-    border-radius: 22%;
-    margin-bottom: 16px;
-  }
-  .app-card h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 6px;
-    letter-spacing: -0.3px;
-  }
-  .app-card .app-tagline {
-    font-size: 14px;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-    line-height: 1.6;
-  }
-
-  /* Full-width screenshot preview */
-  .app-preview {
-    background: var(--bg-alt);
-    padding: 20px 24px 0;
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    overflow: hidden;
-  }
-  .app-preview img {
-    width: 120px;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 -2px 20px var(--card-shadow);
-    transition: transform 0.4s ease;
-  }
-  .app-card:hover .app-preview img {
-    transform: translateY(-4px);
-  }
-
-  /* App Store Badge */
-  .appstore-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--text);
-    color: var(--bg);
-    font-size: 13px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: opacity 0.2s;
-  }
-  .appstore-badge:hover { opacity: 0.85; }
-  .appstore-badge svg { width: 16px; height: 16px; fill: var(--bg); }
-
-  .learn-more {
-    display: block;
-    margin-top: 10px;
-    font-size: 13px;
-    color: var(--accent);
-    font-weight: 600;
-    letter-spacing: 0.2px;
-  }
-
-  /* Coming Soon card */
-  .coming-soon-placeholder {
-    width: 80px;
-    height: 80px;
-    border-radius: 22%;
-    margin: 0 auto 16px;
-    background: linear-gradient(135deg, var(--border), var(--bg-alt), var(--border));
-    background-size: 200% 200%;
-    animation: gradientShift 3s ease infinite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .coming-soon-placeholder svg {
-    width: 28px;
-    height: 28px;
-    fill: var(--text-muted);
-    opacity: 0.5;
-  }
-  .coming-soon-badge {
-    display: inline-block;
-    background: var(--bg-alt);
-    color: var(--text-muted);
-    font-size: 11px;
-    font-weight: 700;
-    padding: 6px 16px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  /* About */
-  .about-section {
-    padding: 80px 24px;
-    background: var(--bg-alt);
-    text-align: center;
-  }
-  .about-section .inner {
-    max-width: 640px;
-    margin: 0 auto;
-  }
-  .about-section p {
-    font-size: 17px;
-    color: var(--text-secondary);
-    line-height: 1.8;
-    margin-bottom: 16px;
-  }
-
-  /* Newsletter (kept for future) */
-  .newsletter-section {
-    padding: 60px 24px;
-    text-align: center;
-    background: linear-gradient(135deg, var(--accent), var(--accent-end));
-    color: white;
-  }
-  .newsletter-section h2 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
-  .newsletter-section p { font-size: 16px; opacity: 0.9; margin-bottom: 24px; }
-  .newsletter-form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
-  .newsletter-form input { flex: 1; padding: 14px 18px; border: none; border-radius: 12px; font-size: 15px; outline: none; background: rgba(255,255,255,0.95); color: #1a1a1a; }
-  .newsletter-form input::placeholder { color: #aaa; }
-  .newsletter-form button { padding: 14px 24px; border: none; border-radius: 12px; background: var(--text); color: white; font-size: 15px; font-weight: 600; cursor: pointer; }
-  .newsletter-note { font-size: 12px; opacity: 0.7; margin-top: 12px; }
-  @media (max-width: 500px) { .newsletter-form { flex-direction: column; } }
-
-  /* Contact */
-  .contact-section {
-    padding: 80px 24px;
-    text-align: center;
-  }
-  .contact-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--text);
-    color: var(--bg);
-    font-size: 15px;
-    font-weight: 600;
-    padding: 14px 28px;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: all 0.2s;
-    letter-spacing: 0.1px;
-  }
-  .contact-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-  }
-  .contact-btn svg { width: 18px; height: 18px; fill: var(--bg); }
-  .contact-hint {
-    display: block;
-    margin-top: 12px;
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  /* Footer */
-  footer {
-    background: var(--footer-bg);
-    color: var(--footer-text);
-    padding: 48px 24px 32px;
-    text-align: center;
-    font-size: 13px;
-  }
-  footer a { color: var(--footer-text); text-decoration: none; transition: color 0.2s; }
-  footer a:hover { color: var(--accent); }
-  .footer-social {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  .footer-social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.06);
-    transition: all 0.2s;
-  }
-  .footer-social a:hover { background: var(--footer-hover-bg); }
-  .footer-social a svg { width: 16px; height: 16px; fill: var(--footer-text); }
-  .footer-social a:hover svg { fill: var(--accent); }
-  .footer-links {
-    margin-bottom: 20px;
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .footer-divider {
-    width: 40px;
-    height: 1px;
-    background: rgba(255,255,255,0.08);
-    margin: 0 auto 20px;
-  }
-  footer .copyright { color: rgba(255,255,255,0.3); font-size: 12px; }
-
-  @media (max-width: 600px) {
-    .hero { padding: 140px 24px 72px; }
-    .hero h1 { font-size: 36px; letter-spacing: -1.2px; }
-    .hero .subtitle { font-size: 16px; }
-    .section-title { font-size: 28px; }
-    .apps-grid { grid-template-columns: 1fr; }
-    .app-preview img { width: 100px; }
-  }
-</style>
+  ]
+}
+</script>
+<script src="/js/analytics.js"></script>
 </head>
 <body>
 
 <nav>
   <div class="nav-inner">
-    <a href="/" class="brand"><img src="images/ma-apple-touch-icon.png" alt="Macwan Apps">Macwan <span>Apps</span></a>
+    <a href="/" class="brand"><img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps">Macwan Apps</a>
     <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
     <div class="nav-links">
-      <a href="#apps">Apps</a>
-      <a href="#about">About</a>
-      <a href="/profile/">Profile</a>
-      <a href="#contact">Contact</a>
+      <a href="/#apps">Apps</a>
+      <a href="/#about">About</a>
+      <a href="/blog/">Blog</a>
+      <a href="/profile/">Founder</a>
+      <a href="/support/">Support</a>
+      <a href="/apps/walkfirst/" class="nav-cta">Get WalkFirst</a>
     </div>
   </div>
 </nav>
 
 <!-- Hero -->
 <section class="hero">
-  <img src="images/ma-icon-192.png" alt="Macwan Apps Logo" class="hero-logo">
-  <h1>Crafting Apps That<br><span class="gradient-text">Move You Forward</span></h1>
-  <p class="subtitle">Experience thoughtful design and purposeful features with our iOS applications built to improve your daily life.</p>
+  <a href="/apps/walkfirst/" class="hero-pill hero-anim stagger-1">WalkFirst is live on the App Store &rarr;</a>
+  <h1 class="hero-anim stagger-2">Crafting apps that<br>move you forward</h1>
+  <p class="subtitle hero-anim stagger-3">Every app we build has one job: make your day a little better than yesterday.</p>
+  <div class="hero-actions hero-anim stagger-4">
+    <a href="#apps" class="btn-primary">
+      Explore our apps
+    </a>
+    <a href="#about" class="btn-secondary">About the studio &rarr;</a>
+  </div>
+  <div class="hero-preview hero-anim stagger-5">
+    <div class="phone-frame">
+      <img src="/images/wf19-home.png" alt="WalkFirst home screen showing steps walked toward today's goal" width="280" height="606">
+    </div>
+  </div>
 </section>
 
 <!-- Values -->
 <section class="values-section">
-  <div class="values-grid">
-    <div class="value-item fade-in delay-1">
-      <div class="value-icon">&#127912;</div>
-      <h3>Thoughtful Design</h3>
-      <p>Clean, native iOS interfaces that feel right at home on your device</p>
+  <div class="values-grid fade-in">
+    <div class="value-item">
+      <div class="value-icon icon-indigo">
+        <svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4L12 3z"/><path d="M19 3v3M17.5 4.5h3"/></svg>
+      </div>
+      <h3>Thoughtful design</h3>
+      <p>Clean, native iOS interfaces that feel right at home on your device.</p>
     </div>
-    <div class="value-item fade-in delay-2">
-      <div class="value-icon">&#128274;</div>
-      <h3>Privacy First</h3>
-      <p>Your data stays on your device. No tracking, no ads, no compromises</p>
+    <div class="value-item">
+      <div class="value-icon icon-green">
+        <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.3-2.8 7.4-7 9-4.2-1.6-7-4.7-7-9V6l7-3z"/><path d="M9 11.5l2.2 2.2L15.5 9.5"/></svg>
+      </div>
+      <h3>Privacy first</h3>
+      <p>Your data stays on your device. No tracking, no ads, no compromises.</p>
     </div>
-    <div class="value-item fade-in delay-3">
-      <div class="value-icon">&#9889;</div>
-      <h3>Built to Last</h3>
-      <p>Fast, lightweight, and focused. No bloat, just what you need</p>
+    <div class="value-item">
+      <div class="value-icon icon-amber">
+        <svg viewBox="0 0 24 24"><path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12L13 2z"/></svg>
+      </div>
+      <h3>Built to last</h3>
+      <p>Fast, lightweight, and focused. No bloat, just what you need.</p>
     </div>
   </div>
 </section>
 
 <!-- Apps -->
 <section class="apps-section" id="apps">
-  <div class="section-label">Our Apps</div>
-  <h2 class="section-title">Apps designed with purpose</h2>
+  <div class="section-label fade-in">Our apps</div>
+  <h2 class="section-title fade-in delay-1">Apps designed with purpose</h2>
+  <p class="section-subtitle fade-in delay-2">Every app we ship is focused on one thing: helping you build better habits.</p>
   <div class="apps-grid">
 
-    <a href="https://walkfirst.macwanapps.com" class="app-card fade-in delay-1">
+    <a href="/apps/walkfirst/" class="app-card fade-in delay-1">
       <div class="app-card-inner">
-        <img src="images/walkfirst-icon.png" alt="WalkFirst App Icon" class="app-icon">
+        <img src="/images/walkfirst-icon.png" alt="WalkFirst App Icon" class="app-icon">
+        <div class="app-status">Live on the App Store</div>
         <h3>WalkFirst</h3>
-        <p class="app-tagline">Block distracting apps until you reach your daily step goal. Walk more, scroll less.</p>
-        <span class="appstore-badge">
-          <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-          Download on the App Store
-        </span>
-        <span class="learn-more">Learn more &rarr;</span>
+        <div class="app-category">App Blocker &middot; Earn Screen Time</div>
+        <p class="app-tagline">Walk to unlock your apps: your distractions stay locked until you hit your daily step goal.</p>
+        <div class="app-card-actions">
+          <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="appstore-badge-img" width="120" height="40">
+          <span class="learn-more">Learn more &rarr;</span>
+        </div>
       </div>
       <div class="app-preview">
-        <img src="images/screen-home.png" alt="WalkFirst Home Screen" loading="lazy">
-        <img src="images/screen-apps.png" alt="WalkFirst Apps Screen" loading="lazy">
+        <img src="/images/wf19-home.png" alt="WalkFirst Home Screen" loading="lazy">
+        <img src="/images/wf19-apps.png" alt="WalkFirst Apps Screen" loading="lazy">
       </div>
     </a>
 
-    <div class="app-card fade-in delay-2" style="cursor: default;">
+    <a href="/apps/rockiva/" class="app-card fade-in delay-2">
       <div class="app-card-inner">
-        <div class="coming-soon-placeholder">
-          <svg viewBox="0 0 24 24"><path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6-1.01 0-1.97-.25-2.8-.7l-1.46 1.46C8.97 19.54 10.43 20 12 20c4.42 0 8-3.58 8-8h3l-4-4zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46C15.03 4.46 13.57 4 12 4c-4.42 0-8 3.58-8 8H1l4 4 4-4H6z"/></svg>
+        <img src="/images/rockiva-icon.png" alt="Rockiva App Icon" class="app-icon">
+        <div class="app-status">Live on the App Store</div>
+        <h3>Rockiva</h3>
+        <div class="app-category">Rock &amp; Gem Identifier &middot; Reference</div>
+        <p class="app-tagline">Point your camera at any rock, crystal, or gemstone and identify it in seconds — real mineralogy, not just a guess. Localized in 35 languages.</p>
+        <div class="app-card-actions">
+          <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="appstore-badge-img" width="120" height="40">
+          <span class="learn-more">Learn more &rarr;</span>
         </div>
-        <h3>Something New</h3>
-        <p class="app-tagline">We're brewing something exciting. A new app to help you live better is on its way.</p>
-        <span class="coming-soon-badge">Coming Soon</span>
       </div>
-    </div>
+      <div class="app-preview">
+        <img src="/images/rockiva-screen-hero.png" alt="Rockiva identifying an amethyst crystal" loading="lazy">
+        <img src="/images/rockiva-screen-details.png" alt="Rockiva mineral details screen" loading="lazy">
+      </div>
+    </a>
 
+  </div>
+  <p class="apps-footnote fade-in">More apps are in the works — follow along on <a href="/blog/">the blog</a>.</p>
+</section>
+
+<!-- Stats -->
+<section class="stats-section">
+  <div class="stats-grid fade-in">
+    <div class="stat-item">
+      <div class="stat-icon icon-indigo">
+        <svg viewBox="0 0 24 24"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6"/></svg>
+      </div>
+      <div class="stat-value" data-count="15" data-suffix="+">15+</div>
+      <div class="stat-label">Apps shipped since 2017</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-icon icon-green">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg>
+      </div>
+      <div class="stat-value" data-count="2">2</div>
+      <div class="stat-label">Indie apps on the App Store</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-icon icon-blue">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9s1-6.5 3.5-9z"/></svg>
+      </div>
+      <div class="stat-value" data-count="35">35</div>
+      <div class="stat-label">Languages supported</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-icon icon-orange">
+        <svg viewBox="0 0 24 24"><path d="M6 21v-6"/><path d="M6 15V4h11l-2.5 3.5L17 11H6"/></svg>
+      </div>
+      <div class="stat-value">100%</div>
+      <div class="stat-label">Independent, no VC</div>
+    </div>
   </div>
 </section>
 
 <!-- About -->
-<section class="about-section fade-in" id="about">
-  <div class="inner">
-    <div class="section-label">About</div>
-    <h2 class="section-title">Built by Jobin Macwan</h2>
-    <p>Macwan Apps is an indie iOS development studio focused on building apps that genuinely improve daily life. Every app is thoughtfully designed with clean UI, smooth performance, and a clear purpose.</p>
-    <p>We believe technology should help you move forward, not hold you back.</p>
+<section class="about-section" id="about">
+  <div class="section-label fade-in">About the studio</div>
+  <h2 class="section-title fade-in delay-1" style="margin-bottom: 48px;">Built by Jobin Macwan</h2>
+  <div class="about-card fade-in delay-2">
+    <div class="about-founder">
+      <div class="hero-avatar">JM</div>
+      <div class="founder-name">Jobin Macwan</div>
+      <div class="founder-role">Founder &middot; Indie iOS Developer</div>
+      <a href="/profile/" class="btn-secondary" style="padding: 8px 14px;">Meet the founder &rarr;</a>
+    </div>
+    <div class="about-text">
+      <p>Macwan Apps is a one-person iOS studio. Jobin has been building iOS apps since 2017 — 15+ shipped across eight years in-house — before going solo in March 2025 to build his own.</p>
+      <p>Every app ships with clean UI, smooth performance, and a clear purpose. Technology should help you move forward, not hold you back.</p>
+      <div class="about-chips">
+        <span class="hero-chip">
+          <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>
+          iOS since 2017
+        </span>
+        <span class="hero-chip">
+          <svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/></svg>
+          15+ apps shipped
+        </span>
+        <span class="hero-chip">
+          <svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>
+          2 indie apps live
+        </span>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- Newsletter (uncomment when ready)
-<section class="newsletter-section fade-in">
-  <h2>Stay in the loop</h2>
-  <p>Get notified when we launch new apps and updates.</p>
-  <form class="newsletter-form" action="https://formspree.io/f/placeholder" method="POST">
-    <input type="email" name="email" placeholder="your@email.com" required>
-    <button type="submit">Notify Me</button>
-  </form>
-  <p class="newsletter-note">No spam, ever. Unsubscribe anytime.</p>
-</section>
--->
-
 <!-- Contact -->
 <section class="contact-section fade-in" id="contact">
-  <div class="section-label">Get in Touch</div>
+  <div class="section-label">Get in touch</div>
   <h2 class="section-title">We'd love to hear from you</h2>
   <a href="mailto:support@macwanapps.com" class="contact-btn">
     <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
     support@macwanapps.com
   </a>
-  <span class="contact-hint">For support, feedback, or just to say hello</span>
+  <span class="contact-hint">For support, feedback, or just to say hello &middot; see also the <a href="/support/" style="color: var(--accent); text-decoration: none;">support &amp; FAQ page</a></span>
 </section>
 
 <!-- Footer -->
 <footer>
-  <div class="footer-social">
-    <a href="https://github.com/jobinmacwan" aria-label="GitHub">
-      <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-    </a>
-    <a href="https://apps.apple.com/developer/jobin-macwan/id1744872745" aria-label="App Store">
-      <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-    </a>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps">
+      &copy; 2026 Macwan Apps. Built by Jobin Macwan.
+    </div>
+    <div class="footer-links">
+      <a href="/apps/walkfirst/">WalkFirst</a>
+      <a href="/apps/rockiva/">Rockiva</a>
+      <a href="/blog/">Blog</a>
+      <a href="/support/">Support</a>
+      <a href="/press/">Press</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://github.com/jobinmacwan" aria-label="GitHub">
+        <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <a href="https://apps.apple.com/developer/jobin-macwan/id1842789098" aria-label="App Store developer page">
+        <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      </a>
+    </div>
   </div>
-  <div class="footer-links">
-    <a href="https://walkfirst.macwanapps.com/privacy-policy.html">Privacy Policy</a>
-    <a href="https://walkfirst.macwanapps.com/terms.html">Terms of Service</a>
-  </div>
-  <div class="footer-divider"></div>
-  <p class="copyright">&copy; 2026 Macwan Apps. Built by Jobin Macwan.</p>
 </footer>
 
-<!-- Scroll animations with stagger -->
-<script>
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script src="/js/site.js"></script>
 
 </body>
 </html>
