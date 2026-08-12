@@ -7,6 +7,9 @@
 <meta name="description" content="Get help with WalkFirst and Rockiva — frequently asked questions and support contact for Macwan Apps.">
 <link rel="canonical" href="https://macwanapps.com/support/">
 <meta property="og:title" content="Support &amp; FAQ - Macwan Apps">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Macwan Apps">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://macwanapps.com/support/">
 <meta property="og:image" content="https://macwanapps.com/images/og-card.png">
@@ -14,12 +17,120 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
-<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "My steps aren't updating — what should I check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WalkFirst reads steps from Apple Health. Open the Health app → profile → Privacy → Apps → WalkFirst and make sure step access is allowed. Also confirm your iPhone is counting steps at all (Health → Steps). Steps counted by a paired Apple Watch sync to Health automatically and are included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does WalkFirst need Screen Time permission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Blocking apps on iOS is only possible through Apple's Screen Time (FamilyControls) framework, which requires your explicit permission. The permission is used solely to shield the apps you choose until you reach your step goal. We never see which apps you block — that information stays on your device."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apps stayed blocked after I reached my goal. What now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open WalkFirst once after reaching your goal so it can refresh from Apple Health — iOS sometimes delays background updates. If the shield still doesn't lift, force-quit and reopen the app. If it persists, email us with your iOS version and we'll dig in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my health data private?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — completely. Your step data never leaves your device. WalkFirst has no account system and no server storing personal data. See our privacy policy for details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I manage or cancel my subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subscriptions are handled by Apple: open Settings → your name → Subscriptions → WalkFirst, where you can change plans or cancel. For refunds, use Apple's reportaproblem.apple.com."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are the identifications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rockiva uses AI vision models and returns confidence-scored results based on real mineralogy. Accuracy is best with sharp, well-lit photos of a clean specimen against a plain background. Identifications are informational — for valuable specimens, always confirm with a professional gemologist or geologist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to my photos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your photo is sent securely to an AI vision provider to generate the identification, and the result comes back to your device. We don't build profiles from your photos or sell them, and your identification history is stored locally on your device. See the privacy policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Rockiva work in my language?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rockiva is localized in 35 languages — including the AI-generated identification results themselves, not just the interface."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an internet connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — identification requires a connection since the AI analysis runs in the cloud. Your saved history remains viewable offline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I request a refund?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All payments go through Apple, so refunds are theirs to grant: visit reportaproblem.apple.com, sign in with your Apple ID, and select the purchase. Apple usually responds within 48 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I report a bug or request a feature?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email support@macwanapps.com with the app name, your iOS version, and what happened (screenshots help a lot). Feature ideas are very welcome — several shipped features started as user emails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my purchase transfer to a new iPhone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Purchases are tied to your Apple ID, not your device. On a new iPhone, download the app and tap \"Restore Purchases\" inside it if your subscription doesn't appear automatically."
+      }
+    }
+  ]
+}
+</script>
+<script src="/js/analytics.js" defer></script>
 </head>
 <body>
 
@@ -135,7 +246,6 @@
     </div>
     <div class="footer-links">
       <a href="/apps/walkfirst/">WalkFirst</a>
-      <a href="/apps/rockiva/">Rockiva</a>
       <a href="/blog/">Blog</a>
       <a href="/support/">Support</a>
       <a href="/press/">Press</a>

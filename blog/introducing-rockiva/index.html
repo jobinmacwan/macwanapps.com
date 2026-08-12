@@ -8,6 +8,9 @@
 <link rel="canonical" href="https://macwanapps.com/blog/introducing-rockiva/">
 <meta property="og:title" content="Introducing Rockiva: point your camera at a rock, learn what it is">
 <meta property="og:description" content="An AI-powered rock and gem identifier with real mineralogy, in 35 languages.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Macwan Apps">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://macwanapps.com/blog/introducing-rockiva/">
 <meta property="og:image" content="https://macwanapps.com/images/rockiva-screen-hero.png">
@@ -17,9 +20,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script type="application/ld+json">
@@ -35,9 +35,35 @@
   "publisher": { "@type": "Organization", "@id": "https://macwanapps.com/#org", "name": "Macwan Apps" }
 }
 </script>
-<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://macwanapps.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://macwanapps.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Introducing Rockiva",
+      "item": "https://macwanapps.com/blog/introducing-rockiva/"
+    }
+  ]
+}
+</script>
+<script src="/js/analytics.js" defer></script>
 </head>
-<body>
+<body class="theme-studio">
 
 <nav>
   <div class="nav-inner">
@@ -56,20 +82,19 @@
   </div>
 </nav>
 
-<section class="hero hero-sub">
-  <div class="post-hero-meta hero-anim stagger-1">
+<section class="hero hero-sub post-hero">
+  <div class="post-breadcrumb hero-anim stagger-1"><a href="/">Macwan Apps</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a></div>
+  <div class="row-kicker hero-anim stagger-1">LAUNCH</div>
+  <h1 class="hero-anim stagger-2">Introducing Rockiva: point your camera at a rock, learn what it is</h1>
+  <div class="post-hero-meta hero-anim stagger-3">
     <span>July 7, 2026</span>
     <span>&middot;</span>
     <span>Jobin Macwan</span>
     <span>&middot;</span>
     <span>3 min read</span>
   </div>
-  <h1 class="hero-anim stagger-2" style="max-width: 720px; margin-left: auto; margin-right: auto;">Introducing Rockiva: point your camera at a rock, learn what it is</h1>
 </section>
 
-<div class="post-cover-figure hero-anim stagger-3">
-  <img src="/images/blog-cover-rockiva.png" alt="Introducing Rockiva">
-</div>
 
 <article class="prose-section">
 
@@ -97,8 +122,8 @@
 
   <figure style="margin: 28px 0 0;">
     <div class="post-screens">
-      <img src="/images/rockiva-screen-hero.png" alt="Rockiva identifying an amethyst crystal" loading="lazy">
-      <img src="/images/rockiva-screen-details.png" alt="Rockiva mineral details screen" loading="lazy">
+      <span class="phone-frame phone-frame-sm"><img src="/images/rockiva-screen-hero.webp" alt="Rockiva identifying an amethyst crystal" loading="lazy"></span>
+      <span class="phone-frame phone-frame-sm"><img src="/images/rockiva-screen-details.webp" alt="Rockiva mineral details screen" loading="lazy"></span>
     </div>
     <figcaption class="post-screens-caption">Point, shoot, and get real mineralogy — hardness, composition, and a confidence score.</figcaption>
   </figure>
@@ -121,7 +146,6 @@
 <div class="read-next">
   <div class="all-posts-label">Read next</div>
   <a href="/blog/introducing-walkfirst/">
-    <img src="/images/blog-cover-walkfirst.png" alt="Introducing WalkFirst cover">
     <div>
       <h3>Introducing WalkFirst: your steps are the key to your apps</h3>
       <span class="post-date">Launch &middot; July 7, 2026 &middot; 4 min read</span>
@@ -142,7 +166,6 @@
     </div>
     <div class="footer-links">
       <a href="/apps/walkfirst/">WalkFirst</a>
-      <a href="/apps/rockiva/">Rockiva</a>
       <a href="/blog/">Blog</a>
       <a href="/support/">Support</a>
       <a href="/press/">Press</a>

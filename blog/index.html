@@ -8,6 +8,9 @@
 <link rel="canonical" href="https://macwanapps.com/blog/">
 <meta property="og:title" content="Blog - Macwan Apps">
 <meta property="og:description" content="Notes from an indie iOS studio — launches, lessons, and building apps solo.">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Macwan Apps">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://macwanapps.com/blog/">
 <meta property="og:image" content="https://macwanapps.com/images/og-card.png">
@@ -15,14 +18,67 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
-<script src="/js/analytics.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "https://macwanapps.com/blog/#blog",
+  "name": "Macwan Apps Blog",
+  "url": "https://macwanapps.com/blog/",
+  "publisher": {
+    "@id": "https://macwanapps.com/#org"
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "What 30 minutes of walking a day actually changes",
+      "url": "https://macwanapps.com/blog/walking-30-minutes-a-day/",
+      "datePublished": "2026-08-07"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Doomscrolling: why your brain can't stop — and the fix that isn't willpower",
+      "url": "https://macwanapps.com/blog/stop-doomscrolling/",
+      "datePublished": "2026-08-10"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How much screen time is too much? An honest answer",
+      "url": "https://macwanapps.com/blog/how-much-screen-time-is-too-much/",
+      "datePublished": "2026-08-08"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "A realistic healthy daily schedule for people with desk jobs",
+      "url": "https://macwanapps.com/blog/healthy-daily-schedule-desk-job/",
+      "datePublished": "2026-08-09"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Is 10,000 steps a myth? What the science actually says",
+      "url": "https://macwanapps.com/blog/10000-steps-myth/",
+      "datePublished": "2026-08-06"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Introducing WalkFirst: your steps are the key to your apps",
+      "url": "https://macwanapps.com/blog/introducing-walkfirst/",
+      "datePublished": "2026-07-07"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Introducing Rockiva: point your camera at a rock, learn what it is",
+      "url": "https://macwanapps.com/blog/introducing-rockiva/",
+      "datePublished": "2026-07-07"
+    }
+  ]
+}
+</script>
+<script src="/js/analytics.js" defer></script>
 </head>
-<body>
+<body class="theme-studio">
 
 <nav>
   <div class="nav-inner">
@@ -41,57 +97,71 @@
   </div>
 </nav>
 
-<section class="hero hero-sub">
-  <h1 class="hero-anim stagger-1">Blog</h1>
-  <p class="subtitle hero-anim stagger-2" style="margin: 20px auto 0;">Notes from an indie iOS studio — launches, lessons, and what it's like building apps solo.</p>
+<section class="hero hero-sub blog-head">
+  <div class="post-breadcrumb hero-anim stagger-1"><a href="/">Macwan Apps</a><span aria-hidden="true">/</span><span>Blog</span></div>
+  <h1 class="hero-anim stagger-1">Walking, screen time, and what to do about your phone</h1>
+  <p class="subtitle hero-anim stagger-2">Honest writing on screen time, doomscrolling, walking, and habits that stick &mdash; from the developer of WalkFirst.</p>
+  <p class="blog-note hero-anim stagger-2">Every post answers a question people genuinely ask. When a claim needs research behind it, I point to the research. WalkFirst comes up only where it honestly helps.</p>
 </section>
 
 <section class="post-list">
 
-  <!-- Featured: latest post -->
-  <a href="/blog/introducing-walkfirst/" class="featured-post fade-in">
-    <img src="/images/blog-cover-walkfirst.png" alt="Introducing WalkFirst cover" class="post-cover">
-    <div class="featured-body">
-      <div class="post-meta-row">
-        <span class="post-tag">Launch</span>
-        <span class="post-date">July 7, 2026</span>
-      </div>
-      <h2>Introducing WalkFirst: your steps are the key to your apps</h2>
-      <p>Why I built an app that blocks Instagram until you've walked enough — and how Apple's Screen Time framework makes it possible without your data ever leaving your phone.</p>
-      <div class="post-byline">
-        <span class="mini-avatar">JM</span>
-        <span>Jobin Macwan, Founder &middot; 4 min read</span>
-      </div>
-    </div>
+  <a href="/blog/stop-doomscrolling/" class="post-row fade-in">
+    <div class="row-kicker">DOOMSCROLLING</div>
+    <h2>Doomscrolling: why your brain can't stop — and the fix that isn't willpower</h2>
+    <p>Why willpower keeps losing to the feed — and the friction-based fix that actually holds.</p>
+    <div class="row-meta">August 10, 2026 &middot; Jobin Macwan &middot; 5 min read</div>
   </a>
 
-  <div class="all-posts-label fade-in">All posts</div>
+  <a href="/blog/healthy-daily-schedule-desk-job/" class="post-row fade-in">
+    <div class="row-kicker">ROUTINES</div>
+    <h2>A realistic healthy daily schedule for people with desk jobs</h2>
+    <p>No 5am club, no two-hour routines — a structure built around movement, light, and a phone that knows its place.</p>
+    <div class="row-meta">August 9, 2026 &middot; Jobin Macwan &middot; 5 min read</div>
+  </a>
 
-  <div class="post-grid">
+  <a href="/blog/how-much-screen-time-is-too-much/" class="post-row fade-in">
+    <div class="row-kicker">SCREEN TIME</div>
+    <h2>How much screen time is too much? An honest answer</h2>
+    <p>There's no magic number of hours. Three questions that matter more than any average.</p>
+    <div class="row-meta">August 8, 2026 &middot; Jobin Macwan &middot; 4 min read</div>
+  </a>
 
-    <a href="/blog/introducing-rockiva/" class="post-card fade-in delay-1">
-      <img src="/images/blog-cover-rockiva.png" alt="Introducing Rockiva cover" class="post-cover">
-      <div class="post-card-body">
-        <div class="post-meta-row" style="margin-bottom: 0;">
-          <span class="post-tag">Launch</span>
-          <span class="post-date">July 7, 2026</span>
-        </div>
-        <h2>Introducing Rockiva: point your camera at a rock, learn what it is</h2>
-        <p>An AI-powered rock and gem identifier that gives you real mineralogy instead of a guess — localized in 35 languages, including the AI's answers themselves.</p>
-        <div class="post-byline">
-          <span class="mini-avatar">JM</span>
-          <span>Jobin Macwan &middot; 3 min read</span>
-        </div>
-      </div>
-    </a>
+  <a href="/blog/walking-30-minutes-a-day/" class="post-row fade-in">
+    <div class="row-kicker">WALKING</div>
+    <h2>What 30 minutes of walking a day actually changes</h2>
+    <p>The realistic benefits of a daily walk — mood, sleep, blood pressure, creativity — without the hype.</p>
+    <div class="row-meta">August 7, 2026 &middot; Jobin Macwan &middot; 5 min read</div>
+  </a>
 
-  </div>
+  <a href="/blog/10000-steps-myth/" class="post-row fade-in">
+    <div class="row-kicker">WALKING</div>
+    <h2>Is 10,000 steps a myth? What the science actually says</h2>
+    <p>10,000 steps started as pedometer marketing, not medicine. What the research really shows.</p>
+    <div class="row-meta">August 6, 2026 &middot; Jobin Macwan &middot; 4 min read</div>
+  </a>
 
-  <!-- Follow -->
+  <a href="/blog/introducing-walkfirst/" class="post-row fade-in">
+    <div class="row-kicker">LAUNCH</div>
+    <h2>Introducing WalkFirst: your steps are the key to your apps</h2>
+    <p>Why I built an app that blocks Instagram until you've walked enough — fully on-device.</p>
+    <div class="row-meta">July 7, 2026 &middot; Jobin Macwan &middot; 4 min read</div>
+  </a>
+
+  <a href="/blog/introducing-rockiva/" class="post-row fade-in">
+    <div class="row-kicker">LAUNCH</div>
+    <h2>Introducing Rockiva: point your camera at a rock, learn what it is</h2>
+    <p>An AI-powered rock and gem identifier with real mineralogy — localized in 35 languages.</p>
+    <div class="row-meta">July 7, 2026 &middot; Jobin Macwan &middot; 3 min read</div>
+  </a>
+
   <div class="blog-subscribe fade-in">
+    <div class="subscribe-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.8" fill="currentColor" stroke="none"/></svg>
+    </div>
     <h2>Follow along</h2>
-    <p>New posts, app launches, and lessons from building solo.</p>
-    <p class="newsletter-note" style="margin-top: 0;">Grab the <a href="/feed.xml">RSS feed</a> to get new posts in your feed reader.</p>
+    <p>New posts, app launches, and lessons from building solo — straight to your feed reader.</p>
+    <a href="/feed.xml" class="btn-primary subscribe-btn">Subscribe via RSS</a>
   </div>
 
 </section>
@@ -105,7 +175,6 @@
     </div>
     <div class="footer-links">
       <a href="/apps/walkfirst/">WalkFirst</a>
-      <a href="/apps/rockiva/">Rockiva</a>
       <a href="/blog/">Blog</a>
       <a href="/support/">Support</a>
       <a href="/press/">Press</a>

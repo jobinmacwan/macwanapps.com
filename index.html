@@ -4,26 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Macwan Apps - Crafting Apps That Move You</title>
-<meta name="description" content="Every app Macwan Apps builds has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more thoughtfully designed iOS apps.">
+<meta name="description" content="Every app Macwan Apps builds has one job: make your day a little better than yesterday. WalkFirst and more thoughtfully designed iOS apps.">
 <link rel="canonical" href="https://macwanapps.com/">
 <meta property="og:title" content="Macwan Apps - Crafting Apps That Move You">
-<meta property="og:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more.">
+<meta property="og:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst and more.">
+<meta property="og:site_name" content="Macwan Apps">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://macwanapps.com">
+<meta property="og:url" content="https://macwanapps.com/">
 <meta property="og:image" content="https://macwanapps.com/images/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Macwan Apps - Crafting Apps That Move You">
-<meta name="twitter:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst, Rockiva, and more.">
+<meta name="twitter:description" content="Every app we build has one job: make your day a little better than yesterday. WalkFirst and more.">
 <meta name="twitter:image" content="https://macwanapps.com/images/og-card.png">
 <link rel="alternate" type="application/rss+xml" title="Macwan Apps Blog" href="/feed.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script type="application/ld+json">
@@ -59,23 +58,13 @@
       "description": "An app blocker that makes you earn screen time: your most distracting apps stay locked until you hit your daily step goal.",
       "author": { "@id": "https://macwanapps.com/#org" },
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-    },
-    {
-      "@type": "SoftwareApplication",
-      "name": "Rock & Gem Identifier: Rockiva",
-      "operatingSystem": "iOS",
-      "applicationCategory": "ReferenceApplication",
-      "installUrl": "https://apps.apple.com/app/rock-gem-identifier-rockiva/id6753161907",
-      "description": "Point your camera at any rock, crystal, or gemstone and identify it in seconds — with real mineralogy, not just a guess.",
-      "author": { "@id": "https://macwanapps.com/#org" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
     }
   ]
 }
 </script>
-<script src="/js/analytics.js"></script>
+<script src="/js/analytics.js" defer></script>
 </head>
-<body>
+<body class="theme-studio">
 
 <nav>
   <div class="nav-inner">
@@ -106,9 +95,12 @@
     <a href="#about" class="btn-secondary">About the studio &rarr;</a>
   </div>
   <div class="hero-preview hero-anim stagger-5">
+    <div class="deco-rings" aria-hidden="true"></div>
     <div class="phone-frame">
-      <img src="/images/wf19-home.png" alt="WalkFirst home screen showing steps walked toward today's goal" width="280" height="606">
+      <img src="/images/wf19-home.webp" alt="WalkFirst home screen showing steps walked toward today's goal" width="280" height="606">
     </div>
+    <a href="/apps/walkfirst/" class="float-chip chip-1"><img src="/images/walkfirst-icon.png" alt="" class="chip-app-ico"> WalkFirst &middot; Live</a>
+    <a href="/blog/" class="float-chip chip-2"><span class="chip-ico">&#128296;</span> More in the works</a>
   </div>
 </section>
 
@@ -146,41 +138,29 @@
   <p class="section-subtitle fade-in delay-2">Every app we ship is focused on one thing: helping you build better habits.</p>
   <div class="apps-grid">
 
-    <a href="/apps/walkfirst/" class="app-card fade-in delay-1">
+    <a href="/apps/walkfirst/" class="app-card card-walkfirst app-card-featured fade-in delay-1">
       <div class="app-card-inner">
         <img src="/images/walkfirst-icon.png" alt="WalkFirst App Icon" class="app-icon">
         <div class="app-status">Live on the App Store</div>
         <h3>WalkFirst</h3>
         <div class="app-category">App Blocker &middot; Earn Screen Time</div>
         <p class="app-tagline">Walk to unlock your apps: your distractions stay locked until you hit your daily step goal.</p>
+        <ul class="app-mini-list">
+          <li>Blocks the apps you choose with Apple's Screen Time</li>
+          <li>Every step earns minutes &mdash; 100% of your goal unlocks everything</li>
+          <li>Steps stay on your iPhone. No account, no tracking</li>
+        </ul>
         <div class="app-card-actions">
           <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="appstore-badge-img" width="120" height="40">
           <span class="learn-more">Learn more &rarr;</span>
         </div>
       </div>
       <div class="app-preview">
-        <img src="/images/wf19-home.png" alt="WalkFirst Home Screen" loading="lazy">
-        <img src="/images/wf19-apps.png" alt="WalkFirst Apps Screen" loading="lazy">
+        <img src="/images/wf19-home.webp" alt="WalkFirst Home Screen" loading="lazy">
+        <img src="/images/wf19-apps.webp" alt="WalkFirst Apps Screen" loading="lazy">
       </div>
     </a>
 
-    <a href="/apps/rockiva/" class="app-card fade-in delay-2">
-      <div class="app-card-inner">
-        <img src="/images/rockiva-icon.png" alt="Rockiva App Icon" class="app-icon">
-        <div class="app-status">Live on the App Store</div>
-        <h3>Rockiva</h3>
-        <div class="app-category">Rock &amp; Gem Identifier &middot; Reference</div>
-        <p class="app-tagline">Point your camera at any rock, crystal, or gemstone and identify it in seconds — real mineralogy, not just a guess. Localized in 35 languages.</p>
-        <div class="app-card-actions">
-          <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="appstore-badge-img" width="120" height="40">
-          <span class="learn-more">Learn more &rarr;</span>
-        </div>
-      </div>
-      <div class="app-preview">
-        <img src="/images/rockiva-screen-hero.png" alt="Rockiva identifying an amethyst crystal" loading="lazy">
-        <img src="/images/rockiva-screen-details.png" alt="Rockiva mineral details screen" loading="lazy">
-      </div>
-    </a>
 
   </div>
   <p class="apps-footnote fade-in">More apps are in the works — follow along on <a href="/blog/">the blog</a>.</p>
@@ -194,21 +174,21 @@
         <svg viewBox="0 0 24 24"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6"/></svg>
       </div>
       <div class="stat-value" data-count="15" data-suffix="+">15+</div>
-      <div class="stat-label">Apps shipped since 2017</div>
+      <div class="stat-label">Apps shipped</div>
     </div>
     <div class="stat-item">
       <div class="stat-icon icon-green">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg>
       </div>
-      <div class="stat-value" data-count="2">2</div>
-      <div class="stat-label">Indie apps on the App Store</div>
+      <div class="stat-value">2017</div>
+      <div class="stat-label">Writing Swift since</div>
     </div>
     <div class="stat-item">
       <div class="stat-icon icon-blue">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 5.5 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-5.5-3.5-9s1-6.5 3.5-9z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.3-2.8 7.4-7 9-4.2-1.6-7-4.7-7-9V6l7-3z"/><path d="M9 11.5l2.2 2.2L15.5 9.5"/></svg>
       </div>
-      <div class="stat-value" data-count="35">35</div>
-      <div class="stat-label">Languages supported</div>
+      <div class="stat-value" data-count="0">0</div>
+      <div class="stat-label">Ads or trackers. Ever.</div>
     </div>
     <div class="stat-item">
       <div class="stat-icon icon-orange">
@@ -245,7 +225,7 @@
         </span>
         <span class="hero-chip">
           <svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>
-          2 indie apps live
+          WalkFirst live on the App Store
         </span>
       </div>
     </div>
@@ -254,13 +234,22 @@
 
 <!-- Contact -->
 <section class="contact-section fade-in" id="contact">
-  <div class="section-label">Get in touch</div>
-  <h2 class="section-title">We'd love to hear from you</h2>
-  <a href="mailto:support@macwanapps.com" class="contact-btn">
-    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-    support@macwanapps.com
-  </a>
-  <span class="contact-hint">For support, feedback, or just to say hello &middot; see also the <a href="/support/" style="color: var(--accent); text-decoration: none;">support &amp; FAQ page</a></span>
+  <div class="section-label">Get the apps</div>
+  <h2 class="section-title">Build better habits, one step at a time</h2>
+  <p class="cta-sub">WalkFirst is free to download on the App Store.</p>
+  <div class="cta-badges">
+    <a href="https://apps.apple.com/app/walkfirst-earn-screen-time/id6758828207" class="appstore-badge-link cta-badge-labeled">
+      <img src="/images/walkfirst-icon.png" alt="" class="cta-app-ico">
+      <img src="/images/app-store-badge.svg" alt="Download WalkFirst on the App Store" width="150" height="50">
+    </a>
+  </div>
+  <div class="cta-links">
+    <a href="mailto:support@macwanapps.com">support@macwanapps.com</a>
+    <span class="dot-sep" aria-hidden="true"></span>
+    <a href="/support/">Support &amp; FAQ</a>
+    <span class="dot-sep" aria-hidden="true"></span>
+    <a href="/press/">Press kit</a>
+  </div>
 </section>
 
 <!-- Footer -->
@@ -272,7 +261,6 @@
     </div>
     <div class="footer-links">
       <a href="/apps/walkfirst/">WalkFirst</a>
-      <a href="/apps/rockiva/">Rockiva</a>
       <a href="/blog/">Blog</a>
       <a href="/support/">Support</a>
       <a href="/press/">Press</a>

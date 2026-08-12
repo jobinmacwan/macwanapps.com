@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /theme-options/
-Disallow: /brand-concepts/
 
 Sitemap: https://macwanapps.com/sitemap.xml
