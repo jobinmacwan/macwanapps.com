@@ -1,0 +1,27 @@
+name: Scheduled publish — blog batch 2
+on:
+  schedule:
+    - cron: '47 3 15 8 *'   # Aug 15, 03:47 UTC (~9:17am IST)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge staged batch into main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git rev-parse --verify origin/scheduled/blog-batch-2 >/dev/null 2>&1; then
+            git merge --no-ff origin/scheduled/blog-batch-2 -m "Publish blog batch 2 (scheduled for Aug 15)"
+            git push origin main
+            git push origin --delete scheduled/blog-batch-2
+          else
+            echo "Branch already merged or deleted — nothing to do."
+          fi
