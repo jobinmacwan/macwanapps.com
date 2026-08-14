@@ -7,6 +7,41 @@
   <language>en</language>
   <atom:link href="https://macwanapps.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>How to block Instagram on iPhone — every method, honestly ranked</title>
+    <link>https://macwanapps.com/blog/block-instagram-iphone/</link>
+    <guid>https://macwanapps.com/blog/block-instagram-iphone/</guid>
+    <pubDate>Sat, 15 Aug 2026 09:00:00 +0000</pubDate>
+    <description>Screen Time, Downtime, deletion, and third-party blockers — ranked by how hard each is to bypass.</description>
+  </item>
+  <item>
+    <title>Friction is the only habit hack that ever worked for me</title>
+    <link>https://macwanapps.com/blog/friction-habit-hack/</link>
+    <guid>https://macwanapps.com/blog/friction-habit-hack/</guid>
+    <pubDate>Fri, 14 Aug 2026 09:00:00 +0000</pubDate>
+    <description>Motivation fades. Redesigning what your habits cost is what lasts.</description>
+  </item>
+  <item>
+    <title>A morning routine you'll actually keep has only three pieces</title>
+    <link>https://macwanapps.com/blog/morning-routine-you-will-keep/</link>
+    <guid>https://macwanapps.com/blog/morning-routine-you-will-keep/</guid>
+    <pubDate>Thu, 13 Aug 2026 09:00:00 +0000</pubDate>
+    <description>Forget the 5am club. Water, light, movement — any order, any hour, done by anyone.</description>
+  </item>
+  <item>
+    <title>Checking your phone in bed is ruining your morning — here's the fix</title>
+    <link>https://macwanapps.com/blog/phone-in-bed-morning/</link>
+    <guid>https://macwanapps.com/blog/phone-in-bed-morning/</guid>
+    <pubDate>Wed, 12 Aug 2026 09:00:00 +0000</pubDate>
+    <description>The first input of the day sets the day's tone. Three tiers of fix, from gentle to bulletproof.</description>
+  </item>
+  <item>
+    <title>How many steps a day do you really need? It depends on your goal</title>
+    <link>https://macwanapps.com/blog/steps-per-day-by-goal/</link>
+    <guid>https://macwanapps.com/blog/steps-per-day-by-goal/</guid>
+    <pubDate>Tue, 11 Aug 2026 09:00:00 +0000</pubDate>
+    <description>Longevity, weight, mood, or just starting out — the right step goal is different for each.</description>
+  </item>
+  <item>
     <title>Doomscrolling: why your brain can't stop — and the fix that isn't willpower</title>
     <link>https://macwanapps.com/blog/stop-doomscrolling/</link>
     <guid>https://macwanapps.com/blog/stop-doomscrolling/</guid>
@@ -47,13 +82,6 @@
     <guid>https://macwanapps.com/blog/introducing-walkfirst/</guid>
     <pubDate>Tue, 07 Jul 2026 09:00:00 +0000</pubDate>
     <description>Why I built an app that blocks distracting apps until you've walked enough — and how Apple's Screen Time framework makes it possible without your data ever leaving your phone.</description>
-  </item>
-  <item>
-    <title>Introducing Rockiva: point your camera at a rock, learn what it is</title>
-    <link>https://macwanapps.com/blog/introducing-rockiva/</link>
-    <guid>https://macwanapps.com/blog/introducing-rockiva/</guid>
-    <pubDate>Tue, 07 Jul 2026 09:00:00 +0000</pubDate>
-    <description>An AI-powered rock and gem identifier that gives you real mineralogy instead of a guess — localized in 35 languages, including the AI's answers themselves.</description>
   </item>
 </channel>
 </rss>
