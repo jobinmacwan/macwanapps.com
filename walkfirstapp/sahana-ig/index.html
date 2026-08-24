@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WalkFirst</title>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  var CREATOR = "sahana-ig";
+  var DEST = "https://apps.apple.com/app/apple-store/id6758828207?pt=128156141&ct=sahana-wf-ig&mt=8";
+  // Log the click to PostHog via beacon (non-blocking), then redirect immediately.
+  try {
+    var payload = JSON.stringify({
+      api_key: "phc_J0ERe3AbohgcfLT93L3TPe5Nm2g0WJTIj1cbBQ4iaYL",
+      event: "creator_link_click",
+      distinct_id: "anon-" + Math.random().toString(36).slice(2),
+      properties: {
+        creator: CREATOR,
+        referrer: document.referrer || "direct",
+        $current_url: location.href
+      }
+    });
+    navigator.sendBeacon("https://app.posthog.com/i/v0/e/", new Blob([payload], {type: "application/json"}));
+  } catch (e) {}
+  location.replace(DEST);
+</script>
+<meta http-equiv="refresh" content="0;url=https://apps.apple.com/app/apple-store/id6758828207?pt=128156141&ct=sahana-wf-ig&mt=8">
+</head>
+<body>
+<p>Taking you to WalkFirst on the App Store… <a href="https://apps.apple.com/app/apple-store/id6758828207?pt=128156141&ct=sahana-wf-ig&mt=8">Tap here if nothing happens.</a></p>
+</body>
+</html>
