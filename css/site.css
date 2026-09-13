@@ -2800,6 +2800,24 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 .theme-canada-citizenship .hero-inner { position: relative; z-index: 1; }
 .theme-canada-citizenship .how-section { background: var(--bg-alt); }
 
+@media (prefers-color-scheme: dark) {
+  .theme-canada-citizenship {
+    --accent: #e0525f;
+    --accent-hover: #e9707b;
+    --accent-soft: rgba(224, 82, 95, 0.14);
+    --bg-alt: #191114;
+  }
+  .theme-canada-citizenship .hero {
+    background:
+      radial-gradient(ellipse 70% 65% at 18% -12%, rgba(224, 82, 95, 0.14), transparent),
+      radial-gradient(ellipse 55% 50% at 88% 8%, rgba(184, 32, 45, 0.12), transparent),
+      linear-gradient(180deg, #171013 0%, var(--bg) 88%);
+  }
+  .theme-canada-citizenship .hero::before {
+    background-image: radial-gradient(rgba(224, 82, 95, 0.16) 1px, transparent 1.4px);
+  }
+}
+
 /* "Coming soon to the App Store" pill — uses the active theme accent. */
 .coming-soon-pill {
   display: inline-block;
