@@ -2798,7 +2798,6 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   pointer-events: none;
 }
 .theme-canada-citizenship .hero-inner { position: relative; z-index: 1; }
-.theme-canada-citizenship .how-section { background: var(--bg-alt); }
 
 @media (prefers-color-scheme: dark) {
   .theme-canada-citizenship {
@@ -2828,4 +2827,291 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   padding: 11px 20px;
   border-radius: 999px;
   border: 1px solid var(--accent);
+}
+
+/* ============================================================
+   Canada Citizenship 2027 — product landing (maple red)
+   Same structure as the WalkFirst page: split hero with the
+   iPhone mockup, feature rows with art behind each phone, plus a
+   three-tab gallery and a "why" grid. Light, dark and mobile.
+   ============================================================ */
+.theme-canada-citizenship section[id] { scroll-margin-top: 72px; }
+.theme-canada-citizenship .hero h1,
+.theme-canada-citizenship .section-title,
+.theme-canada-citizenship .feature-text h3 { text-wrap: balance; }
+
+.theme-canada-citizenship nav {
+  background: rgba(255, 255, 255, 0.55);
+  border-bottom: 1px solid rgba(184, 32, 45, 0.10);
+  box-shadow: 0 1px 12px rgba(184, 32, 45, 0.05);
+}
+.theme-canada-citizenship nav.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+  border-bottom-color: var(--border);
+}
+
+.theme-canada-citizenship nav .nav-links a.nav-cta { color: #fff; background: var(--accent); }
+.theme-canada-citizenship nav .nav-links a.nav-cta:hover { color: #fff; background: var(--accent-hover); }
+
+/* Hero */
+.theme-canada-citizenship .hero-split-inner { position: relative; z-index: 1; }
+.cc-hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-md);
+}
+.cc-lang-link { margin: 18px 0 0; font-size: 14px; }
+.cc-lang-link a { color: var(--text-muted); text-decoration: none; }
+.cc-lang-link a:hover { color: var(--accent); }
+.theme-canada-citizenship .hero-split-shot { position: relative; }
+.theme-canada-citizenship .hero-split-shot::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 30% 22%, rgba(184, 32, 45, 0.17) 0%, transparent 42%),
+    radial-gradient(circle at 74% 68%, rgba(232, 120, 96, 0.18) 0%, transparent 46%),
+    radial-gradient(circle at 18% 78%, rgba(154, 26, 37, 0.10) 0%, transparent 40%),
+    radial-gradient(circle, rgba(184, 32, 45, 0.07) 0%, transparent 70%);
+  filter: blur(2px);
+}
+.theme-canada-citizenship .phone-frame { position: relative; z-index: 1; }
+.theme-canada-citizenship .deco-rings::before { border-color: rgba(184, 32, 45, 0.24); }
+.theme-canada-citizenship .deco-rings::after { border-color: rgba(184, 32, 45, 0.10); }
+.theme-canada-citizenship .float-chip { box-shadow: 0 8px 28px rgba(184, 32, 45, 0.16); }
+.hero-mascot {
+  position: absolute;
+  right: -86px;
+  bottom: -14px;
+  width: 136px;
+  height: auto;
+  z-index: 4;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 18px rgba(60, 20, 10, 0.16));
+}
+
+/* How it works: full-width warm band */
+.theme-canada-citizenship .how-section {
+  max-width: none;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 26%, var(--bg-alt) 74%, var(--bg) 100%);
+}
+.theme-canada-citizenship .how-grid { max-width: 976px; margin-left: auto; margin-right: auto; }
+.theme-canada-citizenship .step-num {
+  background: linear-gradient(135deg, #cf3441, #9a1a25);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(184, 32, 45, 0.25);
+}
+
+/* Feature rows: dot grid + tilted squircle behind every phone */
+.theme-canada-citizenship .features-section {
+  max-width: none;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse 45% 32% at 6% 20%, rgba(184, 32, 45, 0.05), transparent),
+    radial-gradient(ellipse 45% 32% at 94% 50%, rgba(232, 120, 96, 0.07), transparent),
+    radial-gradient(ellipse 45% 32% at 6% 82%, rgba(184, 32, 45, 0.04), transparent);
+}
+.theme-canada-citizenship .feature-row { max-width: 880px; margin-left: auto; margin-right: auto; width: 100%; }
+.theme-canada-citizenship .feature-shot { position: relative; }
+.theme-canada-citizenship .feature-shot::before {
+  content: '';
+  position: absolute;
+  inset: -64px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(184, 32, 45, 0.15) 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(184, 32, 45, 0.11) 0%, rgba(232, 120, 96, 0.06) 45%, transparent 70%);
+  background-size: 22px 22px, 100% 100%;
+  background-position: center, center;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 74%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 74%);
+}
+.theme-canada-citizenship .feature-shot::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 316px;
+  height: 316px;
+  border-radius: 26%;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(184, 32, 45, 0.14) 0%, rgba(232, 120, 96, 0.11) 55%, rgba(154, 26, 37, 0.06) 100%);
+  box-shadow: inset 0 0 0 1.5px rgba(184, 32, 45, 0.12);
+  transform: translate(-50%, -50%) rotate(8deg);
+}
+.theme-canada-citizenship .feature-row.reverse .feature-shot::after { transform: translate(-50%, -50%) rotate(-8deg); }
+.theme-canada-citizenship .feature-shot .phone-frame { position: relative; z-index: 1; }
+
+/* A look inside: the three tabs side by side */
+.tabs-section {
+  padding: 88px 24px 64px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  background:
+    radial-gradient(ellipse 60% 55% at 50% 0%, rgba(184, 32, 45, 0.06), transparent),
+    var(--bg);
+}
+.tab-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 52px;
+}
+.tab-gallery figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tab-gallery .phone-frame { padding: 9px; border-radius: 48px; }
+.tab-gallery .phone-frame::before { top: 18px; width: 66px; height: 19px; }
+.tab-gallery .phone-frame img { width: 236px; border-radius: 39px; }
+.tab-gallery figcaption { margin-top: 24px; max-width: 240px; }
+.tab-gallery figcaption strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.tab-gallery figcaption span { font-size: 13.5px; line-height: 1.5; color: var(--text-muted); }
+
+/* Why it's different */
+.why-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 88px 24px 96px;
+  text-align: center;
+}
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 44px;
+  text-align: left;
+}
+.why-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.why-ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.why-ico svg { width: 20px; height: 20px; }
+.why-card h3 { font-size: 16px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 8px; }
+.why-card p { font-size: 14px; line-height: 1.62; color: var(--text-muted); }
+
+/* Closing CTA */
+.theme-canada-citizenship .contact-section {
+  background:
+    radial-gradient(ellipse 60% 80% at 50% 110%, rgba(184, 32, 45, 0.09), transparent),
+    var(--bg-alt);
+}
+.cc-cta-mascot { width: 118px; height: auto; margin-bottom: 14px; }
+
+@media (prefers-color-scheme: dark) {
+  .theme-canada-citizenship nav .nav-links a.nav-cta { background: #b8202d; }
+  .theme-canada-citizenship nav .nav-links a.nav-cta:hover { background: #c92a37; }
+  .theme-canada-citizenship nav {
+    background: rgba(14, 15, 18, 0.55);
+    border-bottom: 1px solid rgba(224, 82, 95, 0.12);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);
+  }
+  .theme-canada-citizenship nav.scrolled {
+    background: rgba(14, 15, 18, 0.85);
+    border-bottom-color: var(--border);
+  }
+  .theme-canada-citizenship .hero-split-shot::before {
+    background:
+      radial-gradient(circle at 30% 22%, rgba(224, 82, 95, 0.15) 0%, transparent 42%),
+      radial-gradient(circle at 74% 68%, rgba(184, 32, 45, 0.15) 0%, transparent 46%),
+      radial-gradient(circle at 18% 78%, rgba(232, 120, 96, 0.08) 0%, transparent 40%),
+      radial-gradient(circle, rgba(224, 82, 95, 0.06) 0%, transparent 70%);
+  }
+  .theme-canada-citizenship .deco-rings::before { border-color: rgba(224, 82, 95, 0.24); }
+  .theme-canada-citizenship .deco-rings::after { border-color: rgba(224, 82, 95, 0.10); }
+  .theme-canada-citizenship .float-chip {
+    border-color: rgba(224, 82, 95, 0.18);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  }
+  .hero-mascot { filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.45)); }
+  .theme-canada-citizenship .features-section {
+    background:
+      radial-gradient(ellipse 45% 32% at 6% 20%, rgba(224, 82, 95, 0.06), transparent),
+      radial-gradient(ellipse 45% 32% at 94% 50%, rgba(184, 32, 45, 0.07), transparent),
+      radial-gradient(ellipse 45% 32% at 6% 82%, rgba(224, 82, 95, 0.04), transparent);
+  }
+  .theme-canada-citizenship .feature-shot::before {
+    background-image:
+      radial-gradient(rgba(224, 82, 95, 0.14) 1px, transparent 1.4px),
+      radial-gradient(circle, rgba(224, 82, 95, 0.10) 0%, rgba(184, 32, 45, 0.05) 45%, transparent 70%);
+  }
+  .theme-canada-citizenship .feature-shot::after {
+    background: linear-gradient(135deg, rgba(224, 82, 95, 0.13) 0%, rgba(184, 32, 45, 0.09) 55%, rgba(224, 82, 95, 0.04) 100%);
+    box-shadow: inset 0 0 0 1.5px rgba(224, 82, 95, 0.12);
+  }
+  .tabs-section {
+    background:
+      radial-gradient(ellipse 60% 55% at 50% 0%, rgba(224, 82, 95, 0.07), transparent),
+      var(--bg);
+  }
+  .theme-canada-citizenship .contact-section {
+    background:
+      radial-gradient(ellipse 60% 80% at 50% 110%, rgba(224, 82, 95, 0.09), transparent),
+      var(--bg-alt);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-mascot { right: -22px; bottom: -18px; width: 98px; }
+  .theme-canada-citizenship .feature-shot::after { width: 268px; height: 268px; }
+}
+@media (max-width: 860px) {
+  .tab-gallery {
+    justify-content: flex-start;
+    gap: 22px;
+    margin: 40px -24px 0;
+    padding: 6px 24px 36px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 24px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tab-gallery::-webkit-scrollbar { display: none; }
+  .tab-gallery figure { scroll-snap-align: start; }
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .tabs-section, .why-section { padding-top: 64px; }
+  .why-section { padding-bottom: 72px; }
+}
+@media (max-width: 420px) {
+  .theme-canada-citizenship .brand-group .nav-home,
+  .theme-canada-citizenship .brand-group .nav-sep { display: none; }
+  .theme-canada-citizenship nav .brand { white-space: nowrap; }
+}
+@media (max-width: 540px) {
+  .why-grid { grid-template-columns: 1fr; }
+  .tab-gallery .phone-frame img { width: 214px; border-radius: 35px; }
+  .tab-gallery .phone-frame { border-radius: 44px; }
 }
