@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-itunes-app" content="app-id=6806622124">
 <title>Citoyenneté canadienne 2027 — Application d'étude pour l'examen de citoyenneté canadienne</title>
 <meta name="description" content="Citoyenneté canadienne 2027 est une application iOS pour préparer l'examen de citoyenneté canadienne : plus de 800 questions vérifiées d'après Découvrir le Canada, des leçons à lire ou à écouter en français et en anglais, des questions sur votre province et des examens blancs chronométrés. Sans publicité.">
 <link rel="canonical" href="https://macwanapps.com/apps/canada-citizenship/fr/">
@@ -45,6 +46,17 @@
   "inLanguage": [
     "fr-CA",
     "en-CA"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "CAD",
+    "description": "Gratuit pour commencer : les deux premiers chapitres et deux examens blancs. Accès complet par achat unique ou abonnement hebdomadaire."
+  },
+  "screenshot": [
+    "https://macwanapps.com/images/cc-fr-study.webp",
+    "https://macwanapps.com/images/cc-fr-explained.webp",
+    "https://macwanapps.com/images/cc-fr-result.webp"
   ]
 }
 </script>
@@ -74,16 +86,72 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Est-ce l'application officielle de l'examen de citoyenneté canadienne?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Citoyenneté canadienne 2027 est un outil d'étude indépendant, sans lien avec le gouvernement du Canada ni IRCC. Le seul matériel d'étude officiel est le guide gratuit Découvrir le Canada, offert à canada.ca. Chaque leçon et chaque question de l'application est rédigée d'après ce guide et vérifiée avec lui."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de questions compte le vrai examen de citoyenneté?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vingt. Il faut 15 bonnes réponses (75 %) pour réussir, avec 45 minutes en ligne ou 30 minutes en personne. Les examens blancs de l'application reprennent exactement ces chiffres et les deux formats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je étudier en français?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Chaque question, chaque explication et chaque leçon narrée existe en français canadien comme en anglais, et vous changez toute l'application de langue en un geste."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce qui est gratuit, et combien coûte l'accès complet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les deux premiers chapitres et deux examens blancs sont gratuits, sans compte ni limite de temps. L'accès complet s'obtient par un achat unique à vie, ou par un forfait hebdomadaire qui commence par un essai gratuit. Les prix s'affichent dans l'application, dans votre devise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les questions sur ma province ou mon territoire sont-elles couvertes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Le vrai examen porte aussi sur l'endroit où vous vivez; l'application a donc une série de questions pour chacune des 13 provinces et territoires. Choisissez la vôtre et ces questions s'ajoutent à votre pratique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ai-je besoin d'une connexion Internet ou d'un compte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Tout, y compris l'audio, est intégré à l'application, qui fonctionne hors ligne. Il n'y a ni compte ni connexion; votre progression reste sur votre iPhone."
+      }
+    }
+  ]
+}
+</script>
 <script src="/js/analytics.js" defer></script>
 </head>
-<body class="theme-canada-citizenship">
+<body class="theme-canada-citizenship is-prelaunch">
 
 <nav>
   <div class="nav-inner">
     <span class="brand-group">
-      <a href="/" class="nav-home" aria-label="Accueil Macwan Apps" title="Macwan Apps"><img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps"></a>
+      <a href="/" class="nav-home" aria-label="Accueil Macwan Apps" title="Macwan Apps"><img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps" width="28" height="28"></a>
       <span class="nav-sep" aria-hidden="true"></span>
-      <a href="/apps/canada-citizenship/fr/" class="brand"><img src="/images/canada-citizenship-icon.png" alt="">Citoyenneté canadienne 2027</a>
+      <a href="/apps/canada-citizenship/fr/" class="brand"><img src="/images/canada-citizenship-icon.png" alt="" width="28" height="28">Citoyenneté canadienne 2027</a>
     </span>
     <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -91,6 +159,7 @@
     <div class="nav-links">
       <a href="#how-it-works">Fonctionnement</a>
       <a href="#features">Fonctionnalités</a>
+      <a href="#faq">FAQ</a>
       <a href="/apps/canada-citizenship/fr/support/">Soutien</a>
       <a href="/apps/canada-citizenship/" hreflang="en-CA" lang="en">English</a>
       <a href="#get" class="nav-cta">Obtenir l'application</a>
@@ -106,9 +175,15 @@
       <h1 class="hero-anim stagger-2">Réussissez votre examen de citoyenneté canadienne en toute confiance</h1>
       <p class="subtitle hero-anim stagger-3" style="margin-top: 20px;">Plus de 800 questions d'entraînement vérifiées d'après le guide officiel <em>Découvrir le Canada</em>, des leçons à lire ou à écouter, et des examens blancs chronométrés qui ressemblent au vrai test — en français ou en anglais.</p>
       <div class="hero-actions hero-anim stagger-4">
-        <span class="coming-soon-pill">Bientôt sur l'App Store</span>
+        <span class="coming-soon-pill store-prelaunch">Bientôt sur l'App Store</span>
+        <a href="https://apps.apple.com/ca/app/id6806622124" class="appstore-badge-link store-live"><img src="/images/app-store-badge.svg" alt="Télécharger dans l'App Store" width="162" height="54"></a>
         <a href="#how-it-works" class="btn-secondary">Voir le fonctionnement &darr;</a>
       </div>
+      <ul class="hero-trust hero-anim stagger-4" aria-label="Bon à savoir">
+        <li>Gratuit pour commencer</li>
+        <li>Aucun compte requis</li>
+        <li>Fondée sur <em>Découvrir le Canada</em></li>
+      </ul>
       <p class="cc-lang-link hero-anim stagger-4"><a href="/apps/canada-citizenship/" hreflang="en-CA" lang="en">Also available in English &rarr;</a></p>
     </div>
     <div class="hero-split-shot hero-anim stagger-4">
@@ -280,12 +355,45 @@
   </div>
 </section>
 
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="section-label fade-in">Questions</div>
+  <h2 class="section-title fade-in delay-1">Avant de télécharger</h2>
+  <div class="faq-list fade-in delay-1">
+    <details class="faq-item">
+      <summary>Est-ce l'application officielle de l'examen de citoyenneté canadienne?</summary>
+      <div class="faq-answer">Non. Citoyenneté canadienne 2027 est un outil d'étude indépendant, sans lien avec le gouvernement du Canada ni IRCC. Le seul matériel d'étude officiel est le guide gratuit <em>Découvrir le Canada</em>, offert à canada.ca. Chaque leçon et chaque question de l'application est rédigée d'après ce guide et vérifiée avec lui.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Combien de questions compte le vrai examen de citoyenneté?</summary>
+      <div class="faq-answer">Vingt. Il faut 15 bonnes réponses (75&nbsp;%) pour réussir, avec 45 minutes en ligne ou 30 minutes en personne. Les examens blancs de l'application reprennent exactement ces chiffres et les deux formats.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Puis-je étudier en français?</summary>
+      <div class="faq-answer">Oui. Chaque question, chaque explication et chaque leçon narrée existe en français canadien comme en anglais, et vous changez toute l'application de langue en un geste.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Qu'est-ce qui est gratuit, et combien coûte l'accès complet?</summary>
+      <div class="faq-answer">Les deux premiers chapitres et deux examens blancs sont gratuits, sans compte ni limite de temps. L'accès complet s'obtient par un achat unique à vie, ou par un forfait hebdomadaire qui commence par un essai gratuit. Les prix s'affichent dans l'application, dans votre devise.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Les questions sur ma province ou mon territoire sont-elles couvertes?</summary>
+      <div class="faq-answer">Oui. Le vrai examen porte aussi sur l'endroit où vous vivez; l'application a donc une série de questions pour chacune des 13 provinces et territoires. Choisissez la vôtre et ces questions s'ajoutent à votre pratique.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Ai-je besoin d'une connexion Internet ou d'un compte?</summary>
+      <div class="faq-answer">Non. Tout, y compris l'audio, est intégré à l'application, qui fonctionne hors ligne. Il n'y a ni compte ni connexion; votre progression reste sur votre iPhone.</div>
+    </details>
+    <p class="faq-more">Besoin d'aide avec l'application? <a href="/apps/canada-citizenship/fr/support/">Soutien et FAQ</a></p>
+  </div>
+</section>
 <section class="contact-section fade-in" id="get">
   <img src="/images/canada-citizenship-beaver-celebrate.png" alt="La mascotte castor qui célèbre un examen blanc réussi" width="473" height="480" class="cc-cta-mascot">
   <div class="section-label">Citoyenneté canadienne 2027</div>
   <h2 class="section-title">Préparez-vous pour votre examen</h2>
-  <p class="cta-sub">Bientôt sur l'App Store, en français et en anglais. Un outil d'étude indépendant — sans lien avec le gouvernement du Canada ni IRCC.</p>
-  <span class="coming-soon-pill">Bientôt sur l'App Store</span>
+  <p class="cta-sub"><span class="store-prelaunch">Bientôt sur l'App Store, en français et en anglais.</span><span class="store-live">Téléchargement gratuit sur l'App Store, en français et en anglais.</span> Un outil d'étude indépendant — sans lien avec le gouvernement du Canada ni IRCC.</p>
+  <span class="coming-soon-pill store-prelaunch">Bientôt sur l'App Store</span>
+  <a href="https://apps.apple.com/ca/app/id6806622124" class="appstore-badge-link store-live"><img src="/images/app-store-badge.svg" alt="Télécharger dans l'App Store" width="162" height="54"></a>
   <div class="cta-links">
     <a href="/apps/canada-citizenship/fr/support/">Soutien et FAQ</a>
     <span class="dot-sep" aria-hidden="true"></span>
@@ -301,7 +409,7 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps">
+      <img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps" width="28" height="28">
       &copy; 2026 Macwan Apps. Créée par Jobin Macwan.
     </div>
     <div class="footer-links">
