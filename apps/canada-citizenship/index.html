@@ -25,7 +25,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
-<link rel="preload" as="image" href="/images/cc-en-study.webp" type="image/webp">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fdf3f1">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171013">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-600.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin>
+<link rel="preload" as="image" href="/images/cc-en-study.webp" imagesrcset="/images/cc-en-study-300.webp 300w, /images/cc-en-study.webp 600w" imagesizes="(max-width: 900px) 240px, 280px" type="image/webp">
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script type="application/ld+json">
@@ -77,13 +81,14 @@
 <script src="/js/analytics.js" defer></script>
 </head>
 <body class="theme-canada-citizenship">
+<a class="skip-link" href="#main">Skip to content</a>
 
 <nav>
   <div class="nav-inner">
     <span class="brand-group">
       <a href="/" class="nav-home" aria-label="Macwan Apps home" title="Macwan Apps"><img src="/images/ma-apple-touch-icon.png" alt="Macwan Apps"></a>
       <span class="nav-sep" aria-hidden="true"></span>
-      <a href="/apps/canada-citizenship/" class="brand"><img src="/images/canada-citizenship-icon.png" alt="">Canada Citizenship 2027</a>
+      <a href="/apps/canada-citizenship/" class="brand"><img src="/images/canada-citizenship-icon.webp" alt="" width="26" height="26">Canada Citizenship 2027</a>
     </span>
     <button class="hamburger" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -91,35 +96,36 @@
     <div class="nav-links">
       <a href="#how-it-works">How it works</a>
       <a href="#features">Features</a>
-      <a href="/apps/canada-citizenship/support/">Support</a>
-      <a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr">Français</a>
-      <a href="#get" class="nav-cta">Get the app</a>
+      <a href="/apps/canada-citizenship/support/" data-ph-event="support_link_click">Support</a>
+      <a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr" data-ph-event="language_switch">Français</a>
+      <a href="#get" class="nav-cta" data-ph-event="landing_cta_click" data-ph-label="nav">Get the app</a>
     </div>
   </div>
 </nav>
 
+<main id="main">
 <section class="hero hero-sub hero-split">
   <div class="hero-split-inner">
     <div class="hero-split-text">
-      <img src="/images/canada-citizenship-icon.png" alt="" class="hero-anim stagger-1 cc-hero-icon" width="88" height="88">
+      <img src="/images/canada-citizenship-icon.webp" alt="" class="hero-anim stagger-1 cc-hero-icon" width="88" height="88">
       <div class="role hero-anim stagger-2">Canada Citizenship 2027 &middot; Test prep for iPhone</div>
       <h1 class="hero-anim stagger-2">Pass your Canadian citizenship test with confidence</h1>
       <p class="subtitle hero-anim stagger-3" style="margin-top: 20px;">800+ practice questions checked against the official <em>Discover Canada</em> guide, lessons you can read or listen to, and timed mock exams that feel like the real thing — in English or French.</p>
       <div class="hero-actions hero-anim stagger-4">
-        <span class="coming-soon-pill">Coming soon to the App Store</span>
-        <a href="#how-it-works" class="btn-secondary">See how it works &darr;</a>
+        <span class="coming-soon-pill" data-ph-event="coming_soon_click">Coming soon to the App Store</span>
+        <a href="#how-it-works" class="btn-secondary" data-ph-event="landing_cta_click" data-ph-label="see-how">See how it works &darr;</a>
       </div>
-      <p class="cc-lang-link hero-anim stagger-4"><a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr">Aussi disponible en français &rarr;</a></p>
+      <p class="cc-lang-link hero-anim stagger-4"><a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr" data-ph-event="language_switch">Aussi disponible en français &rarr;</a></p>
     </div>
     <div class="hero-split-shot hero-anim stagger-4">
       <div class="deco-rings" aria-hidden="true"></div>
       <div class="phone-frame">
-        <img src="/images/cc-en-study.webp" alt="Canada Citizenship 2027 Study tab with chapters, Quick 10 practice, mistakes and glossary" width="280" height="609" fetchpriority="high">
+        <img src="/images/cc-en-study.webp" srcset="/images/cc-en-study-300.webp 300w, /images/cc-en-study.webp 600w" sizes="(max-width: 900px) 240px, 280px" alt="Canada Citizenship 2027 Study tab with chapters, Quick 10 practice, mistakes and glossary" width="280" height="609" fetchpriority="high">
       </div>
       <div class="float-chip chip-1" aria-hidden="true"><span class="chip-ico">&#127809;</span> 800+ questions</div>
       <div class="float-chip chip-2" aria-hidden="true"><span class="chip-ico">&#127911;</span> Audio in English &amp; French</div>
       <div class="float-chip chip-3" aria-hidden="true"><span class="chip-ico">&#9989;</span> Mock exam passed</div>
-      <img src="/images/canada-citizenship-beaver-reading.png" alt="" class="hero-mascot" width="480" height="452" aria-hidden="true">
+      <img src="/images/canada-citizenship-beaver-reading.webp" alt="" class="hero-mascot" width="272" height="256" aria-hidden="true">
     </div>
   </div>
 </section>
@@ -162,7 +168,7 @@
     </div>
     <div class="feature-shot">
       <div class="phone-frame">
-        <img src="/images/cc-en-chapter.webp" alt="Chapter screen for Rights and Responsibilities with lessons, practice and mistakes to review" loading="lazy" width="280" height="609">
+        <img src="/images/cc-en-chapter.webp" srcset="/images/cc-en-chapter-300.webp 300w, /images/cc-en-chapter.webp 600w" sizes="(max-width: 820px) 240px, 280px" alt="Chapter screen for Rights and Responsibilities with lessons, practice and mistakes to review" loading="lazy" width="280" height="609">
       </div>
     </div>
   </div>
@@ -174,7 +180,7 @@
     </div>
     <div class="feature-shot">
       <div class="phone-frame">
-        <img src="/images/cc-en-explained.webp" alt="Practice question answered correctly, with the beaver mascot explaining the answer and its source" loading="lazy" width="280" height="609">
+        <img src="/images/cc-en-explained.webp" srcset="/images/cc-en-explained-300.webp 300w, /images/cc-en-explained.webp 600w" sizes="(max-width: 820px) 240px, 280px" alt="Practice question answered correctly, with the beaver mascot explaining the answer and its source" loading="lazy" width="280" height="609">
       </div>
     </div>
   </div>
@@ -186,7 +192,7 @@
     </div>
     <div class="feature-shot">
       <div class="phone-frame">
-        <img src="/images/cc-en-listen.webp" alt="Lesson being narrated, with the audio player and the current sentence highlighted" loading="lazy" width="280" height="609">
+        <img src="/images/cc-en-listen.webp" srcset="/images/cc-en-listen-300.webp 300w, /images/cc-en-listen.webp 600w" sizes="(max-width: 820px) 240px, 280px" alt="Lesson being narrated, with the audio player and the current sentence highlighted" loading="lazy" width="280" height="609">
       </div>
     </div>
   </div>
@@ -198,7 +204,7 @@
     </div>
     <div class="feature-shot">
       <div class="phone-frame">
-        <img src="/images/cc-en-result.webp" alt="Mock exam result: passed with 20 out of 20 and a score for each chapter" loading="lazy" width="280" height="609">
+        <img src="/images/cc-en-result.webp" srcset="/images/cc-en-result-300.webp 300w, /images/cc-en-result.webp 600w" sizes="(max-width: 820px) 240px, 280px" alt="Mock exam result: passed with 20 out of 20 and a score for each chapter" loading="lazy" width="280" height="609">
       </div>
     </div>
   </div>
@@ -210,7 +216,7 @@
     </div>
     <div class="feature-shot">
       <div class="phone-frame">
-        <img src="/images/cc-en-you.webp" alt="You tab with a readiness score, a 12-week activity map and study settings" loading="lazy" width="280" height="609">
+        <img src="/images/cc-en-you.webp" srcset="/images/cc-en-you-300.webp 300w, /images/cc-en-you.webp 600w" sizes="(max-width: 820px) 240px, 280px" alt="You tab with a readiness score, a 12-week activity map and study settings" loading="lazy" width="280" height="609">
       </div>
     </div>
   </div>
@@ -223,19 +229,19 @@
   <div class="tab-gallery fade-in delay-1">
     <figure>
       <div class="phone-frame">
-        <img src="/images/cc-en-study.webp" alt="Study tab with chapters and study tools" loading="lazy" width="236" height="513">
+        <img src="/images/cc-en-study.webp" srcset="/images/cc-en-study-300.webp 300w, /images/cc-en-study.webp 600w" sizes="(max-width: 540px) 214px, 236px" alt="Study tab with chapters and study tools" loading="lazy" width="236" height="513">
       </div>
       <figcaption><strong>Study</strong><span>Chapters, lessons and quick practice</span></figcaption>
     </figure>
     <figure>
       <div class="phone-frame">
-        <img src="/images/cc-en-exam.webp" alt="Exam tab with online and in-person formats and past attempts" loading="lazy" width="236" height="513">
+        <img src="/images/cc-en-exam.webp" srcset="/images/cc-en-exam-300.webp 300w, /images/cc-en-exam.webp 600w" sizes="(max-width: 540px) 214px, 236px" alt="Exam tab with online and in-person formats and past attempts" loading="lazy" width="236" height="513">
       </div>
       <figcaption><strong>Exam</strong><span>Timed mock exams and past attempts</span></figcaption>
     </figure>
     <figure>
       <div class="phone-frame">
-        <img src="/images/cc-en-you.webp" alt="You tab with readiness score and activity map" loading="lazy" width="236" height="513">
+        <img src="/images/cc-en-you.webp" srcset="/images/cc-en-you-300.webp 300w, /images/cc-en-you.webp 600w" sizes="(max-width: 540px) 214px, 236px" alt="You tab with readiness score and activity map" loading="lazy" width="236" height="513">
       </div>
       <figcaption><strong>You</strong><span>Readiness, activity and settings</span></figcaption>
     </figure>
@@ -281,21 +287,23 @@
 </section>
 
 <section class="contact-section fade-in" id="get">
-  <img src="/images/canada-citizenship-beaver-celebrate.png" alt="The beaver mascot celebrating a passed practice test" width="473" height="480" class="cc-cta-mascot">
+  <img src="/images/canada-citizenship-beaver-celebrate.webp" alt="The beaver mascot celebrating a passed practice test" width="240" height="244" class="cc-cta-mascot" loading="lazy">
   <div class="section-label">Canada Citizenship 2027</div>
   <h2 class="section-title">Get ready for your test</h2>
   <p class="cta-sub">Launching soon on the App Store, in English and Canadian French. An independent study tool — not affiliated with the Government of Canada or IRCC.</p>
-  <span class="coming-soon-pill">Coming soon to the App Store</span>
+  <span class="coming-soon-pill" data-ph-event="coming_soon_click">Coming soon to the App Store</span>
   <div class="cta-links">
-    <a href="/apps/canada-citizenship/support/">Support &amp; FAQ</a>
+    <a href="/apps/canada-citizenship/support/" data-ph-event="support_link_click">Support &amp; FAQ</a>
     <span class="dot-sep" aria-hidden="true"></span>
-    <a href="/apps/canada-citizenship/privacy/">Privacy</a>
+    <a href="/apps/canada-citizenship/privacy/" data-ph-event="support_link_click">Privacy</a>
     <span class="dot-sep" aria-hidden="true"></span>
-    <a href="/apps/canada-citizenship/terms/">Terms</a>
+    <a href="/apps/canada-citizenship/terms/" data-ph-event="support_link_click">Terms</a>
     <span class="dot-sep" aria-hidden="true"></span>
-    <a href="mailto:support@macwanapps.com">support@macwanapps.com</a>
+    <a href="mailto:support@macwanapps.com" data-ph-event="support_link_click">support@macwanapps.com</a>
   </div>
 </section>
+
+</main>
 
 <!-- Footer -->
 <footer>
@@ -306,11 +314,11 @@
     </div>
     <div class="footer-links">
       <a href="/blog/">Blog</a>
-      <a href="/apps/canada-citizenship/support/">Support</a>
+      <a href="/apps/canada-citizenship/support/" data-ph-event="support_link_click">Support</a>
       <a href="/press/">Press</a>
-      <a href="/apps/canada-citizenship/privacy/">Privacy</a>
-      <a href="/apps/canada-citizenship/terms/">Terms</a>
-      <a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr">Français</a>
+      <a href="/apps/canada-citizenship/privacy/" data-ph-event="support_link_click">Privacy</a>
+      <a href="/apps/canada-citizenship/terms/" data-ph-event="support_link_click">Terms</a>
+      <a href="/apps/canada-citizenship/fr/" hreflang="fr-CA" lang="fr" data-ph-event="language_switch">Français</a>
     </div>
     <div class="footer-social">
       <a href="https://github.com/jobinmacwan" aria-label="GitHub">
