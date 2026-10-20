@@ -3169,3 +3169,361 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   .tab-gallery .phone-frame img { width: 214px; border-radius: 35px; }
   .tab-gallery .phone-frame { border-radius: 44px; }
 }
+
+/* ============================================================
+   Citizenship test apps — Australia, United States, New Zealand
+   One landing theme for the sibling apps, coloured per country
+   through variables (body class "theme-cz theme-cz-<country>").
+   Same structure as the Canada landing above, which keeps its own
+   tested block. Light, dark and mobile.
+   ============================================================ */
+.theme-cz-au {
+  --cz-rgb: 31, 111, 80;      /* eucalyptus — the app's accent */
+  --cz-deep-rgb: 22, 82, 57;
+  --cz-warm-rgb: 214, 158, 22; /* wattle */
+  --cz-tint: #f3f8f4;
+  --cz-hero-top: #edf6f0;
+  --cz-cta: #1f6f50;
+  --cz-cta-hover: #165239;
+}
+.theme-cz-us {
+  --cz-rgb: 31, 78, 122;      /* navy — the app's accent */
+  --cz-deep-rgb: 22, 58, 91;
+  --cz-warm-rgb: 178, 34, 52;  /* flag red, used sparingly */
+  --cz-tint: #f3f6fa;
+  --cz-hero-top: #edf2f8;
+  --cz-cta: #1f4e7a;
+  --cz-cta-hover: #163a5b;
+}
+.theme-cz-nz {
+  --cz-rgb: 14, 116, 112;     /* pounamu */
+  --cz-deep-rgb: 10, 84, 81;
+  --cz-warm-rgb: 79, 163, 199; /* sky */
+  --cz-tint: #f1f8f7;
+  --cz-hero-top: #ebf6f5;
+  --cz-cta: #0e7470;
+  --cz-cta-hover: #0a5451;
+}
+.theme-cz {
+  --accent: rgb(var(--cz-rgb));
+  --accent-hover: rgb(var(--cz-deep-rgb));
+  --accent-soft: rgba(var(--cz-rgb), 0.10);
+  --bg-alt: var(--cz-tint);
+}
+.theme-cz section[id] { scroll-margin-top: 72px; }
+.theme-cz .hero h1,
+.theme-cz .section-title,
+.theme-cz .feature-text h3 { text-wrap: balance; }
+
+.theme-cz .hero {
+  background:
+    radial-gradient(ellipse 70% 65% at 18% -12%, rgba(var(--cz-rgb), 0.12), transparent),
+    radial-gradient(ellipse 55% 50% at 88% 8%, rgba(var(--cz-warm-rgb), 0.10), transparent),
+    linear-gradient(180deg, var(--cz-hero-top) 0%, var(--bg) 88%);
+  overflow: hidden;
+}
+.theme-cz .hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(var(--cz-rgb), 0.12) 1px, transparent 1.4px);
+  background-size: 24px 24px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, #000 30%, transparent 75%);
+  pointer-events: none;
+}
+.theme-cz .hero-inner,
+.theme-cz .hero-split-inner { position: relative; z-index: 1; }
+
+.theme-cz nav {
+  background: rgba(255, 255, 255, 0.55);
+  border-bottom: 1px solid rgba(var(--cz-rgb), 0.10);
+  box-shadow: 0 1px 12px rgba(var(--cz-rgb), 0.05);
+}
+.theme-cz nav.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+  border-bottom-color: var(--border);
+}
+.theme-cz nav .nav-links a.nav-cta { color: #fff; background: var(--cz-cta); }
+.theme-cz nav .nav-links a.nav-cta:hover { color: #fff; background: var(--cz-cta-hover); }
+
+.theme-cz .hero-split-shot { position: relative; }
+.theme-cz .hero-split-shot::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 30% 22%, rgba(var(--cz-rgb), 0.17) 0%, transparent 42%),
+    radial-gradient(circle at 74% 68%, rgba(var(--cz-warm-rgb), 0.16) 0%, transparent 46%),
+    radial-gradient(circle at 18% 78%, rgba(var(--cz-deep-rgb), 0.10) 0%, transparent 40%),
+    radial-gradient(circle, rgba(var(--cz-rgb), 0.07) 0%, transparent 70%);
+  filter: blur(2px);
+}
+.theme-cz .phone-frame { position: relative; z-index: 1; }
+.theme-cz .deco-rings::before { border-color: rgba(var(--cz-rgb), 0.24); }
+.theme-cz .deco-rings::after { border-color: rgba(var(--cz-rgb), 0.10); }
+.theme-cz .float-chip { box-shadow: 0 8px 28px rgba(var(--cz-rgb), 0.16); }
+
+.theme-cz .how-section {
+  max-width: none;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-alt) 26%, var(--bg-alt) 74%, var(--bg) 100%);
+}
+.theme-cz .how-grid { max-width: 976px; margin-left: auto; margin-right: auto; }
+.theme-cz .step-num {
+  background: linear-gradient(135deg, rgb(var(--cz-rgb)), rgb(var(--cz-deep-rgb)));
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(var(--cz-rgb), 0.25);
+}
+
+.theme-cz .features-section {
+  max-width: none;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse 45% 32% at 6% 20%, rgba(var(--cz-rgb), 0.05), transparent),
+    radial-gradient(ellipse 45% 32% at 94% 50%, rgba(var(--cz-warm-rgb), 0.06), transparent),
+    radial-gradient(ellipse 45% 32% at 6% 82%, rgba(var(--cz-rgb), 0.04), transparent);
+}
+.theme-cz .feature-row { max-width: 880px; margin-left: auto; margin-right: auto; width: 100%; }
+.theme-cz .feature-shot { position: relative; }
+.theme-cz .feature-shot::before {
+  content: '';
+  position: absolute;
+  inset: -64px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(var(--cz-rgb), 0.15) 1px, transparent 1.4px),
+    radial-gradient(circle, rgba(var(--cz-rgb), 0.11) 0%, rgba(var(--cz-warm-rgb), 0.06) 45%, transparent 70%);
+  background-size: 22px 22px, 100% 100%;
+  background-position: center, center;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 74%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 40%, transparent 74%);
+}
+.theme-cz .feature-shot::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 316px;
+  height: 316px;
+  border-radius: 26%;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(var(--cz-rgb), 0.14) 0%, rgba(var(--cz-warm-rgb), 0.10) 55%, rgba(var(--cz-deep-rgb), 0.06) 100%);
+  box-shadow: inset 0 0 0 1.5px rgba(var(--cz-rgb), 0.12);
+  transform: translate(-50%, -50%) rotate(8deg);
+}
+.theme-cz .feature-row.reverse .feature-shot::after { transform: translate(-50%, -50%) rotate(-8deg); }
+.theme-cz .feature-shot .phone-frame { position: relative; z-index: 1; }
+
+.theme-cz .tabs-section {
+  background:
+    radial-gradient(ellipse 60% 55% at 50% 0%, rgba(var(--cz-rgb), 0.06), transparent),
+    var(--bg);
+}
+.theme-cz .contact-section {
+  background:
+    radial-gradient(ellipse 60% 80% at 50% 110%, rgba(var(--cz-rgb), 0.09), transparent),
+    var(--bg-alt);
+}
+.cz-cta-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 17px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-md);
+}
+
+/* Centered hero for an app that isn't built yet (no phone mockup) */
+.theme-cz .hero.cz-hero-center { text-align: center; }
+.theme-cz .hero.cz-hero-center .subtitle { margin-left: auto; margin-right: auto; max-width: 640px; }
+.theme-cz .hero.cz-hero-center .hero-actions { justify-content: center; }
+.cz-status-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 26px;
+}
+.cz-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  box-shadow: var(--shadow-sm);
+}
+.cz-status::before {
+  content: '';
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: rgb(var(--cz-rgb));
+}
+.cz-status.cz-status-pending::before { background: #d9a21b; }
+
+/* "What's announced / what isn't" callout */
+.cz-notice {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.cz-notice-box {
+  background: var(--bg-card);
+  border: 1px solid rgba(var(--cz-rgb), 0.22);
+  border-left: 4px solid rgb(var(--cz-rgb));
+  border-radius: 14px;
+  padding: 22px 24px;
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+.cz-notice-box h2,
+.cz-notice-box h3 { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 8px; }
+.cz-notice-box p { font-size: 15px; line-height: 1.65; color: var(--text-secondary); }
+.cz-notice-box p + p { margin-top: 10px; }
+.cz-notice-box p + h3 { margin-top: 18px; }
+.cz-notice-box a { color: var(--accent); }
+.why-section .cz-notice { margin-top: 36px; padding: 0; }
+.prose-section .cz-notice-box { margin: 4px 0 28px; }
+.prose-section .cz-notice-box p { margin: 0; }
+
+/* Facts grid on the NZ page: what is announced, with a source */
+.cz-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 976px;
+  margin: 44px auto 0;
+  text-align: left;
+}
+.cz-fact {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+.cz-fact-value {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: rgb(var(--cz-rgb));
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+.cz-fact-label { font-size: 14.5px; line-height: 1.5; color: var(--text-muted); }
+.cz-source { margin-top: 18px; font-size: 13.5px; color: var(--text-muted); text-align: center; }
+.cz-source a { color: var(--accent); }
+
+/* Planned-feature tag on the NZ page */
+.cz-planned {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgb(var(--cz-deep-rgb));
+  background: rgba(var(--cz-rgb), 0.10);
+  border-radius: 999px;
+  padding: 3px 9px;
+  margin-bottom: 12px;
+}
+
+/* Legal and FAQ pages: readable date, links that don't rely on colour alone */
+.theme-cz .prose-section .updated { color: var(--text-muted); }
+.theme-cz .prose-section p a,
+.theme-cz .prose-section li a,
+.theme-cz .faq-answer a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* Sibling citizenship apps, above the footer of every citizenship page */
+.cz-family {
+  border-top: 1px solid var(--border);
+  padding: 22px 24px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.cz-family-label { margin-right: 10px; }
+.cz-family a { color: var(--text-secondary); text-decoration: none; font-weight: 500; padding: 6px 2px; }
+.cz-family a:hover { color: var(--accent); }
+.cz-family a[aria-current="page"] { color: var(--accent); }
+.cz-family .dot-sep { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: var(--border-strong); margin: 0 10px; vertical-align: middle; }
+
+@media (prefers-color-scheme: dark) {
+  .theme-cz-au { --cz-rgb: 92, 194, 154; --cz-deep-rgb: 60, 150, 116; --cz-warm-rgb: 230, 182, 60; --cz-tint: #0f1714; --cz-hero-top: #0d1512; }
+  .theme-cz-us { --cz-rgb: 121, 172, 217; --cz-deep-rgb: 86, 136, 184; --cz-warm-rgb: 224, 96, 110; --cz-tint: #0f131a; --cz-hero-top: #0d1219; }
+  .theme-cz-nz { --cz-rgb: 79, 193, 184; --cz-deep-rgb: 52, 152, 145; --cz-warm-rgb: 116, 190, 222; --cz-tint: #0e1716; --cz-hero-top: #0c1514; }
+  .theme-cz nav {
+    background: rgba(14, 15, 18, 0.55);
+    border-bottom: 1px solid rgba(var(--cz-rgb), 0.12);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);
+  }
+  .theme-cz nav.scrolled {
+    background: rgba(14, 15, 18, 0.85);
+    border-bottom-color: var(--border);
+  }
+  .theme-cz .float-chip {
+    border-color: rgba(var(--cz-rgb), 0.18);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  }
+  .theme-cz .step-num { color: #0e0f12; }
+  .cz-planned { color: rgb(var(--cz-rgb)); }
+}
+
+@media (max-width: 900px) {
+  .theme-cz .feature-shot::after { width: 268px; height: 268px; }
+  .cz-facts { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 420px) {
+  .theme-cz .brand-group .nav-home,
+  .theme-cz .brand-group .nav-sep { display: none; }
+  .theme-cz nav .brand { white-space: nowrap; }
+}
+@media (max-width: 480px) {
+  .cz-facts { grid-template-columns: 1fr; }
+  .cz-family .dot-sep { margin: 0 6px; }
+}
+
+/* Citizenship apps on the homepage: one card style, coloured per country */
+.card-cz-au { --card-rgb: 31, 111, 80; --card-deep: #165239; --card-bg1: #f2f8f4; --card-bg2: #e2f0e7; }
+.card-cz-us { --card-rgb: 31, 78, 122; --card-deep: #163a5b; --card-bg1: #f2f6fa; --card-bg2: #e1eaf4; }
+.card-cz-nz { --card-rgb: 14, 116, 112; --card-deep: #0a5451; --card-bg1: #f0f8f7; --card-bg2: #dff0ee; }
+.card-cz:hover {
+  border-color: rgba(var(--card-rgb), 0.35);
+  box-shadow: 0 12px 48px rgba(var(--card-rgb), 0.14);
+}
+.card-cz .app-status.app-status-soon { background: rgba(var(--card-rgb), 0.09); color: var(--card-deep); }
+.card-cz .app-status.app-status-soon::before { background: rgb(var(--card-rgb)); }
+.card-cz .app-mini-list li::before { background: rgba(var(--card-rgb), 0.12); }
+.card-cz .app-mini-list li::after { border-color: rgb(var(--card-rgb)); }
+.card-cz .app-preview {
+  border-left-color: rgba(var(--card-rgb), 0.14);
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 110%, rgba(var(--card-rgb), 0.14), transparent),
+    linear-gradient(160deg, var(--card-bg1) 0%, var(--card-bg2) 100%);
+}
+.card-cz .app-preview img {
+  border-color: rgba(var(--card-rgb), 0.16);
+  box-shadow: 0 -8px 32px rgba(var(--card-rgb), 0.12);
+}
+.app-card-compact .app-card-inner { padding: 32px 40px; }
+.app-card-compact .app-tagline { max-width: 620px; }
+@media (prefers-color-scheme: dark) {
+  .card-cz-au { --card-rgb: 92, 194, 154; --card-deep: #7fd4b2; --card-bg1: #101814; --card-bg2: #0d1411; }
+  .card-cz-us { --card-rgb: 121, 172, 217; --card-deep: #9dc3e6; --card-bg1: #10141b; --card-bg2: #0d1117; }
+  .card-cz-nz { --card-rgb: 79, 193, 184; --card-deep: #7fd6cf; --card-bg1: #0f1817; --card-bg2: #0c1413; }
+  .card-cz .app-preview img { box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.4); }
+}
+@media (max-width: 760px) {
+  .app-card-compact .app-card-inner { padding: 32px 28px 28px; }
+}
