@@ -1,0 +1,254 @@
+[
+  {
+    "id": "g.constitution",
+    "chapter": "principles",
+    "term_en": "Constitution",
+    "definition_en": "The written supreme law of the United States, adopted in 1787. It sets up the government, defines its powers and protects the rights of the people."
+  },
+  {
+    "id": "g.amendment",
+    "chapter": "principles",
+    "term_en": "Amendment",
+    "definition_en": "A change or addition to the Constitution. Proposed by two-thirds of Congress and ratified by three-quarters of the states; there are 27."
+  },
+  {
+    "id": "g.bill-of-rights",
+    "chapter": "principles",
+    "term_en": "Bill of Rights",
+    "definition_en": "The first ten amendments to the Constitution, ratified in 1791, protecting basic rights such as freedom of speech, religion and the press."
+  },
+  {
+    "id": "g.declaration-of-independence",
+    "chapter": "principles",
+    "term_en": "Declaration of Independence",
+    "definition_en": "The document adopted on July 4, 1776, announcing that the colonies were free from Britain and that all people are created equal."
+  },
+  {
+    "id": "g.republic",
+    "chapter": "principles",
+    "term_en": "Republic",
+    "definition_en": "A form of government in which the people hold power and exercise it through elected representatives under law."
+  },
+  {
+    "id": "g.rule-of-law",
+    "chapter": "principles",
+    "term_en": "Rule of law",
+    "definition_en": "The principle that everyone — citizens, leaders and the government — must follow the law; no one is above it."
+  },
+  {
+    "id": "g.popular-sovereignty",
+    "chapter": "principles",
+    "term_en": "Popular sovereignty",
+    "definition_en": "The idea that the government’s power comes from the people: the meaning of “We the People.”"
+  },
+  {
+    "id": "g.capitalism",
+    "chapter": "principles",
+    "term_en": "Capitalism",
+    "definition_en": "The U.S. economic system: a free-market economy in which individuals and businesses own property and decide what to make, buy and sell."
+  },
+  {
+    "id": "g.federalist-papers",
+    "chapter": "principles",
+    "term_en": "Federalist Papers",
+    "definition_en": "Eighty-five essays by Madison, Hamilton and Jay, written as Publius, explaining and supporting the Constitution."
+  },
+  {
+    "id": "g.separation-of-powers",
+    "chapter": "system",
+    "term_en": "Separation of powers",
+    "definition_en": "Dividing government among the legislative, executive and judicial branches so that no one branch becomes too powerful."
+  },
+  {
+    "id": "g.checks-and-balances",
+    "chapter": "system",
+    "term_en": "Checks and balances",
+    "definition_en": "The powers each branch has to limit the others — a veto, an override, judicial review, Senate confirmation."
+  },
+  {
+    "id": "g.congress",
+    "chapter": "system",
+    "term_en": "Congress",
+    "definition_en": "The legislative branch: the Senate (100 members) and the House of Representatives (435 voting members). It writes federal laws."
+  },
+  {
+    "id": "g.senate",
+    "chapter": "system",
+    "term_en": "Senate",
+    "definition_en": "The chamber of Congress with two members from every state, each serving a six-year term."
+  },
+  {
+    "id": "g.house-of-representatives",
+    "chapter": "system",
+    "term_en": "House of Representatives",
+    "definition_en": "The chamber of Congress with 435 voting members divided among the states by population, each serving two years."
+  },
+  {
+    "id": "g.veto",
+    "chapter": "system",
+    "term_en": "Veto",
+    "definition_en": "The President’s power to refuse to sign a bill. Congress can override a veto with a two-thirds vote in both houses."
+  },
+  {
+    "id": "g.cabinet",
+    "chapter": "system",
+    "term_en": "Cabinet",
+    "definition_en": "The Vice President and the heads of the executive departments, who advise the President."
+  },
+  {
+    "id": "g.electoral-college",
+    "chapter": "system",
+    "term_en": "Electoral College",
+    "definition_en": "The body of electors, chosen state by state, that formally elects the President and Vice President."
+  },
+  {
+    "id": "g.supreme-court",
+    "chapter": "system",
+    "term_en": "Supreme Court",
+    "definition_en": "The highest court in the United States, with nine justices who serve for life."
+  },
+  {
+    "id": "g.federalism",
+    "chapter": "system",
+    "term_en": "Federalism",
+    "definition_en": "The sharing of power between the national government and the states; the 10th Amendment leaves the states every power not given to the federal government."
+  },
+  {
+    "id": "g.commander-in-chief",
+    "chapter": "system",
+    "term_en": "Commander in Chief",
+    "definition_en": "The President’s role as head of the armed forces."
+  },
+  {
+    "id": "g.naturalization",
+    "chapter": "rights",
+    "term_en": "Naturalization",
+    "definition_en": "The legal process by which a person born outside the United States becomes a citizen."
+  },
+  {
+    "id": "g.oath-of-allegiance",
+    "chapter": "rights",
+    "term_en": "Oath of Allegiance",
+    "definition_en": "The promise new citizens make: to give up other loyalties, defend the Constitution, obey the laws and serve the nation if needed."
+  },
+  {
+    "id": "g.pledge-of-allegiance",
+    "chapter": "rights",
+    "term_en": "Pledge of Allegiance",
+    "definition_en": "A short promise of loyalty to the flag and to the United States."
+  },
+  {
+    "id": "g.selective-service",
+    "chapter": "rights",
+    "term_en": "Selective Service",
+    "definition_en": "The system under which men aged 18 through 25 register so a military draft could be held fairly if ever needed."
+  },
+  {
+    "id": "g.poll-tax",
+    "chapter": "rights",
+    "term_en": "Poll tax",
+    "definition_en": "A fee once charged to vote, banned by the 24th Amendment in 1964."
+  },
+  {
+    "id": "g.jury",
+    "chapter": "rights",
+    "term_en": "Jury",
+    "definition_en": "A group of citizens who decide the facts in a trial. Serving on one is a duty only citizens have."
+  },
+  {
+    "id": "g.colony",
+    "chapter": "colonial",
+    "term_en": "Colony",
+    "definition_en": "A territory settled and ruled by a distant country; the thirteen American colonies were ruled by Britain."
+  },
+  {
+    "id": "g.taxation-without-representation",
+    "chapter": "colonial",
+    "term_en": "Taxation without representation",
+    "definition_en": "The colonists’ complaint that Britain taxed them while giving them no seats in Parliament."
+  },
+  {
+    "id": "g.constitutional-convention",
+    "chapter": "colonial",
+    "term_en": "Constitutional Convention",
+    "definition_en": "The 1787 meeting in Philadelphia where the Founding Fathers wrote the Constitution."
+  },
+  {
+    "id": "g.articles-of-confederation",
+    "chapter": "colonial",
+    "term_en": "Articles of Confederation",
+    "definition_en": "The first, weak national government of the United States, replaced by the Constitution in 1789."
+  },
+  {
+    "id": "g.emancipation-proclamation",
+    "chapter": "history1800s",
+    "term_en": "Emancipation Proclamation",
+    "definition_en": "Lincoln’s 1863 order freeing the slaves in the Confederate states."
+  },
+  {
+    "id": "g.reconstruction",
+    "chapter": "history1800s",
+    "term_en": "Reconstruction",
+    "definition_en": "The years after the Civil War when the South was rebuilt and the 13th, 14th and 15th Amendments were adopted."
+  },
+  {
+    "id": "g.union",
+    "chapter": "history1800s",
+    "term_en": "Union",
+    "definition_en": "The United States, and in the Civil War the Northern states that stayed loyal to it."
+  },
+  {
+    "id": "g.confederacy",
+    "chapter": "history1800s",
+    "term_en": "Confederacy",
+    "definition_en": "The eleven Southern states that left the Union in 1861 and fought the Civil War."
+  },
+  {
+    "id": "g.cold-war",
+    "chapter": "recent",
+    "term_en": "Cold War",
+    "definition_en": "The rivalry between the United States and the Soviet Union from the late 1940s to 1991, fought through alliances and proxy wars rather than directly."
+  },
+  {
+    "id": "g.communism",
+    "chapter": "recent",
+    "term_en": "Communism",
+    "definition_en": "A political and economic system in which the state owns property and controls the economy; stopping its spread was the main U.S. concern of the Cold War."
+  },
+  {
+    "id": "g.civil-rights-movement",
+    "chapter": "recent",
+    "term_en": "Civil rights movement",
+    "definition_en": "The 1950s–60s movement, led by Martin Luther King, Jr., that fought to end racial discrimination."
+  },
+  {
+    "id": "g.great-depression",
+    "chapter": "recent",
+    "term_en": "Great Depression",
+    "definition_en": "The longest economic recession in modern history, beginning with the stock market crash of 1929."
+  },
+  {
+    "id": "g.territory",
+    "chapter": "geography",
+    "term_en": "Territory",
+    "definition_en": "Land under U.S. sovereignty that is not a state, such as Puerto Rico or Guam."
+  },
+  {
+    "id": "g.e-pluribus-unum",
+    "chapter": "symbols",
+    "term_en": "E Pluribus Unum",
+    "definition_en": "Latin for “Out of many, one”: the nation’s first motto."
+  },
+  {
+    "id": "g.national-anthem",
+    "chapter": "symbols",
+    "term_en": "National anthem",
+    "definition_en": "The country’s official song, “The Star-Spangled Banner.”"
+  },
+  {
+    "id": "g.federal-holiday",
+    "chapter": "holidays",
+    "term_en": "Federal holiday",
+    "definition_en": "One of the eleven days set by law on which federal offices close, such as Independence Day and Thanksgiving."
+  }
+]

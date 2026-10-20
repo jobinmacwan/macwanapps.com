@@ -1,0 +1,1493 @@
+[
+  {
+    "key": "president",
+    "value_en": "Donald J. Trump",
+    "alternates_en": [
+      "Donald Trump",
+      "Trump"
+    ],
+    "distractors_en": [
+      "Joe Biden",
+      "Barack Obama",
+      "George W. Bush"
+    ],
+    "sourceUrl": "https://www.whitehouse.gov/administration/",
+    "verified": "2026-10-12",
+    "note": "Read from the primary source on 2026-10-12; alternates are the forms USCIS accepts (https://www.uscis.gov/citizenship/testupdates)."
+  },
+  {
+    "key": "vice_president",
+    "value_en": "JD Vance",
+    "alternates_en": [
+      "Vance"
+    ],
+    "distractors_en": [
+      "Kamala Harris",
+      "Mike Pence",
+      "Dick Cheney"
+    ],
+    "sourceUrl": "https://www.whitehouse.gov/administration/",
+    "verified": "2026-10-12",
+    "note": "Read from the primary source on 2026-10-12; alternates are the forms USCIS accepts (https://www.uscis.gov/citizenship/testupdates)."
+  },
+  {
+    "key": "speaker",
+    "value_en": "Mike Johnson",
+    "alternates_en": [
+      "Johnson",
+      "James Michael Johnson"
+    ],
+    "distractors_en": [
+      "Nancy Pelosi",
+      "Kevin McCarthy",
+      "Paul Ryan"
+    ],
+    "sourceUrl": "https://www.speaker.gov/",
+    "verified": "2026-10-12",
+    "note": "Read from the primary source on 2026-10-12; alternates are the forms USCIS accepts (https://www.uscis.gov/citizenship/testupdates)."
+  },
+  {
+    "key": "chief_justice",
+    "value_en": "John Roberts",
+    "alternates_en": [
+      "John G. Roberts, Jr.",
+      "Roberts"
+    ],
+    "distractors_en": [
+      "William Rehnquist",
+      "Clarence Thomas",
+      "Sonia Sotomayor"
+    ],
+    "sourceUrl": "https://www.supremecourt.gov/about/biographies.aspx",
+    "verified": "2026-10-12",
+    "note": "Read from the primary source on 2026-10-12; alternates are the forms USCIS accepts (https://www.uscis.gov/citizenship/testupdates)."
+  },
+  {
+    "key": "justices_count",
+    "value_en": "nine (9)",
+    "alternates_en": [
+      "9"
+    ],
+    "distractors_en": [
+      "seven (7)",
+      "eleven (11)",
+      "twelve (12)"
+    ],
+    "sourceUrl": "https://www.supremecourt.gov/about/biographies.aspx",
+    "verified": "2026-10-12",
+    "note": "Counted from the Court's own current-members page. USCIS asks this only on the 2008 test (Q39)."
+  },
+  {
+    "key": "president_party",
+    "value_en": "Republican (Party)",
+    "alternates_en": [
+      "Republican"
+    ],
+    "distractors_en": [
+      "Democratic (Party)",
+      "Libertarian (Party)",
+      "Green (Party)"
+    ],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS lists the party as an accepted answer; page last reviewed 09/18/2025."
+  },
+  {
+    "key": "governor.AK",
+    "value_en": "Mike Dunleavy",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Alaska, National Governors Association roster."
+  },
+  {
+    "key": "senators.AK",
+    "value_en": "Lisa Murkowski and Dan Sullivan",
+    "values_en": [
+      "Lisa Murkowski",
+      "Dan Sullivan"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Alaska; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.AK",
+    "value_en": "Juneau",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Alaska."
+  },
+  {
+    "key": "governor.AL",
+    "value_en": "Kay Ivey",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Alabama, National Governors Association roster."
+  },
+  {
+    "key": "senators.AL",
+    "value_en": "Tommy Tuberville and Katie Boyd Britt",
+    "values_en": [
+      "Tommy Tuberville",
+      "Katie Boyd Britt"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Alabama; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.AL",
+    "value_en": "Montgomery",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Alabama."
+  },
+  {
+    "key": "governor.AR",
+    "value_en": "Sarah Huckabee Sanders",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Arkansas, National Governors Association roster."
+  },
+  {
+    "key": "senators.AR",
+    "value_en": "John Boozman and Tom Cotton",
+    "values_en": [
+      "John Boozman",
+      "Tom Cotton"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Arkansas; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.AR",
+    "value_en": "Little Rock",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Arkansas."
+  },
+  {
+    "key": "governor.AZ",
+    "value_en": "Katie Hobbs",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Arizona, National Governors Association roster."
+  },
+  {
+    "key": "senators.AZ",
+    "value_en": "Ruben Gallego and Mark Kelly",
+    "values_en": [
+      "Ruben Gallego",
+      "Mark Kelly"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Arizona; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.AZ",
+    "value_en": "Phoenix",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Arizona."
+  },
+  {
+    "key": "governor.CA",
+    "value_en": "Gavin Newsom",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of California, National Governors Association roster."
+  },
+  {
+    "key": "senators.CA",
+    "value_en": "Adam B. Schiff and Alex Padilla",
+    "values_en": [
+      "Adam B. Schiff",
+      "Alex Padilla"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for California; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.CA",
+    "value_en": "Sacramento",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of California."
+  },
+  {
+    "key": "governor.CO",
+    "value_en": "Jared Polis",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Colorado, National Governors Association roster."
+  },
+  {
+    "key": "senators.CO",
+    "value_en": "Michael F. Bennet and John W. Hickenlooper",
+    "values_en": [
+      "Michael F. Bennet",
+      "John W. Hickenlooper"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Colorado; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.CO",
+    "value_en": "Denver",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Colorado."
+  },
+  {
+    "key": "governor.CT",
+    "value_en": "Ned Lamont",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Connecticut, National Governors Association roster."
+  },
+  {
+    "key": "senators.CT",
+    "value_en": "Richard Blumenthal and Christopher Murphy",
+    "values_en": [
+      "Richard Blumenthal",
+      "Christopher Murphy"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Connecticut; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.CT",
+    "value_en": "Hartford",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Connecticut."
+  },
+  {
+    "key": "governor.DE",
+    "value_en": "Matt Meyer",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Delaware, National Governors Association roster."
+  },
+  {
+    "key": "senators.DE",
+    "value_en": "Christopher A. Coons and Lisa Blunt Rochester",
+    "values_en": [
+      "Christopher A. Coons",
+      "Lisa Blunt Rochester"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Delaware; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.DE",
+    "value_en": "Dover",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Delaware."
+  },
+  {
+    "key": "governor.FL",
+    "value_en": "Ron DeSantis",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Florida, National Governors Association roster."
+  },
+  {
+    "key": "senators.FL",
+    "value_en": "Rick Scott and Ashley Moody",
+    "values_en": [
+      "Rick Scott",
+      "Ashley Moody"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Florida; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.FL",
+    "value_en": "Tallahassee",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Florida."
+  },
+  {
+    "key": "governor.GA",
+    "value_en": "Brian Kemp",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Georgia, National Governors Association roster."
+  },
+  {
+    "key": "senators.GA",
+    "value_en": "Jon Ossoff and Raphael G. Warnock",
+    "values_en": [
+      "Jon Ossoff",
+      "Raphael G. Warnock"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Georgia; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.GA",
+    "value_en": "Atlanta",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Georgia."
+  },
+  {
+    "key": "governor.HI",
+    "value_en": "Josh Green",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Hawaii, National Governors Association roster."
+  },
+  {
+    "key": "senators.HI",
+    "value_en": "Mazie K. Hirono and Brian Schatz",
+    "values_en": [
+      "Mazie K. Hirono",
+      "Brian Schatz"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Hawaii; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.HI",
+    "value_en": "Honolulu",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Hawaii."
+  },
+  {
+    "key": "governor.IA",
+    "value_en": "Kim Reynolds",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Iowa, National Governors Association roster."
+  },
+  {
+    "key": "senators.IA",
+    "value_en": "Chuck Grassley and Joni Ernst",
+    "values_en": [
+      "Chuck Grassley",
+      "Joni Ernst"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Iowa; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.IA",
+    "value_en": "Des Moines",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Iowa."
+  },
+  {
+    "key": "governor.ID",
+    "value_en": "Brad Little",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Idaho, National Governors Association roster."
+  },
+  {
+    "key": "senators.ID",
+    "value_en": "James E. Risch and Mike Crapo",
+    "values_en": [
+      "James E. Risch",
+      "Mike Crapo"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Idaho; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.ID",
+    "value_en": "Boise",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Idaho."
+  },
+  {
+    "key": "governor.IL",
+    "value_en": "JB Pritzker",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Illinois, National Governors Association roster."
+  },
+  {
+    "key": "senators.IL",
+    "value_en": "Richard J. Durbin and Tammy Duckworth",
+    "values_en": [
+      "Richard J. Durbin",
+      "Tammy Duckworth"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Illinois; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.IL",
+    "value_en": "Springfield",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Illinois."
+  },
+  {
+    "key": "governor.IN",
+    "value_en": "Mike Braun",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Indiana, National Governors Association roster."
+  },
+  {
+    "key": "senators.IN",
+    "value_en": "Todd Young and Jim Banks",
+    "values_en": [
+      "Todd Young",
+      "Jim Banks"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Indiana; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.IN",
+    "value_en": "Indianapolis",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Indiana."
+  },
+  {
+    "key": "governor.KS",
+    "value_en": "Laura Kelly",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Kansas, National Governors Association roster."
+  },
+  {
+    "key": "senators.KS",
+    "value_en": "Jerry Moran and Roger Marshall",
+    "values_en": [
+      "Jerry Moran",
+      "Roger Marshall"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Kansas; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.KS",
+    "value_en": "Topeka",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Kansas."
+  },
+  {
+    "key": "governor.KY",
+    "value_en": "Andy Beshear",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Kentucky, National Governors Association roster."
+  },
+  {
+    "key": "senators.KY",
+    "value_en": "Mitch McConnell and Rand Paul",
+    "values_en": [
+      "Mitch McConnell",
+      "Rand Paul"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Kentucky; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.KY",
+    "value_en": "Frankfort",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Kentucky."
+  },
+  {
+    "key": "governor.LA",
+    "value_en": "Jeff Landry",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Louisiana, National Governors Association roster."
+  },
+  {
+    "key": "senators.LA",
+    "value_en": "Bill Cassidy and John Kennedy",
+    "values_en": [
+      "Bill Cassidy",
+      "John Kennedy"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Louisiana; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.LA",
+    "value_en": "Baton Rouge",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Louisiana."
+  },
+  {
+    "key": "governor.MA",
+    "value_en": "Maura Healey",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Massachusetts, National Governors Association roster."
+  },
+  {
+    "key": "senators.MA",
+    "value_en": "Edward J. Markey and Elizabeth Warren",
+    "values_en": [
+      "Edward J. Markey",
+      "Elizabeth Warren"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Massachusetts; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MA",
+    "value_en": "Boston",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Massachusetts."
+  },
+  {
+    "key": "governor.MD",
+    "value_en": "Wes Moore",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Maryland, National Governors Association roster."
+  },
+  {
+    "key": "senators.MD",
+    "value_en": "Chris Van Hollen and Angela D. Alsobrooks",
+    "values_en": [
+      "Chris Van Hollen",
+      "Angela D. Alsobrooks"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Maryland; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MD",
+    "value_en": "Annapolis",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Maryland."
+  },
+  {
+    "key": "governor.ME",
+    "value_en": "Janet Mills",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Maine, National Governors Association roster."
+  },
+  {
+    "key": "senators.ME",
+    "value_en": "Susan M. Collins and Angus S. King, Jr.",
+    "values_en": [
+      "Susan M. Collins",
+      "Angus S. King, Jr."
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Maine; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.ME",
+    "value_en": "Augusta",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Maine."
+  },
+  {
+    "key": "governor.MI",
+    "value_en": "Gretchen Whitmer",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Michigan, National Governors Association roster."
+  },
+  {
+    "key": "senators.MI",
+    "value_en": "Gary C. Peters and Elissa Slotkin",
+    "values_en": [
+      "Gary C. Peters",
+      "Elissa Slotkin"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Michigan; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MI",
+    "value_en": "Lansing",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Michigan."
+  },
+  {
+    "key": "governor.MN",
+    "value_en": "Tim Walz",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Minnesota, National Governors Association roster."
+  },
+  {
+    "key": "senators.MN",
+    "value_en": "Amy Klobuchar and Tina Smith",
+    "values_en": [
+      "Amy Klobuchar",
+      "Tina Smith"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Minnesota; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MN",
+    "value_en": "St. Paul",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Minnesota."
+  },
+  {
+    "key": "governor.MO",
+    "value_en": "Mike Kehoe",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Missouri, National Governors Association roster."
+  },
+  {
+    "key": "senators.MO",
+    "value_en": "Josh Hawley and Eric Schmitt",
+    "values_en": [
+      "Josh Hawley",
+      "Eric Schmitt"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Missouri; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MO",
+    "value_en": "Jefferson City",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Missouri."
+  },
+  {
+    "key": "governor.MS",
+    "value_en": "Tate Reeves",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Mississippi, National Governors Association roster."
+  },
+  {
+    "key": "senators.MS",
+    "value_en": "Roger F. Wicker and Cindy Hyde-Smith",
+    "values_en": [
+      "Roger F. Wicker",
+      "Cindy Hyde-Smith"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Mississippi; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MS",
+    "value_en": "Jackson",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Mississippi."
+  },
+  {
+    "key": "governor.MT",
+    "value_en": "Greg Gianforte",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Montana, National Governors Association roster."
+  },
+  {
+    "key": "senators.MT",
+    "value_en": "Steve Daines and Tim Sheehy",
+    "values_en": [
+      "Steve Daines",
+      "Tim Sheehy"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Montana; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.MT",
+    "value_en": "Helena",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Montana."
+  },
+  {
+    "key": "governor.NC",
+    "value_en": "Josh Stein",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of North Carolina, National Governors Association roster."
+  },
+  {
+    "key": "senators.NC",
+    "value_en": "Thom Tillis and Ted Budd",
+    "values_en": [
+      "Thom Tillis",
+      "Ted Budd"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for North Carolina; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NC",
+    "value_en": "Raleigh",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of North Carolina."
+  },
+  {
+    "key": "governor.ND",
+    "value_en": "Kelly Armstrong",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of North Dakota, National Governors Association roster."
+  },
+  {
+    "key": "senators.ND",
+    "value_en": "John Hoeven and Kevin Cramer",
+    "values_en": [
+      "John Hoeven",
+      "Kevin Cramer"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for North Dakota; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.ND",
+    "value_en": "Bismarck",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of North Dakota."
+  },
+  {
+    "key": "governor.NE",
+    "value_en": "Jim Pillen",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Nebraska, National Governors Association roster."
+  },
+  {
+    "key": "senators.NE",
+    "value_en": "Deb Fischer and Pete Ricketts",
+    "values_en": [
+      "Deb Fischer",
+      "Pete Ricketts"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Nebraska; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NE",
+    "value_en": "Lincoln",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Nebraska."
+  },
+  {
+    "key": "governor.NH",
+    "value_en": "Kelly Ayotte",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of New Hampshire, National Governors Association roster."
+  },
+  {
+    "key": "senators.NH",
+    "value_en": "Jeanne Shaheen and Margaret Wood Hassan",
+    "values_en": [
+      "Jeanne Shaheen",
+      "Margaret Wood Hassan"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for New Hampshire; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NH",
+    "value_en": "Concord",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of New Hampshire."
+  },
+  {
+    "key": "governor.NJ",
+    "value_en": "Mikie Sherrill",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of New Jersey, National Governors Association roster."
+  },
+  {
+    "key": "senators.NJ",
+    "value_en": "Cory A. Booker and Andy Kim",
+    "values_en": [
+      "Cory A. Booker",
+      "Andy Kim"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for New Jersey; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NJ",
+    "value_en": "Trenton",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of New Jersey."
+  },
+  {
+    "key": "governor.NM",
+    "value_en": "Michelle Lujan Grisham",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of New Mexico, National Governors Association roster."
+  },
+  {
+    "key": "senators.NM",
+    "value_en": "Martin Heinrich and Ben Ray Luján",
+    "values_en": [
+      "Martin Heinrich",
+      "Ben Ray Luján"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for New Mexico; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NM",
+    "value_en": "Santa Fe",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of New Mexico."
+  },
+  {
+    "key": "governor.NV",
+    "value_en": "Joe Lombardo",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Nevada, National Governors Association roster."
+  },
+  {
+    "key": "senators.NV",
+    "value_en": "Catherine Cortez Masto and Jacky Rosen",
+    "values_en": [
+      "Catherine Cortez Masto",
+      "Jacky Rosen"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Nevada; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NV",
+    "value_en": "Carson City",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Nevada."
+  },
+  {
+    "key": "governor.NY",
+    "value_en": "Kathy Hochul",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of New York, National Governors Association roster."
+  },
+  {
+    "key": "senators.NY",
+    "value_en": "Kirsten E. Gillibrand and Charles E. Schumer",
+    "values_en": [
+      "Kirsten E. Gillibrand",
+      "Charles E. Schumer"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for New York; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.NY",
+    "value_en": "Albany",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of New York."
+  },
+  {
+    "key": "governor.OH",
+    "value_en": "Mike DeWine",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Ohio, National Governors Association roster."
+  },
+  {
+    "key": "senators.OH",
+    "value_en": "Bernie Moreno and Jon Husted",
+    "values_en": [
+      "Bernie Moreno",
+      "Jon Husted"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Ohio; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.OH",
+    "value_en": "Columbus",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Ohio."
+  },
+  {
+    "key": "governor.OK",
+    "value_en": "Kevin Stitt",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Oklahoma, National Governors Association roster."
+  },
+  {
+    "key": "senators.OK",
+    "value_en": "James Lankford and Alan Armstrong",
+    "values_en": [
+      "James Lankford",
+      "Alan Armstrong"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Oklahoma; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.OK",
+    "value_en": "Oklahoma City",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Oklahoma."
+  },
+  {
+    "key": "governor.OR",
+    "value_en": "Tina Kotek",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Oregon, National Governors Association roster."
+  },
+  {
+    "key": "senators.OR",
+    "value_en": "Jeff Merkley and Ron Wyden",
+    "values_en": [
+      "Jeff Merkley",
+      "Ron Wyden"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Oregon; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.OR",
+    "value_en": "Salem",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Oregon."
+  },
+  {
+    "key": "governor.PA",
+    "value_en": "Josh Shapiro",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Pennsylvania, National Governors Association roster."
+  },
+  {
+    "key": "senators.PA",
+    "value_en": "John Fetterman and David McCormick",
+    "values_en": [
+      "John Fetterman",
+      "David McCormick"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Pennsylvania; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.PA",
+    "value_en": "Harrisburg",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Pennsylvania."
+  },
+  {
+    "key": "governor.RI",
+    "value_en": "Dan McKee",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Rhode Island, National Governors Association roster."
+  },
+  {
+    "key": "senators.RI",
+    "value_en": "Sheldon Whitehouse and Jack Reed",
+    "values_en": [
+      "Sheldon Whitehouse",
+      "Jack Reed"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Rhode Island; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.RI",
+    "value_en": "Providence",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Rhode Island."
+  },
+  {
+    "key": "governor.SC",
+    "value_en": "Henry McMaster",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of South Carolina, National Governors Association roster."
+  },
+  {
+    "key": "senators.SC",
+    "value_en": "Tim Scott and Darline Graham",
+    "values_en": [
+      "Tim Scott",
+      "Darline Graham"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for South Carolina; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.SC",
+    "value_en": "Columbia",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of South Carolina."
+  },
+  {
+    "key": "governor.SD",
+    "value_en": "Larry Rhoden",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of South Dakota, National Governors Association roster."
+  },
+  {
+    "key": "senators.SD",
+    "value_en": "John Thune and Mike Rounds",
+    "values_en": [
+      "John Thune",
+      "Mike Rounds"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for South Dakota; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.SD",
+    "value_en": "Pierre",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of South Dakota."
+  },
+  {
+    "key": "governor.TN",
+    "value_en": "Bill Lee",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Tennessee, National Governors Association roster."
+  },
+  {
+    "key": "senators.TN",
+    "value_en": "Marsha Blackburn and Bill Hagerty",
+    "values_en": [
+      "Marsha Blackburn",
+      "Bill Hagerty"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Tennessee; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.TN",
+    "value_en": "Nashville",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Tennessee."
+  },
+  {
+    "key": "governor.TX",
+    "value_en": "Greg Abbott",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Texas, National Governors Association roster."
+  },
+  {
+    "key": "senators.TX",
+    "value_en": "John Cornyn and Ted Cruz",
+    "values_en": [
+      "John Cornyn",
+      "Ted Cruz"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Texas; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.TX",
+    "value_en": "Austin",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Texas."
+  },
+  {
+    "key": "governor.UT",
+    "value_en": "Spencer Cox",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Utah, National Governors Association roster."
+  },
+  {
+    "key": "senators.UT",
+    "value_en": "Mike Lee and John R. Curtis",
+    "values_en": [
+      "Mike Lee",
+      "John R. Curtis"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Utah; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.UT",
+    "value_en": "Salt Lake City",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Utah."
+  },
+  {
+    "key": "governor.VA",
+    "value_en": "Abigail Spanberger",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Virginia, National Governors Association roster."
+  },
+  {
+    "key": "senators.VA",
+    "value_en": "Mark R. Warner and Tim Kaine",
+    "values_en": [
+      "Mark R. Warner",
+      "Tim Kaine"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Virginia; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.VA",
+    "value_en": "Richmond",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Virginia."
+  },
+  {
+    "key": "governor.VT",
+    "value_en": "Phil Scott",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Vermont, National Governors Association roster."
+  },
+  {
+    "key": "senators.VT",
+    "value_en": "Bernard Sanders and Peter Welch",
+    "values_en": [
+      "Bernard Sanders",
+      "Peter Welch"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Vermont; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.VT",
+    "value_en": "Montpelier",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Vermont."
+  },
+  {
+    "key": "governor.WA",
+    "value_en": "Bob Ferguson",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Washington, National Governors Association roster."
+  },
+  {
+    "key": "senators.WA",
+    "value_en": "Maria Cantwell and Patty Murray",
+    "values_en": [
+      "Maria Cantwell",
+      "Patty Murray"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Washington; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.WA",
+    "value_en": "Olympia",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Washington."
+  },
+  {
+    "key": "governor.WI",
+    "value_en": "Tony Evers",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Wisconsin, National Governors Association roster."
+  },
+  {
+    "key": "senators.WI",
+    "value_en": "Tammy Baldwin and Ron Johnson",
+    "values_en": [
+      "Tammy Baldwin",
+      "Ron Johnson"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Wisconsin; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.WI",
+    "value_en": "Madison",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Wisconsin."
+  },
+  {
+    "key": "governor.WV",
+    "value_en": "Patrick Morrisey",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of West Virginia, National Governors Association roster."
+  },
+  {
+    "key": "senators.WV",
+    "value_en": "Shelley Moore Capito and James C. Justice",
+    "values_en": [
+      "Shelley Moore Capito",
+      "James C. Justice"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for West Virginia; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.WV",
+    "value_en": "Charleston",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of West Virginia."
+  },
+  {
+    "key": "governor.WY",
+    "value_en": "Mark Gordon",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Wyoming, National Governors Association roster."
+  },
+  {
+    "key": "senators.WY",
+    "value_en": "John Barrasso and Cynthia M. Lummis",
+    "values_en": [
+      "John Barrasso",
+      "Cynthia M. Lummis"
+    ],
+    "sourceUrl": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+    "verified": "2026-10-12",
+    "note": "U.S. senators for Wyoming; either name is a correct answer. Cross-checked against GovTrack."
+  },
+  {
+    "key": "capital.WY",
+    "value_en": "Cheyenne",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Wyoming."
+  },
+  {
+    "key": "governor.AS",
+    "value_en": "Pula’ali’i Nikolao Pula",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of American Samoa (territory), NGA roster."
+  },
+  {
+    "key": "senators.AS",
+    "value_en": "American Samoa has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: residents of U.S. territories should answer that the territory has no U.S. Senators."
+  },
+  {
+    "key": "capital.AS",
+    "value_en": "Pago Pago",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of American Samoa (territory); USCIS accepts the territory's capital."
+  },
+  {
+    "key": "governor.DC",
+    "value_en": "D.C. does not have a Governor",
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: District of Columbia residents should answer that D.C. does not have a Governor."
+  },
+  {
+    "key": "senators.DC",
+    "value_en": "D.C. has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: D.C. residents should answer that D.C. has no U.S. Senators."
+  },
+  {
+    "key": "capital.DC",
+    "value_en": "D.C. is not a state and does not have a capital",
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: D.C. residents should answer that D.C. is not a state and does not have a capital."
+  },
+  {
+    "key": "governor.GU",
+    "value_en": "Lou Leon Guerrero",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Guam (territory), NGA roster."
+  },
+  {
+    "key": "senators.GU",
+    "value_en": "Guam has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: residents of U.S. territories should answer that the territory has no U.S. Senators."
+  },
+  {
+    "key": "capital.GU",
+    "value_en": "Hagåtña",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Guam (territory); USCIS accepts the territory's capital."
+  },
+  {
+    "key": "governor.MP",
+    "value_en": "David M. Apatang",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Northern Mariana Islands (territory), NGA roster."
+  },
+  {
+    "key": "senators.MP",
+    "value_en": "Northern Mariana Islands has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: residents of U.S. territories should answer that the territory has no U.S. Senators."
+  },
+  {
+    "key": "capital.MP",
+    "value_en": "Saipan",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Northern Mariana Islands (territory); USCIS accepts the territory's capital."
+  },
+  {
+    "key": "governor.PR",
+    "value_en": "Jenniffer González-Colón",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of Puerto Rico (territory), NGA roster."
+  },
+  {
+    "key": "senators.PR",
+    "value_en": "Puerto Rico has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: residents of U.S. territories should answer that the territory has no U.S. Senators."
+  },
+  {
+    "key": "capital.PR",
+    "value_en": "San Juan",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of Puerto Rico (territory); USCIS accepts the territory's capital."
+  },
+  {
+    "key": "governor.VI",
+    "value_en": "Albert Bryan",
+    "sourceUrl": "https://www.nga.org/governors/",
+    "verified": "2026-10-12",
+    "note": "Governor of U.S. Virgin Islands (territory), NGA roster."
+  },
+  {
+    "key": "senators.VI",
+    "value_en": "U.S. Virgin Islands has no U.S. Senators",
+    "values_en": [],
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "USCIS: residents of U.S. territories should answer that the territory has no U.S. Senators."
+  },
+  {
+    "key": "capital.VI",
+    "value_en": "Charlotte Amalie",
+    "sourceUrl": "https://www.usa.gov/states-and-territories",
+    "verified": "2026-10-12",
+    "note": "Capital of U.S. Virgin Islands (territory); USCIS accepts the territory's capital."
+  },
+  {
+    "key": "test_cutoff_date",
+    "value_en": "2025-10-20",
+    "scope": "app",
+    "sourceUrl": "https://www.uscis.gov/citizenship-resource-center/naturalization-test-and-study-resources/2025-civics-test",
+    "verified": "2026-10-12",
+    "note": "N-400 filed before this date: 2008 test (100 questions, 10 asked, 6 to pass). On or after: 2025 test (128, 20 asked, 12 to pass)."
+  },
+  {
+    "key": "testupdates_reviewed",
+    "value_en": "09/18/2025",
+    "scope": "app",
+    "sourceUrl": "https://www.uscis.gov/citizenship/testupdates",
+    "verified": "2026-10-12",
+    "note": "When USCIS last reviewed its own answers page; this app verifies against primary sources instead."
+  }
+]
