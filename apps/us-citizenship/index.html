@@ -129,7 +129,7 @@
     <div class="how-step fade-in delay-1">
       <div class="step-num">1</div>
       <h3>Find out which test is yours</h3>
-      <p>Two civics tests are in use, and which one you take depends on the day you filed Form N-400. Tell the app and it studies you for the right list.</p>
+      <p>Two civics tests are in use, and which one you take depends on the day you filed Form N-400. <a href="#which-test" data-ph-event="landing_cta_click" data-ph-label="step-checker">Check yours below</a>, and the app studies you for the right list.</p>
     </div>
     <div class="how-step fade-in delay-1">
       <div class="step-num">2</div>
@@ -148,6 +148,20 @@
     </div>
   </div>
   <p class="cz-guide-link fade-in"><a href="/apps/us-citizenship/test-guide/" data-ph-event="guide_link_click" data-ph-label="landing">Read our full guide to the test &rarr;</a></p>
+</section>
+
+<!-- Which civics test is mine? -->
+<section class="cz-checker-section" id="which-test">
+  <div class="section-label fade-in">Which test is yours?</div>
+  <h2 class="section-title fade-in delay-1">Find your civics test in ten seconds</h2>
+  <form class="cz-checker fade-in delay-1" id="civics-checker" novalidate>
+    <label class="cz-checker-label" for="n400-date">When did USCIS receive your Form N-400?</label>
+    <input class="cz-checker-date" type="date" id="n400-date" min="2010-01-01" max="2035-12-31">
+    <label class="cz-checker-check"><input type="checkbox" id="n400-not-yet"> I haven't filed yet</label>
+    <label class="cz-checker-check"><input type="checkbox" id="n400-6520"> I'm 65 or older and have been a permanent resident for 20 years or more</label>
+    <output class="cz-checker-result" id="civics-result" for="n400-date n400-not-yet n400-6520" aria-live="polite">Pick the date USCIS received your N-400, or tick &ldquo;not filed yet&rdquo;.</output>
+  </form>
+  <p class="cz-source fade-in">Based on USCIS&rsquo;s <a href="https://www.uscis.gov/citizenship/testupdates" rel="noopener">test updates</a> and <a href="https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test" rel="noopener">study</a> pages. Your date stays in your browser. Not legal advice; your interview notice and USCIS have the final word.</p>
 </section>
 
 <!-- Features -->
@@ -331,6 +345,7 @@
 </footer>
 
 <script src="/js/site.js"></script>
+<script src="/js/civics-checker.js" defer></script>
 
 </body>
 </html>
