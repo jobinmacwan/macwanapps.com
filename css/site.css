@@ -3187,32 +3187,59 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
    Same structure as the Canada landing above, which keeps its own
    tested block. Light, dark and mobile.
    ============================================================ */
+/* Each country in its flag colours. --cz-rgb carries text, links and icons
+   (always readable on white); the second flag colour goes on buttons,
+   pills, step badges and glows. Canada keeps its own maple block above. */
 .theme-cz-au {
-  --cz-rgb: 31, 111, 80;      /* eucalyptus — the app's accent */
-  --cz-deep-rgb: 22, 82, 57;
-  --cz-warm-rgb: 214, 158, 22; /* wattle */
-  --cz-tint: #f3f8f4;
-  --cz-hero-top: #edf6f0;
-  --cz-cta: #1f6f50;
-  --cz-cta-hover: #165239;
+  --cz-rgb: 0, 132, 61;           /* national green #00843D (4.8:1 on white) */
+  --cz-deep-rgb: 0, 102, 51;
+  --cz-warm-rgb: 255, 205, 0;     /* national gold #FFCD00 */
+  --cz-tint: #fffbe8;
+  --cz-hero-top: #f1f8ef;
+  --cz-cta: #ffcd00;              /* gold buttons carry dark text, never white */
+  --cz-cta-hover: #f2bd00;
+  --cz-cta-ink: #1b1b1b;
+  --cz-pill-bg: #fff5cc;
+  --cz-pill-fg: #5c4600;
+  --cz-pill-border: #e6b800;
+  --cz-step-a: #ffd84d;
+  --cz-step-b: #f2b705;
+  --cz-step-ink: #1b1b1b;
+  --cz-step-glow: 230, 184, 0;
 }
 .theme-cz-us {
-  --cz-rgb: 31, 78, 122;      /* navy — the app's accent */
-  --cz-deep-rgb: 22, 58, 91;
-  --cz-warm-rgb: 178, 34, 52;  /* flag red, used sparingly */
-  --cz-tint: #f3f6fa;
-  --cz-hero-top: #edf2f8;
-  --cz-cta: #1f4e7a;
-  --cz-cta-hover: #163a5b;
+  --cz-rgb: 10, 49, 97;           /* Old Glory Blue #0A3161 */
+  --cz-deep-rgb: 6, 31, 64;
+  --cz-warm-rgb: 179, 25, 66;     /* Old Glory Red #B31942 */
+  --cz-tint: #f3f5fa;
+  --cz-hero-top: #eef2f9;
+  --cz-cta: #b31942;              /* white on red: 6.7:1 */
+  --cz-cta-hover: #93143a;
+  --cz-cta-ink: #ffffff;
+  --cz-pill-bg: #fcebef;
+  --cz-pill-fg: #8e1435;
+  --cz-pill-border: #b31942;
+  --cz-step-a: #c8264f;
+  --cz-step-b: #93143a;
+  --cz-step-ink: #ffffff;
+  --cz-step-glow: 179, 25, 66;
 }
 .theme-cz-nz {
-  --cz-rgb: 14, 116, 112;     /* pounamu */
-  --cz-deep-rgb: 10, 84, 81;
-  --cz-warm-rgb: 79, 163, 199; /* sky */
-  --cz-tint: #f1f8f7;
-  --cz-hero-top: #ebf6f5;
-  --cz-cta: #0e7470;
-  --cz-cta-hover: #0a5451;
+  --cz-rgb: 17, 17, 17;           /* black and white, silver for the glow */
+  --cz-deep-rgb: 0, 0, 0;
+  --cz-warm-rgb: 140, 146, 156;
+  --cz-tint: #f4f4f5;
+  --cz-hero-top: #f2f2f3;
+  --cz-cta: #111111;
+  --cz-cta-hover: #000000;
+  --cz-cta-ink: #ffffff;
+  --cz-pill-bg: #ffffff;
+  --cz-pill-fg: #111111;
+  --cz-pill-border: #111111;
+  --cz-step-a: #2a2a2a;
+  --cz-step-b: #000000;
+  --cz-step-ink: #ffffff;
+  --cz-step-glow: 0, 0, 0;
 }
 .theme-cz {
   --accent: rgb(var(--cz-rgb));
@@ -3254,8 +3281,16 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   background: rgba(255, 255, 255, 0.85);
   border-bottom-color: var(--border);
 }
-.theme-cz nav .nav-links a.nav-cta { color: #fff; background: var(--cz-cta); }
-.theme-cz nav .nav-links a.nav-cta:hover { color: #fff; background: var(--cz-cta-hover); }
+.theme-cz nav .nav-links a.nav-cta { color: var(--cz-cta-ink); background: var(--cz-cta); }
+.theme-cz nav .nav-links a.nav-cta:hover { color: var(--cz-cta-ink); background: var(--cz-cta-hover); }
+.theme-cz .coming-soon-pill {
+  background: var(--cz-pill-bg);
+  color: var(--cz-pill-fg);
+  border-color: var(--cz-pill-border);
+}
+.theme-cz .contact-btn { background: var(--cz-cta); color: var(--cz-cta-ink); }
+.theme-cz .contact-btn:hover { background: var(--cz-cta-hover); }
+.theme-cz .contact-btn svg { fill: var(--cz-cta-ink); }
 
 .theme-cz .hero-split-shot { position: relative; }
 .theme-cz .hero-split-shot::before {
@@ -3285,9 +3320,9 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 }
 .theme-cz .how-grid { max-width: 976px; margin-left: auto; margin-right: auto; }
 .theme-cz .step-num {
-  background: linear-gradient(135deg, rgb(var(--cz-rgb)), rgb(var(--cz-deep-rgb)));
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(var(--cz-rgb), 0.25);
+  background: linear-gradient(135deg, var(--cz-step-a), var(--cz-step-b));
+  color: var(--cz-step-ink);
+  box-shadow: 0 4px 12px rgba(var(--cz-step-glow), 0.28);
 }
 
 .theme-cz .features-section {
@@ -3470,9 +3505,33 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 .cz-family .dot-sep { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: var(--border-strong); margin: 0 10px; vertical-align: middle; }
 
 @media (prefers-color-scheme: dark) {
-  .theme-cz-au { --cz-rgb: 92, 194, 154; --cz-deep-rgb: 60, 150, 116; --cz-warm-rgb: 230, 182, 60; --cz-tint: #0f1714; --cz-hero-top: #0d1512; }
-  .theme-cz-us { --cz-rgb: 121, 172, 217; --cz-deep-rgb: 86, 136, 184; --cz-warm-rgb: 224, 96, 110; --cz-tint: #0f131a; --cz-hero-top: #0d1219; }
-  .theme-cz-nz { --cz-rgb: 79, 193, 184; --cz-deep-rgb: 52, 152, 145; --cz-warm-rgb: 116, 190, 222; --cz-tint: #0e1716; --cz-hero-top: #0c1514; }
+  .theme-cz-au {
+    --cz-rgb: 77, 201, 132; --cz-deep-rgb: 0, 132, 61; --cz-warm-rgb: 255, 205, 0;
+    --cz-tint: #16150b; --cz-hero-top: #12140d;
+    --cz-cta: #ffcd00; --cz-cta-hover: #ffd84d; --cz-cta-ink: #111111;
+    --cz-pill-bg: rgba(255, 205, 0, 0.14); --cz-pill-fg: #ffd84d; --cz-pill-border: #ffcd00;
+    --cz-step-a: #ffd84d; --cz-step-b: #e6b800; --cz-step-ink: #111111; --cz-step-glow: 255, 205, 0;
+  }
+  .theme-cz-us {
+    --cz-rgb: 143, 180, 230; --cz-deep-rgb: 98, 140, 200; --cz-warm-rgb: 214, 72, 105;
+    --cz-tint: #0e1320; --cz-hero-top: #0c1120;
+    --cz-cta: #b31942; --cz-cta-hover: #c8264f; --cz-cta-ink: #ffffff;
+    --cz-pill-bg: rgba(214, 72, 105, 0.16); --cz-pill-fg: #f28aa3; --cz-pill-border: #d64869;
+    --cz-step-a: #d64869; --cz-step-b: #b31942; --cz-step-ink: #ffffff; --cz-step-glow: 214, 72, 105;
+  }
+  /* The black NZ emblem needs an edge to show on a black page. */
+  .theme-cz-nz .cc-hero-icon,
+  .theme-cz-nz .cz-cta-icon,
+  .theme-cz-nz nav .brand img { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22); }
+  .theme-cz-nz nav .brand img { border-radius: 6px; }
+  .card-cz-nz .app-icon { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22); }
+  .theme-cz-nz {
+    --cz-rgb: 245, 245, 245; --cz-deep-rgb: 212, 212, 216; --cz-warm-rgb: 161, 161, 170;
+    --cz-tint: #141416; --cz-hero-top: #0a0a0b;
+    --cz-cta: #f5f5f5; --cz-cta-hover: #ffffff; --cz-cta-ink: #0b0b0b;
+    --cz-pill-bg: rgba(255, 255, 255, 0.06); --cz-pill-fg: #f5f5f5; --cz-pill-border: #f5f5f5;
+    --cz-step-a: #ffffff; --cz-step-b: #d4d4d8; --cz-step-ink: #0b0b0b; --cz-step-glow: 0, 0, 0;
+  }
   .theme-cz nav {
     background: rgba(14, 15, 18, 0.55);
     border-bottom: 1px solid rgba(var(--cz-rgb), 0.12);
@@ -3486,7 +3545,6 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
     border-color: rgba(var(--cz-rgb), 0.18);
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
   }
-  .theme-cz .step-num { color: #0e0f12; }
   .cz-planned { color: rgb(var(--cz-rgb)); }
 }
 
@@ -3505,21 +3563,30 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 }
 
 /* Citizenship apps on the homepage: one card style, coloured per country */
-.card-cz-au { --card-rgb: 31, 111, 80; --card-deep: #165239; --card-bg1: #f2f8f4; --card-bg2: #e2f0e7; }
-.card-cz-us { --card-rgb: 31, 78, 122; --card-deep: #163a5b; --card-bg1: #f2f6fa; --card-bg2: #e1eaf4; }
-.card-cz-nz { --card-rgb: 14, 116, 112; --card-deep: #0a5451; --card-bg1: #f0f8f7; --card-bg2: #dff0ee; }
+.card-cz-au {
+  --card-rgb: 0, 132, 61; --card-glow: 255, 205, 0; --card-bg1: #fffbe8; --card-bg2: #e6f4ea;
+  --card-pill-bg: #fff5cc; --card-pill-fg: #5c4600; --card-pill-dot: #e6b800;
+}
+.card-cz-us {
+  --card-rgb: 10, 49, 97; --card-glow: 179, 25, 66; --card-bg1: #eef2f9; --card-bg2: #fbeef1;
+  --card-pill-bg: #fcebef; --card-pill-fg: #8e1435; --card-pill-dot: #b31942;
+}
+.card-cz-nz {
+  --card-rgb: 17, 17, 17; --card-glow: 0, 0, 0; --card-bg1: #f6f6f7; --card-bg2: #e4e4e7;
+  --card-pill-bg: #f1f1f2; --card-pill-fg: #111111; --card-pill-dot: #111111;
+}
 .card-cz:hover {
   border-color: rgba(var(--card-rgb), 0.35);
   box-shadow: 0 12px 48px rgba(var(--card-rgb), 0.14);
 }
-.card-cz .app-status.app-status-soon { background: rgba(var(--card-rgb), 0.09); color: var(--card-deep); }
-.card-cz .app-status.app-status-soon::before { background: rgb(var(--card-rgb)); }
+.card-cz .app-status.app-status-soon { background: var(--card-pill-bg); color: var(--card-pill-fg); }
+.card-cz .app-status.app-status-soon::before { background: var(--card-pill-dot); }
 .card-cz .app-mini-list li::before { background: rgba(var(--card-rgb), 0.12); }
 .card-cz .app-mini-list li::after { border-color: rgb(var(--card-rgb)); }
 .card-cz .app-preview {
   border-left-color: rgba(var(--card-rgb), 0.14);
   background:
-    radial-gradient(ellipse 80% 60% at 50% 110%, rgba(var(--card-rgb), 0.14), transparent),
+    radial-gradient(ellipse 80% 60% at 50% 110%, rgba(var(--card-glow), 0.16), transparent),
     linear-gradient(160deg, var(--card-bg1) 0%, var(--card-bg2) 100%);
 }
 .card-cz .app-preview img {
@@ -3529,9 +3596,18 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 .app-card-compact .app-card-inner { padding: 32px 40px; }
 .app-card-compact .app-tagline { max-width: 620px; }
 @media (prefers-color-scheme: dark) {
-  .card-cz-au { --card-rgb: 92, 194, 154; --card-deep: #7fd4b2; --card-bg1: #101814; --card-bg2: #0d1411; }
-  .card-cz-us { --card-rgb: 121, 172, 217; --card-deep: #9dc3e6; --card-bg1: #10141b; --card-bg2: #0d1117; }
-  .card-cz-nz { --card-rgb: 79, 193, 184; --card-deep: #7fd6cf; --card-bg1: #0f1817; --card-bg2: #0c1413; }
+  .card-cz-au {
+    --card-rgb: 77, 201, 132; --card-glow: 255, 205, 0; --card-bg1: #17160c; --card-bg2: #0e1611;
+    --card-pill-bg: rgba(255, 205, 0, 0.14); --card-pill-fg: #ffd84d; --card-pill-dot: #ffcd00;
+  }
+  .card-cz-us {
+    --card-rgb: 143, 180, 230; --card-glow: 214, 72, 105; --card-bg1: #0e1320; --card-bg2: #1a0f15;
+    --card-pill-bg: rgba(214, 72, 105, 0.16); --card-pill-fg: #f28aa3; --card-pill-dot: #d64869;
+  }
+  .card-cz-nz {
+    --card-rgb: 245, 245, 245; --card-glow: 255, 255, 255; --card-bg1: #151517; --card-bg2: #0b0b0c;
+    --card-pill-bg: rgba(255, 255, 255, 0.08); --card-pill-fg: #f5f5f5; --card-pill-dot: #f5f5f5;
+  }
   .card-cz .app-preview img { box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.4); }
 }
 @media (max-width: 760px) {
