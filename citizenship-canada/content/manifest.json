@@ -1,0 +1,12 @@
+{
+  "checksums": {
+    "facts.json": "18fdcd08e3f2b3785a84af94b230eafcdb5eff338b1e0e35fa89c9482cc75a66",
+    "glossary.json": "3b1a1d6bb7c493664df0d33af1f7996cc2ef800b9a93f7c6538427d7dcdb5139",
+    "lessons.json": "d0acb4d3993dccccd96272927a52c04dcc36966d6666ca0af466af4383241407",
+    "questions.json": "4c4eeb51956cf4bb1c949cc3d3a7c0fe8ee242c78be81291a81a21c1ff8abc5f"
+  },
+  "contentVersion": 8,
+  "notes": "2026-09-15: French guide references (guideRef_fr) on every question",
+  "publishedAt": "2026-09-15T02:54:33+00:00",
+  "schemaVersion": 1
+}
