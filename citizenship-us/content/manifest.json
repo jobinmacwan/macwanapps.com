@@ -1,0 +1,14 @@
+{
+  "checksums": {
+    "facts.json": "146c3790f1df8c695275d4f56a15183ff53a842cf666ac6817fa1290ad9f4490",
+    "glossary.json": "25935337baaa61d4ae39fad4e27d5f94777a259df5c57b35b63d52ebc9f3383f",
+    "guide_sections.json": "8fe82519b258d4e6f621352b91fad4baf43493290c69f834c37ad68a2e6614be",
+    "lessons.json": "5de1879e7759fab53a4725b67329b9004bfab9d700920f011b5453f4b076fe20",
+    "questions.json": "46a9971eb35e8127fcaa956e5427e1f480586ef395e8be21bb310b9ead851adc",
+    "vocabulary.json": "fa0ee0795f8b2ccaf0418036c594af0b4d82f0326e48465bc712cbf3ac2f0958"
+  },
+  "contentVersion": 0,
+  "notes": "Placeholder: the files are bundled content version 5. contentVersion 0 so no device adopts them; the next real publish supersedes this.",
+  "publishedAt": "2026-10-12T18:48:14+00:00",
+  "schemaVersion": 1
+}

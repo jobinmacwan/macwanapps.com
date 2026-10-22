@@ -51,3 +51,17 @@ const countObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.4 });
 
 document.querySelectorAll('[data-count]').forEach(el => countObserver.observe(el));
+
+// Product events: any element with data-ph-event="name" reports a click to
+// PostHog with the page language and the link target, e.g.
+// <a data-ph-event="landing_cta_click" data-ph-label="nav">.
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('[data-ph-event]');
+  if (!el || !window.posthog || typeof window.posthog.capture !== 'function') return;
+  window.posthog.capture(el.dataset.phEvent, {
+    label: el.dataset.phLabel || (el.textContent || '').trim().slice(0, 60),
+    href: el.getAttribute('href') || null,
+    page_lang: document.documentElement.lang,
+    page_path: location.pathname,
+  });
+});

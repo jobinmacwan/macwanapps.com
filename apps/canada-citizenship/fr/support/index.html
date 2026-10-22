@@ -25,6 +25,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fdf3f1">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171013">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-600.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script type="application/ld+json">
@@ -102,6 +106,7 @@
 <script src="/js/analytics.js" defer></script>
 </head>
 <body class="theme-canada-citizenship">
+<a class="skip-link" href="#main">Aller au contenu</a>
 
 <nav>
   <div class="nav-inner">
@@ -115,11 +120,12 @@
       <a href="/blog/">Blog</a>
       <a href="/profile/">Founder</a>
       <a href="/apps/canada-citizenship/fr/support/">Soutien</a>
-      <a href="/apps/canada-citizenship/fr/" class="nav-cta">Obtenir l'application</a>
+      <a href="/apps/canada-citizenship/fr/" class="nav-cta" data-ph-event="landing_cta_click" data-ph-label="nav-subpage">Obtenir l'application</a>
     </div>
   </div>
 </nav>
 
+<main id="main">
 <section class="hero hero-sub">
   <h1 class="hero-anim stagger-1">Soutien et FAQ</h1>
   <p class="subtitle hero-anim stagger-2" style="margin: 20px auto 0;">Citoyenneté canadienne 2027 — réponses aux questions courantes. Vous ne trouvez pas la vôtre? Écrivez-nous; un vrai humain (le développeur) lit chaque message.</p>
@@ -178,8 +184,10 @@
     support@macwanapps.com
   </a>
   <span class="contact-hint">Réponse habituellement sous 1 à 2 jours ouvrables</span>
-  <p class="contact-hint" style="margin-top: 10px;"><a href="/apps/canada-citizenship/support/" hreflang="en-CA" lang="en">Read this page in English</a></p>
+  <p class="contact-hint" style="margin-top: 10px;"><a href="/apps/canada-citizenship/support/" hreflang="en-CA" lang="en" data-ph-event="language_switch" data-ph-label="body">Read this page in English</a></p>
 </section>
+
+</main>
 
 <!-- Footer -->
 <footer>
@@ -194,7 +202,7 @@
       <a href="/press/">Presse</a>
       <a href="/apps/canada-citizenship/fr/privacy/">Confidentialité</a>
       <a href="/apps/canada-citizenship/fr/terms/">Conditions</a>
-      <a href="/apps/canada-citizenship/support/" hreflang="en-CA" lang="en">English</a>
+      <a href="/apps/canada-citizenship/support/" hreflang="en-CA" lang="en" data-ph-event="language_switch" data-ph-label="footer">English</a>
     </div>
     <div class="footer-social">
       <a href="https://github.com/jobinmacwan" aria-label="GitHub">

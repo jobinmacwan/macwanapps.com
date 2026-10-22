@@ -1,0 +1,171 @@
+[
+  {
+    "key": "monarch",
+    "value_en": "King Charles III is Australia's Head of State (the King of Australia).",
+    "sourceUrl": "https://www.royal.uk/the-king",
+    "verified": "2026-10-05",
+    "note": "Became King on 8 September 2022. The booklet (Nov 2024) names him on p.26. Verified 2026-10-05 via royal.uk; gg.gov.au refused direct connections from this network."
+  },
+  {
+    "key": "governor_general",
+    "value_en": "Her Excellency the Honourable Sam Mostyn AC is the Governor-General of Australia (28th), sworn in on 1 July 2024.",
+    "sourceUrl": "https://www.gg.gov.au/about-governor-general",
+    "verified": "2026-10-05",
+    "note": "Verified 2026-10-05 from gg.gov.au pages ('About the Governor-General', appointment media release) via search index; direct fetch of gg.gov.au failed (TLS/HTTP2 error from this network). Not named in the booklet — the test asks what the Governor-General represents, not who holds the office."
+  },
+  {
+    "key": "prime_minister",
+    "value_en": "The Hon Anthony Albanese MP (Australian Labor Party) is the Prime Minister of Australia, re-elected at the 3 May 2025 federal election.",
+    "sourceUrl": "https://www.pm.gov.au/",
+    "verified": "2026-10-05",
+    "note": "pm.gov.au header verified 2026-10-05. Not named in the booklet."
+  },
+  {
+    "key": "opposition_leader",
+    "value_en": "The Hon Angus Taylor MP (Liberal Party of Australia, Member for Hume) is the Leader of the Opposition, since February 2026.",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=Taylor&mem=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au member record lists position 'Leader of the Opposition'; liberal.org.au/our-team agrees. Verified 2026-10-05. Not named in the booklet."
+  },
+  {
+    "key": "speaker",
+    "value_en": "The Hon Milton Dick MP (Member for Oxley, Queensland) is the Speaker of the House of Representatives, first elected 26 July 2022 and re-elected 22 July 2025.",
+    "sourceUrl": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_3_-_The_Speaker",
+    "verified": "2026-10-05",
+    "note": "Infosheet 3 verified 2026-10-05. Not in the booklet."
+  },
+  {
+    "key": "senate_president",
+    "value_en": "Senator the Hon Sue Lines (Western Australia, Australian Labor Party) is the President of the Senate.",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=Lines&sen=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au senator record lists position 'President'. Verified 2026-10-05. Not in the booklet."
+  },
+  {
+    "key": "chief_justice",
+    "value_en": "The Hon Chief Justice Stephen Gageler AC is the Chief Justice of the High Court of Australia, appointed November 2023.",
+    "sourceUrl": "https://www.hcourt.gov.au/justices/current-chief-justices/hon-chief-justice-stephen-gageler-ac",
+    "verified": "2026-10-05",
+    "note": "Verified 2026-10-05 from the hcourt.gov.au justice page via search index; direct fetch of hcourt.gov.au failed from this network. Not in the booklet."
+  },
+  {
+    "key": "house_seats",
+    "value_en": "The House of Representatives has 150 members.",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=&mem=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au member search returns 150 results (48th Parliament). The booklet says 'over 150' (it was 151 when written); the 2025 redistribution set 150. Verified 2026-10-05."
+  },
+  {
+    "key": "senate_seats",
+    "value_en": "The Senate has 76 senators: 12 for each of the six states and 2 each for the Australian Capital Territory and the Northern Territory.",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=&sen=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au senator search returns 76 results. Also printed in the booklet p.28. Verified 2026-10-05."
+  },
+  {
+    "key": "last_federal_election",
+    "value_en": "The most recent federal election was held on Saturday 3 May 2025.",
+    "sourceUrl": "https://www.aec.gov.au/Elections/federal_elections/2025/",
+    "verified": "2026-10-05",
+    "note": "AEC 2025 federal election page verified 2026-10-05."
+  },
+  {
+    "key": "next_election_due",
+    "value_en": "The next federal election (House of Representatives with half-Senate) must be held by 20 May 2028; the earliest date is 7 August 2027.",
+    "sourceUrl": "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/FlagPost/2025/August/When_is_the_next_federal_election",
+    "verified": "2026-10-05",
+    "note": "Parliamentary Library FlagPost (Aug 2025). A House-only election could be as late as 23 September 2028. Timing is the Prime Minister's call within these limits."
+  },
+  {
+    "key": "premier_nsw",
+    "value_en": "Chris Minns is the Premier of New South Wales.",
+    "sourceUrl": "https://www.nsw.gov.au/nsw-government/premier",
+    "verified": "2026-10-05",
+    "note": "nsw.gov.au verified 2026-10-05. Next NSW election due March 2027."
+  },
+  {
+    "key": "premier_vic",
+    "value_en": "Ben Carroll is the Premier of Victoria (since 28 July 2026).",
+    "sourceUrl": "https://www.premier.vic.gov.au/",
+    "verified": "2026-10-05",
+    "note": "premier.vic.gov.au verified 2026-10-05. RISK: Victorian state election 28 November 2026 — re-verify after that date."
+  },
+  {
+    "key": "premier_qld",
+    "value_en": "David Crisafulli is the Premier of Queensland.",
+    "sourceUrl": "https://www.premiers.qld.gov.au/",
+    "verified": "2026-10-05",
+    "note": "premiers.qld.gov.au ('Our key people: Premier of Queensland - David Crisafulli') verified 2026-10-05."
+  },
+  {
+    "key": "premier_wa",
+    "value_en": "Roger Cook is the Premier of Western Australia.",
+    "sourceUrl": "https://www.wa.gov.au/government/premier-and-cabinet-ministers",
+    "verified": "2026-10-05",
+    "note": "wa.gov.au ministry list ('Hon Roger Cook Premier') verified 2026-10-05."
+  },
+  {
+    "key": "premier_sa",
+    "value_en": "Peter Malinauskas is the Premier of South Australia.",
+    "sourceUrl": "https://www.premier.sa.gov.au/",
+    "verified": "2026-10-05",
+    "note": "premier.sa.gov.au verified 2026-10-05. SA state election due March 2026 was held; re-verify if a change is reported."
+  },
+  {
+    "key": "premier_tas",
+    "value_en": "Jeremy Rockliff is the Premier of Tasmania.",
+    "sourceUrl": "https://www.premier.tas.gov.au/",
+    "verified": "2026-10-05",
+    "note": "premier.tas.gov.au verified 2026-10-05."
+  },
+  {
+    "key": "chief_minister_act",
+    "value_en": "Andrew Barr MLA is the Chief Minister of the Australian Capital Territory.",
+    "sourceUrl": "https://www.cmtedd.act.gov.au/",
+    "verified": "2026-10-05",
+    "note": "cmtedd.act.gov.au 'Our ministers' verified 2026-10-05."
+  },
+  {
+    "key": "chief_minister_nt",
+    "value_en": "Lia Finocchiaro is the Chief Minister of the Northern Territory.",
+    "sourceUrl": "https://chiefminister.nt.gov.au/",
+    "verified": "2026-10-05",
+    "note": "chiefminister.nt.gov.au verified 2026-10-05."
+  },
+  {
+    "key": "application_fee",
+    "value_en": "The citizenship by conferral application fee (general eligibility) is AUD 595; the concession fee is AUD 85 (from 1 July 2026).",
+    "sourceUrl": "https://immi.homeaffairs.gov.au/form-listing/forms/1298i.pdf",
+    "verified": "2026-10-05",
+    "note": "Form 1298i 'Citizenship application fees' (design date 07/26) verified 2026-10-05. Fees are indexed to CPI on 1 July each year — next change expected 1 July 2027. Sitting the test costs nothing extra."
+  },
+  {
+    "key": "booklet_edition",
+    "value_en": "The current edition of 'Australian Citizenship: Our Common Bond' (testable section, 50 pages) was published 15 November 2024.",
+    "sourceUrl": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview/our-common-bond",
+    "verified": "2026-10-05",
+    "note": "Page shows 'Last updated: 15/11/2024'. PDF copyright line still reads 2020. The 2024 edition removed the in-book practice questions and names King Charles III. Verified 2026-10-05."
+  },
+  {
+    "key": "minister",
+    "value_en": "The Hon Tony Burke MP is the Minister for Home Affairs and Minister for Immigration and Citizenship (also Minister for the Arts, Minister for Cyber Security and Leader of the House).",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=Burke&mem=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au member record verified 2026-10-05."
+  },
+  {
+    "key": "assistant_minister_citizenship",
+    "value_en": "The Hon Julian Hill MP is the Assistant Minister for Citizenship, Customs and Multicultural Affairs (and Assistant Minister for International Education).",
+    "sourceUrl": "https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=Hill&mem=1&par=-1&gen=0&ps=0&st=1",
+    "verified": "2026-10-05",
+    "note": "aph.gov.au member record verified 2026-10-05."
+  },
+  {
+    "key": "test_format",
+    "value_en": "The citizenship test has 20 multiple-choice questions with three options each, 45 minutes, in English. Pass mark: at least 15/20 overall and all 5 Australian-values questions correct.",
+    "sourceUrl": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview/learn-about-citizenship-interview-and-test/learn-about-citizenship-test",
+    "verified": "2026-10-05",
+    "note": "Home Affairs 'Learn about the citizenship test' (page updated 13/08/2026). Documentation for the exam engine; no question depends on it.",
+    "scope": "app"
+  }
+]

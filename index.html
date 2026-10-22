@@ -56,34 +56,8 @@
       "url": "https://macwanapps.com/apps/walkfirst/",
       "installUrl": "https://apps.apple.com/app/walkfirst-earn-screen-time/id6758828207",
       "description": "An app blocker that makes you earn screen time: your most distracting apps stay locked until you hit your daily step goal.",
-      "author": {
-        "@id": "https://macwanapps.com/#org"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
-    },
-    {
-      "@type": "MobileApplication",
-      "name": "Canada Citizenship 2027",
-      "operatingSystem": "iOS",
-      "applicationCategory": "EducationApplication",
-      "url": "https://macwanapps.com/apps/canada-citizenship/",
-      "description": "Study app for the Canadian citizenship test: 800+ practice questions checked against Discover Canada, lessons in English and French you can read or listen to, province question sets and timed mock exams.",
-      "inLanguage": [
-        "en-CA",
-        "fr-CA"
-      ],
-      "publisher": {
-        "@id": "https://macwanapps.com/#org"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "CAD"
-      }
+      "author": { "@id": "https://macwanapps.com/#org" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
     }
   ]
 }
@@ -91,6 +65,7 @@
 <script src="/js/analytics.js" defer></script>
 </head>
 <body class="theme-studio">
+<a class="skip-link" href="#main">Skip to content</a>
 
 <nav>
   <div class="nav-inner">
@@ -109,6 +84,7 @@
   </div>
 </nav>
 
+<main id="main">
 <!-- Hero -->
 <section class="hero">
   <a href="/apps/walkfirst/" class="hero-pill hero-anim stagger-1">WalkFirst is live on the App Store &rarr;</a>
@@ -123,10 +99,10 @@
   <div class="hero-preview hero-anim stagger-5">
     <div class="deco-rings" aria-hidden="true"></div>
     <div class="phone-frame">
-      <img src="/images/wf19-home.webp" alt="WalkFirst home screen showing steps walked toward today's goal" width="280" height="606">
+      <img src="/images/wf19-home.webp" srcset="/images/wf19-home-320.webp 320w, /images/wf19-home.webp 640w" sizes="(max-width: 900px) 240px, 280px" alt="WalkFirst home screen showing steps walked toward today's goal" width="280" height="606">
     </div>
-    <a href="/apps/walkfirst/" class="float-chip chip-1"><img src="/images/walkfirst-icon.png" alt="" class="chip-app-ico"> WalkFirst &middot; Live</a>
-    <a href="/apps/canada-citizenship/" class="float-chip chip-2 is-prelaunch"><img src="/images/canada-citizenship-icon.png" alt="" class="chip-app-ico"> Canada Citizenship 2027 &middot; <span class="store-prelaunch">Soon</span><span class="store-live">Live</span></a>
+    <a href="/apps/walkfirst/" class="float-chip chip-1"><img src="/images/walkfirst-icon.webp" alt="" class="chip-app-ico"> WalkFirst &middot; Live</a>
+    <a href="/apps/canada-citizenship/" class="float-chip chip-2"><img src="/images/canada-citizenship-icon.webp" alt="" class="chip-app-ico"> Canada Citizenship &middot; Coming soon</a>
   </div>
 </section>
 
@@ -161,12 +137,12 @@
 <section class="apps-section" id="apps">
   <div class="section-label fade-in">Our apps</div>
   <h2 class="section-title fade-in delay-1">Apps designed with purpose</h2>
-  <p class="section-subtitle fade-in delay-2">Every app we ship has one clear job — walking more, or passing your citizenship test — and does it without ads or accounts.</p>
+  <p class="section-subtitle fade-in delay-2">Every app we ship does one job well: building better habits, or getting you through your citizenship test.</p>
   <div class="apps-grid">
 
     <a href="/apps/walkfirst/" class="app-card card-walkfirst app-card-featured fade-in delay-1">
       <div class="app-card-inner">
-        <img src="/images/walkfirst-icon.png" alt="WalkFirst App Icon" class="app-icon">
+        <img src="/images/walkfirst-icon.webp" alt="WalkFirst App Icon" class="app-icon">
         <div class="app-status">Live on the App Store</div>
         <h3>WalkFirst</h3>
         <div class="app-category">App Blocker &middot; Earn Screen Time</div>
@@ -182,33 +158,90 @@
         </div>
       </div>
       <div class="app-preview">
-        <img src="/images/wf19-home.webp" alt="WalkFirst Home Screen" loading="lazy">
-        <img src="/images/wf19-apps.webp" alt="WalkFirst Apps Screen" loading="lazy">
+        <img src="/images/wf19-home.webp" srcset="/images/wf19-home-320.webp 320w, /images/wf19-home.webp 640w" sizes="(max-width: 820px) 132px, 158px" alt="WalkFirst Home Screen" loading="lazy">
+        <img src="/images/wf19-apps.webp" srcset="/images/wf19-apps-320.webp 320w, /images/wf19-apps.webp 640w" sizes="(max-width: 820px) 132px, 158px" alt="WalkFirst Apps Screen" loading="lazy">
       </div>
     </a>
 
-    <a href="/apps/canada-citizenship/" class="app-card card-canada-citizenship app-card-featured is-prelaunch fade-in delay-2">
+    <a href="/apps/canada-citizenship/" class="app-card card-canada app-card-featured fade-in delay-2" data-ph-event="home_app_card_click" data-ph-label="canada-citizenship">
       <div class="app-card-inner">
-        <img src="/images/canada-citizenship-icon.png" alt="Canada Citizenship 2027 App Icon" class="app-icon">
-        <div class="app-status"><span class="store-prelaunch">Coming soon to the App Store</span><span class="store-live">Live on the App Store</span></div>
+        <img src="/images/canada-citizenship-icon.webp" alt="Canada Citizenship 2027 app icon" class="app-icon" width="56" height="56">
+        <div class="app-status app-status-soon">Coming soon to the App Store</div>
         <h3>Canada Citizenship 2027</h3>
-        <div class="app-category">Citizenship Test Prep &middot; English &amp; French</div>
-        <p class="app-tagline">Pass the Canadian citizenship test on the first try: 800+ practice questions, lessons you can listen to, and timed mock exams.</p>
+        <div class="app-category">Test Prep &middot; English &amp; French</div>
+        <p class="app-tagline">Pass the Canadian citizenship test with confidence: 800+ questions checked against the official guide, lessons you can listen to, and timed mock exams.</p>
         <ul class="app-mini-list">
-          <li>Every answer explained and checked against <em>Discover Canada</em></li>
-          <li>Mock exams in both real formats &mdash; 20 questions, 15 to pass</li>
-          <li>Works offline. No account, no ads</li>
+          <li>Every answer explained and sourced to <em>Discover Canada</em></li>
+          <li>Narrated lessons in English and Canadian French</li>
+          <li>Question packs for all 13 provinces and territories</li>
         </ul>
         <div class="app-card-actions">
-          <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="appstore-badge-img store-live" width="120" height="40">
           <span class="learn-more">Learn more &rarr;</span>
         </div>
       </div>
       <div class="app-preview">
-        <img src="/images/cc-en-study.webp" alt="Canada Citizenship 2027 Study tab" loading="lazy">
-        <img src="/images/cc-en-exam.webp" alt="Canada Citizenship 2027 Exam tab" loading="lazy">
+        <img src="/images/cc-en-study-300.webp" alt="Canada Citizenship 2027 Study tab" loading="lazy" width="300" height="652">
+        <img src="/images/cc-en-result-300.webp" alt="Canada Citizenship 2027 mock exam result" loading="lazy" width="300" height="652">
       </div>
     </a>
+
+    <a href="/apps/australia-citizenship/" class="app-card card-cz card-cz-au app-card-featured fade-in delay-1" data-ph-event="home_app_card_click" data-ph-label="australia-citizenship">
+      <div class="app-card-inner">
+        <img src="/images/australia-citizenship-icon.webp" alt="Australian Citizenship Test app icon" class="app-icon" width="56" height="56">
+        <div class="app-status app-status-soon">Coming soon to the App Store</div>
+        <h3>Australian Citizenship Test</h3>
+        <div class="app-category">Test Prep &middot; Australia</div>
+        <p class="app-tagline">Pass the Australian citizenship test the first time: 800+ questions checked against <em>Our Common Bond</em> and mock exams in the real format.</p>
+        <ul class="app-mini-list">
+          <li>A values drill for the five questions you must get right</li>
+          <li>20 questions, 45 minutes, scored like the real test</li>
+          <li>The official booklet inside the app, always free</li>
+        </ul>
+        <div class="app-card-actions">
+          <span class="learn-more">Learn more &rarr;</span>
+        </div>
+      </div>
+      <div class="app-preview">
+        <img src="/images/au-study-300.webp" alt="Australian Citizenship Test Study tab" loading="lazy" width="300" height="652">
+        <img src="/images/au-result-300.webp" alt="Australian Citizenship Test mock exam result" loading="lazy" width="300" height="652">
+      </div>
+    </a>
+
+    <a href="/apps/us-citizenship/" class="app-card card-cz card-cz-us app-card-featured fade-in delay-2" data-ph-event="home_app_card_click" data-ph-label="us-citizenship">
+      <div class="app-card-inner">
+        <img src="/images/us-citizenship-icon.webp" alt="US Citizenship Test app icon" class="app-icon" width="56" height="56">
+        <div class="app-status app-status-soon">Coming soon to the App Store</div>
+        <h3>US Citizenship Test</h3>
+        <div class="app-category">Interview Prep &middot; United States</div>
+        <p class="app-tagline">Pass your U.S. citizenship interview the first time: every official civics question on the 2025 and 2008 tests, explained.</p>
+        <ul class="app-mini-list">
+          <li>A mock interview that stops when the officer would</li>
+          <li>Your state's senators, governor and capital, verified</li>
+          <li>The English reading and writing test, too</li>
+        </ul>
+        <div class="app-card-actions">
+          <span class="learn-more">Learn more &rarr;</span>
+        </div>
+      </div>
+      <div class="app-preview">
+        <img src="/images/us-study-300.webp" alt="US Citizenship Test Study tab" loading="lazy" width="300" height="652">
+        <img src="/images/us-interview-result-300.webp" alt="US Citizenship Test mock interview result" loading="lazy" width="300" height="652">
+      </div>
+    </a>
+
+    <a href="/apps/new-zealand-citizenship/" class="app-card card-cz card-cz-nz app-card-featured app-card-compact fade-in delay-1" data-ph-event="home_app_card_click" data-ph-label="new-zealand-citizenship">
+      <div class="app-card-inner">
+        <img src="/images/new-zealand-citizenship-icon.webp" alt="NZ Citizenship Test emblem" class="app-icon" width="56" height="56">
+        <div class="app-status app-status-soon">In development &middot; Coming late 2027</div>
+        <h3>NZ Citizenship Test</h3>
+        <div class="app-category">Test Prep &middot; New Zealand</div>
+        <p class="app-tagline">New Zealand is introducing a citizenship test from late 2027. Our study app launches once the official study material is published. Here's what's been announced so far.</p>
+        <div class="app-card-actions">
+          <span class="learn-more">What we know so far &rarr;</span>
+        </div>
+      </div>
+    </a>
+
 
   </div>
   <p class="apps-footnote fade-in">More apps are in the works — follow along on <a href="/blog/">the blog</a>.</p>
@@ -287,7 +320,7 @@
   <p class="cta-sub">WalkFirst is free to download on the App Store.</p>
   <div class="cta-badges">
     <a href="https://apps.apple.com/app/walkfirst-earn-screen-time/id6758828207" class="appstore-badge-link cta-badge-labeled">
-      <img src="/images/walkfirst-icon.png" alt="" class="cta-app-ico">
+      <img src="/images/walkfirst-icon.webp" alt="" class="cta-app-ico">
       <img src="/images/app-store-badge.svg" alt="Download WalkFirst on the App Store" width="150" height="50">
     </a>
   </div>
@@ -301,6 +334,8 @@
 </section>
 
 <!-- Footer -->
+</main>
+
 <footer>
   <div class="footer-inner">
     <div class="footer-brand">
@@ -310,6 +345,9 @@
     <div class="footer-links">
       <a href="/apps/walkfirst/">WalkFirst</a>
       <a href="/apps/canada-citizenship/">Canada Citizenship</a>
+      <a href="/apps/australia-citizenship/">Australian Citizenship</a>
+      <a href="/apps/us-citizenship/">US Citizenship</a>
+      <a href="/apps/new-zealand-citizenship/">NZ Citizenship</a>
       <a href="/blog/">Blog</a>
       <a href="/support/">Support</a>
       <a href="/press/">Press</a>

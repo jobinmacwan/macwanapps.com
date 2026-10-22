@@ -1,0 +1,314 @@
+[
+  {
+    "id": "aboriginal-and-torres-strait-islander-peoples",
+    "term_en": "Aboriginal and Torres Strait Islander peoples",
+    "definition_en": "The original inhabitants of the land that is now Australia — Aboriginal peoples of the mainland and Tasmania, and Torres Strait Islander peoples of the islands between Queensland and Papua New Guinea.",
+    "chapter": "firstpeoples"
+  },
+  {
+    "id": "australian-human-rights-commission",
+    "term_en": "Australian Human Rights Commission",
+    "definition_en": "An independent national body that looks into complaints about discrimination and breaches of human rights; racism can be reported to it.",
+    "chapter": "values"
+  },
+  {
+    "id": "australian-public-service",
+    "term_en": "Australian Public Service",
+    "definition_en": "The departments of the Australian Government and the people who work in them — for example staff at Services Australia.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "civil-unrest",
+    "term_en": "civil unrest",
+    "definition_en": "Large-scale public disorder such as demonstrations and riots, usually by people protesting against a government decision or policy.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "coalition",
+    "term_en": "coalition",
+    "definition_en": "Two or more political parties joining together, usually so they can form a government or an opposition when no single party has a majority.",
+    "chapter": "parliament"
+  },
+  {
+    "id": "commission",
+    "term_en": "commission",
+    "definition_en": "A group of people given an official responsibility — for example, the independent commission that runs elections.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "constitution",
+    "term_en": "Constitution",
+    "definition_en": "Australia's supreme law, which the government must follow; it sets out the legislative, executive and judicial powers.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "constitutional-monarchy",
+    "term_en": "constitutional monarchy",
+    "definition_en": "A country whose head of state is a king or queen whose powers are limited by the Constitution. Australia is one.",
+    "chapter": "headofstate"
+  },
+  {
+    "id": "court",
+    "term_en": "court",
+    "definition_en": "The place where a judge or magistrate hears legal cases; people who break the law may be brought there.",
+    "chapter": "law"
+  },
+  {
+    "id": "criminal-trial",
+    "term_en": "criminal trial",
+    "definition_en": "A hearing in a court that examines the facts to decide whether a person is guilty or not guilty of a crime.",
+    "chapter": "law"
+  },
+  {
+    "id": "cyber-abuse",
+    "term_en": "cyber abuse",
+    "definition_en": "Using technology to threaten, intimidate, harass or humiliate someone with the aim of hurting them. Many forms are illegal and should be reported to the police and the online platform.",
+    "chapter": "community"
+  },
+  {
+    "id": "democracy",
+    "term_en": "democracy",
+    "definition_en": "Government by the people, exercised through the representatives they elect to parliament.",
+    "chapter": "beliefs"
+  },
+  {
+    "id": "domestic-and-family-violence",
+    "term_en": "domestic and family violence",
+    "definition_en": "Behaviour or threats used to control a partner by causing fear or endangering their safety. It is against the law and should be reported to the police.",
+    "chapter": "law"
+  },
+  {
+    "id": "drug-trafficking",
+    "term_en": "drug trafficking",
+    "definition_en": "Carrying or buying illegal drugs in order to sell them; a serious federal crime.",
+    "chapter": "law"
+  },
+  {
+    "id": "election",
+    "term_en": "election",
+    "definition_en": "The process by which citizens choose the people who will represent them in parliament. Citizens aged 18 or over must vote.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "electoral-roll",
+    "term_en": "electoral roll",
+    "definition_en": "The official list of people who are registered to vote in elections and referendums.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "electorate",
+    "term_en": "electorate",
+    "definition_en": "An area whose voters elect one member to the House of Representatives; also called an electoral district, division or seat.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "enforce-the-law",
+    "term_en": "enforce the law",
+    "definition_en": "To make sure people obey the law; this is what the police do when they keep the peace.",
+    "chapter": "law"
+  },
+  {
+    "id": "equality",
+    "term_en": "equality",
+    "definition_en": "Having the same status as everyone else; Australians believe all people are equal.",
+    "chapter": "beliefs"
+  },
+  {
+    "id": "executive-power",
+    "term_en": "executive power",
+    "definition_en": "The authority to administer and carry out the laws made by Parliament — held by ministers and the Governor-General. One of the three powers in the Constitution.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "fair-go",
+    "term_en": "fair go",
+    "definition_en": "The idea that everyone, whatever their background, should have an equal chance to succeed in life.",
+    "chapter": "values"
+  },
+  {
+    "id": "federation",
+    "term_en": "federation",
+    "definition_en": "The joining of separate colonies into one nation, with each former colony (now a state) keeping certain powers. Australia federated in 1901.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "first-fleet",
+    "term_en": "First Fleet",
+    "definition_en": "The eleven ships that sailed from Britain to set up a convict settlement in New South Wales, landing at Sydney Cove on 26 January 1788.",
+    "chapter": "nation"
+  },
+  {
+    "id": "floral-emblem",
+    "term_en": "floral emblem",
+    "definition_en": "A national or state flower; Australia's is the golden wattle.",
+    "chapter": "symbols"
+  },
+  {
+    "id": "forced-marriage",
+    "term_en": "forced marriage",
+    "definition_en": "A marriage in which one or both people did not freely agree to marry. It is illegal in Australia.",
+    "chapter": "values"
+  },
+  {
+    "id": "from-this-time-forward",
+    "term_en": "from this time forward",
+    "definition_en": "From now on and into the future — the opening words of the citizenship pledge.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "icon",
+    "term_en": "icon",
+    "definition_en": "A widely recognised image or landmark, such as the Sydney Opera House.",
+    "chapter": "nation"
+  },
+  {
+    "id": "indigenous",
+    "term_en": "Indigenous",
+    "definition_en": "Relating to the Aboriginal and/or Torres Strait Islander peoples, the First Peoples of Australia.",
+    "chapter": "firstpeoples"
+  },
+  {
+    "id": "integration",
+    "term_en": "integration",
+    "definition_en": "The process by which migrants adapt so they can take part in, and contribute to, their new and changing society.",
+    "chapter": "community"
+  },
+  {
+    "id": "judicial-power",
+    "term_en": "judicial power",
+    "definition_en": "The authority to interpret and apply the laws, held by the courts. One of the three powers in the Constitution.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "legislative-power",
+    "term_en": "legislative power",
+    "definition_en": "The authority to make and change the laws, held by Parliament. One of the three powers in the Constitution.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "liberties-liberty",
+    "term_en": "liberties (liberty)",
+    "definition_en": "Personal freedom and independence — such as freedom of speech, expression, religion and association.",
+    "chapter": "freedoms"
+  },
+  {
+    "id": "magistrate",
+    "term_en": "magistrate",
+    "definition_en": "A judge who presides over a lower court.",
+    "chapter": "law"
+  },
+  {
+    "id": "mateship",
+    "term_en": "mateship",
+    "definition_en": "Helping others and accepting their help, especially when times are hard.",
+    "chapter": "community"
+  },
+  {
+    "id": "national-anthem",
+    "term_en": "national anthem",
+    "definition_en": "A nation's official song; Australia's is 'Advance Australia Fair'.",
+    "chapter": "symbols"
+  },
+  {
+    "id": "parliamentary-democracy",
+    "term_en": "parliamentary democracy",
+    "definition_en": "A system of government in which citizens regularly elect representatives to parliament, and those representatives make the laws.",
+    "chapter": "beliefs"
+  },
+  {
+    "id": "political-party",
+    "term_en": "political party",
+    "definition_en": "A group of people who share similar ideas about how the country should be governed and usually try to get elected to put those ideas into practice.",
+    "chapter": "parliament"
+  },
+  {
+    "id": "racism",
+    "term_en": "racism",
+    "definition_en": "Prejudice, discrimination, harassment or hatred aimed at someone because of their race, colour, or national or ethnic origin. It is against the law.",
+    "chapter": "values"
+  },
+  {
+    "id": "referendum",
+    "term_en": "referendum",
+    "definition_en": "A vote by all enrolled voters on a proposed change to the Australian Constitution.",
+    "chapter": "constitution"
+  },
+  {
+    "id": "representative",
+    "term_en": "representative",
+    "definition_en": "Someone who acts or speaks on behalf of others, such as a member of parliament or a local councillor.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "respect",
+    "term_en": "respect",
+    "definition_en": "Showing consideration for another person, and for the decisions they make.",
+    "chapter": "values"
+  },
+  {
+    "id": "rule-of-law",
+    "term_en": "Rule of Law",
+    "definition_en": "The principle that everyone — citizens, leaders and the government itself — is bound by the law, and nobody is above it.",
+    "chapter": "beliefs"
+  },
+  {
+    "id": "services-australia",
+    "term_en": "Services Australia",
+    "definition_en": "The Australian Government agency that delivers health, social and welfare payments and services through Medicare, Centrelink and Child Support.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "secret-ballot",
+    "term_en": "secret ballot",
+    "definition_en": "A way of voting in private so that no one can see your choice or pressure you about it.",
+    "chapter": "havesay"
+  },
+  {
+    "id": "secular",
+    "term_en": "secular",
+    "definition_en": "Separate from religion. Australia's government is secular and there is no official national religion.",
+    "chapter": "freedoms"
+  },
+  {
+    "id": "self-sufficient",
+    "term_en": "self-sufficient",
+    "definition_en": "Able to provide for your own needs without relying on others, for example by having a job.",
+    "chapter": "community"
+  },
+  {
+    "id": "set-up",
+    "term_en": "set up",
+    "definition_en": "To establish, build or start something, such as a colony or an organisation.",
+    "chapter": "nation"
+  },
+  {
+    "id": "shire",
+    "term_en": "shire",
+    "definition_en": "A type of local government area, usually rural, run by a council.",
+    "chapter": "parliament"
+  },
+  {
+    "id": "social-security",
+    "term_en": "social security",
+    "definition_en": "Government pensions and benefits that support people in need, such as the unemployed, people with disability and older people.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "the-australian-taxation-office-ato",
+    "term_en": "The Australian Taxation Office (ATO)",
+    "definition_en": "The government agency that collects tax and manages the tax and superannuation systems that fund services for Australians.",
+    "chapter": "citizenship"
+  },
+  {
+    "id": "values",
+    "term_en": "values",
+    "definition_en": "The principles that guide a person in judging right from wrong and deciding how to act. Australia has a shared set called Australian values.",
+    "chapter": "values"
+  },
+  {
+    "id": "volunteer",
+    "term_en": "volunteer",
+    "definition_en": "A person who freely gives their time to help a person or organisation without expecting to be paid.",
+    "chapter": "community"
+  }
+]

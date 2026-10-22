@@ -6,8 +6,10 @@ commit and push:
 
 1. `apps/canada-citizenship/index.html` and `fr/index.html`: on `<body>`,
    replace `is-prelaunch` with `is-live`.
-2. `index.html` (homepage): the Canada Citizenship app card and the hero
-   chip both carry `is-prelaunch` — replace with `is-live`.
+2. `index.html` (homepage): the hero chip reads "Canada Citizenship ·
+   Coming soon" and the Canada app card's status is "Coming soon to the App
+   Store" (`app-status-soon`). Change both to "Live" / "Live on the App
+   Store", as WalkFirst's are, and add the App Store badge to the card.
 3. OG cards: rename `images/canada-citizenship-og-card-live.png` over
    `images/canada-citizenship-og-card.png`, and the `-fr-live` one over
    `-fr`. (The live versions carry the App Store badge instead of

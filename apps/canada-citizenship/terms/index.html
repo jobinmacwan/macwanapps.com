@@ -25,11 +25,16 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fdf3f1">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171013">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-600.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script src="/js/analytics.js" defer></script>
 </head>
 <body class="theme-canada-citizenship">
+<a class="skip-link" href="#main">Skip to content</a>
 
 <nav>
   <div class="nav-inner">
@@ -43,11 +48,12 @@
       <a href="/blog/">Blog</a>
       <a href="/profile/">Founder</a>
       <a href="/apps/canada-citizenship/support/">Support</a>
-      <a href="/apps/canada-citizenship/" class="nav-cta">Get the app</a>
+      <a href="/apps/canada-citizenship/" class="nav-cta" data-ph-event="landing_cta_click" data-ph-label="nav-subpage">Get the app</a>
     </div>
   </div>
 </nav>
 
+<main id="main">
 <section class="hero hero-sub">
   <h1 class="hero-anim stagger-1">Terms of Service</h1>
   <p class="subtitle hero-anim stagger-2" style="margin: 20px auto 0;">Canada Citizenship 2027</p>
@@ -97,6 +103,8 @@
   <p>Questions about these terms? Email <a href="mailto:support@macwanapps.com">support@macwanapps.com</a>.</p>
 </section>
 
+</main>
+
 <!-- Footer -->
 <footer>
   <div class="footer-inner">
@@ -110,7 +118,7 @@
       <a href="/press/">Press</a>
       <a href="/apps/canada-citizenship/privacy/">Privacy</a>
       <a href="/apps/canada-citizenship/terms/">Terms</a>
-      <a href="/apps/canada-citizenship/fr/terms/" hreflang="fr-CA" lang="fr">Français</a>
+      <a href="/apps/canada-citizenship/fr/terms/" hreflang="fr-CA" lang="fr" data-ph-event="language_switch" data-ph-label="footer">Français</a>
     </div>
     <div class="footer-social">
       <a href="https://github.com/jobinmacwan" aria-label="GitHub">

@@ -25,11 +25,16 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/ma-favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/ma-favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/ma-apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fdf3f1">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171013">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-600.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
 <noscript><style>.fade-in, .fade-in-left { opacity: 1; transform: none; filter: none; }</style></noscript>
 <script src="/js/analytics.js" defer></script>
 </head>
 <body class="theme-canada-citizenship">
+<a class="skip-link" href="#main">Aller au contenu</a>
 
 <nav>
   <div class="nav-inner">
@@ -43,11 +48,12 @@
       <a href="/blog/">Blog</a>
       <a href="/profile/">Founder</a>
       <a href="/apps/canada-citizenship/fr/support/">Soutien</a>
-      <a href="/apps/canada-citizenship/fr/" class="nav-cta">Obtenir l'application</a>
+      <a href="/apps/canada-citizenship/fr/" class="nav-cta" data-ph-event="landing_cta_click" data-ph-label="nav-subpage">Obtenir l'application</a>
     </div>
   </div>
 </nav>
 
+<main id="main">
 <section class="hero hero-sub">
   <h1 class="hero-anim stagger-1">Conditions d'utilisation</h1>
   <p class="subtitle hero-anim stagger-2" style="margin: 20px auto 0;">Citoyenneté canadienne 2027</p>
@@ -55,7 +61,7 @@
 
 <section class="prose-section">
   <p class="updated" style="text-align: center;">Dernière mise à jour&nbsp;: 13 septembre 2026</p>
-  <p class="updated" style="text-align: center; margin-top: 6px;"><a href="/apps/canada-citizenship/terms/" hreflang="en-CA" lang="en">Read this page in English</a> &middot; En cas de divergence, la version anglaise fait foi.</p>
+  <p class="updated" style="text-align: center; margin-top: 6px;"><a href="/apps/canada-citizenship/terms/" hreflang="en-CA" lang="en" data-ph-event="language_switch" data-ph-label="body">Read this page in English</a> &middot; En cas de divergence, la version anglaise fait foi.</p>
 
   <p>Les présentes conditions régissent votre utilisation de l'application iOS <strong>Citoyenneté canadienne 2027</strong> (l'«&nbsp;application&nbsp;»), publiée par Macwan Apps, un studio indépendant exploité par Jobin Macwan. En téléchargeant ou en utilisant l'application, vous acceptez ces conditions. Nos <a href="/terms/" hreflang="en" lang="en">conditions générales du studio</a> (en anglais) s'appliquent également; en cas de différence, les conditions de cette page prévalent pour cette application.</p>
 
@@ -98,6 +104,8 @@
   <p>Des questions sur ces conditions? Écrivez à <a href="mailto:support@macwanapps.com">support@macwanapps.com</a>.</p>
 </section>
 
+</main>
+
 <!-- Footer -->
 <footer>
   <div class="footer-inner">
@@ -111,7 +119,7 @@
       <a href="/press/">Presse</a>
       <a href="/apps/canada-citizenship/fr/privacy/">Confidentialité</a>
       <a href="/apps/canada-citizenship/fr/terms/">Conditions</a>
-      <a href="/apps/canada-citizenship/terms/" hreflang="en-CA" lang="en">English</a>
+      <a href="/apps/canada-citizenship/terms/" hreflang="en-CA" lang="en" data-ph-event="language_switch" data-ph-label="footer">English</a>
     </div>
     <div class="footer-social">
       <a href="https://github.com/jobinmacwan" aria-label="GitHub">
