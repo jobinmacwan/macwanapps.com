@@ -1521,13 +1521,15 @@ nav .nav-links a.nav-cta:hover { background: var(--btn-hover); }
 /* Article page */
 .post-hero-meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 4px 10px;
   margin-bottom: 16px;
   font-size: 13px;
   color: var(--text-light);
 }
+.post-hero-meta span { white-space: nowrap; }
 .post-cover-figure {
   max-width: 760px;
   margin: 0 auto 16px;
@@ -2770,7 +2772,7 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   margin-bottom: 18px;
 }
 .blog-head .subtitle, .post-hero .subtitle { margin: 0 auto 14px; }
-.blog-head .subtitle { max-width: 760px; }
+.blog-head .subtitle, .post-hero .subtitle { max-width: 760px; }
 .blog-note {
   font-size: 14px;
   color: var(--text-light);
@@ -3514,6 +3516,21 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
+
+/* Test guides (/apps/<country>/test-guide/) */
+.theme-cz .prose-section .post-cta {
+  background:
+    radial-gradient(ellipse 70% 100% at 50% -20%, rgba(var(--cz-rgb), 0.08), transparent),
+    var(--bg);
+}
+.theme-cz .prose-section .post-cta .btn-primary,
+.theme-cz .prose-section .post-cta .btn-primary:hover { background: var(--cz-cta); color: var(--cz-cta-ink); }
+.theme-cz .prose-section .post-cta .btn-primary:hover { background: var(--cz-cta-hover); }
+.cz-cta-note { display: block; margin-top: 12px; font-size: 13.5px; line-height: 1.55; color: var(--text-muted); }
+.prose-section .cz-sources li { font-size: 14.5px; }
+.cz-guide-link { text-align: center; margin: 36px 0 0; font-size: 15px; }
+.cz-guide-link a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.cz-guide-link a:hover { text-decoration: underline; }
 
 /* Sibling citizenship apps, above the footer of every citizenship page */
 .cz-family {
