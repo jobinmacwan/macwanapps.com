@@ -1,0 +1,12 @@
+{
+  "checksums": {
+    "questions.json": "4c4eeb51956cf4bb1c949cc3d3a7c0fe8ee242c78be81291a81a21c1ff8abc5f",
+    "lessons.json": "ac6d63ccf9b0367881f4a933e24065d53577a29435e154c761eaee6a120b4134",
+    "facts.json": "18fdcd08e3f2b3785a84af94b230eafcdb5eff338b1e0e35fa89c9482cc75a66",
+    "glossary.json": "3b1a1d6bb7c493664df0d33af1f7996cc2ef800b9a93f7c6538427d7dcdb5139"
+  },
+  "contentVersion": 9,
+  "notes": "DEMO for Jobin (22 Oct 2026): lesson 1 title marked (updated). Debug builds only, via the Developer override. Remove after the demo.",
+  "publishedAt": "2026-10-22T12:23:22+00:00",
+  "schemaVersion": 1
+}
