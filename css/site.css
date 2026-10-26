@@ -67,6 +67,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .theme-walkfirst .prose-section a,
 .theme-walkfirst .author-card a { color: #b45309; }
 
+@media (prefers-color-scheme: dark) {
+  .hero-pill .pill-tag { color: var(--accent); }
+}
+
 /* Visually hidden, still read by screen readers (keeps the heading outline whole). */
 .sr-only {
   position: absolute;
@@ -299,8 +303,8 @@ nav .nav-links a.nav-cta:hover { background: var(--btn-hover); }
 .hero-pill:hover { border-color: var(--border-strong); color: var(--text); }
 .hero-pill .pill-tag {
   background: var(--accent-soft);
-  color: var(--accent);
-  font-size: 11px;
+  color: #4a55c4;
+  font-size: 12px;
   font-weight: 600;
   padding: 2px 8px;
   border-radius: 999px;
