@@ -4,7 +4,7 @@
     "value_en": "King Charles III is Canada's Head of State (King of Canada).",
     "value_fr": "Le roi Charles III est le chef d'État du Canada (roi du Canada).",
     "sourceUrl": "https://www.gg.ca/en/crown",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Corroborated by gg.ca installation coverage (King Charles III approved the new GG's appointment; 'God Save the King' played at the June 2026 installation)."
   },
   {
@@ -12,7 +12,7 @@
     "value_en": "The Right Honourable Louise Arbour is the Governor General of Canada (31st since Confederation), installed June 8, 2026.",
     "value_fr": "La très honorable Louise Arbour est la gouverneure générale du Canada (31e depuis la Confédération), installée le 8 juin 2026.",
     "sourceUrl": "https://www.gg.ca/en",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "TRANSITION COMPLETE: Mary Simon's term ended mid-2026; Louise Arbour was announced May 5, 2026 by PM Carney, and installed as 31st Governor General on June 8, 2026. gg.ca live homepage now shows 'Her Excellency the Right Honourable Louise Arbour'. Any question/answer citing Mary Simon is now WRONG."
   },
   {
@@ -20,15 +20,15 @@
     "value_en": "Mark Carney is the Prime Minister of Canada (Liberal Party of Canada), in office since March 2025.",
     "value_fr": "Mark Carney est le premier ministre du Canada (Parti libéral du Canada), en fonction depuis mars 2025.",
     "sourceUrl": "https://www.pm.gc.ca/en",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "24th Prime Minister. pm.gc.ca confirmed live via search index; still PM as of Aug 2026 news coverage."
   },
   {
     "key": "governing_party",
-    "value_en": "The Liberal Party of Canada forms the government. Elected as a minority in April 2025; holds a majority of House seats since April 2026 via by-election wins and floor crossings (currently 173 of 343 with 5 seats vacant).",
-    "value_fr": "Le Parti libéral du Canada forme le gouvernement. Élu minoritaire en avril 2025, il détient la majorité des sièges depuis avril 2026 grâce à des élections partielles et à des changements d'allégeance (actuellement 173 sièges sur 343, 5 sièges vacants).",
+    "value_en": "The Liberal Party of Canada forms the government. Elected as a minority in April 2025; holds a majority of House seats since April 2026 via by-election wins and floor crossings (currently 173 of 343 with 6 seats vacant).",
+    "value_fr": "Le Parti libéral du Canada forme le gouvernement. Élu minoritaire en avril 2025, il détient la majorité des sièges depuis avril 2026 grâce à des élections partielles et à des changements d'allégeance (actuellement 173 sièges sur 343, 6 sièges vacants).",
     "sourceUrl": "https://www.ourcommons.ca/members/en/party-standings",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "IMPORTANT nuance: no general election occurred in 2026. The 'majority' arose mid-Parliament (by-elections of April 13, 2026 + defections). For test questions, the safe phrasing is 'the Liberal Party under Mark Carney forms the government'."
   },
   {
@@ -36,23 +36,23 @@
     "value_en": "The most recent federal general election was held on April 28, 2025 (45th general election). The Liberal Party under Mark Carney won the most seats (169 of 343) and formed a minority government.",
     "value_fr": "La plus récente élection générale fédérale a eu lieu le 28 avril 2025 (45e élection générale). Le Parti libéral, dirigé par Mark Carney, a remporté le plus grand nombre de sièges (169 sur 343) et a formé un gouvernement minoritaire.",
     "sourceUrl": "https://www.elections.ca/content.aspx?section=ele&dir=pas&document=index&lang=e",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified no newer general election as of 2026-08-28 (a CNN Apr 2026 'majority' headline refers to by-elections, not a general election). Next fixed-date election: on or before Oct 2029 unless called earlier."
   },
   {
     "key": "house_seats",
-    "value_en": "The House of Commons has 343 seats. Current standings (Sept 4, 2026): Liberal 173, Conservative 138, Bloc Québécois 21, NDP 5, Green 1, vacant 5.",
-    "value_fr": "La Chambre des communes compte 343 sièges. Répartition actuelle (4 septembre 2026) : libéraux 173, conservateurs 138, Bloc Québécois 21, NPD 5, Parti vert 1, 5 sièges vacants.",
+    "value_en": "The House of Commons has 343 seats. Current standings (Oct 13, 2026): Liberal 173, Conservative 137, Bloc Québécois 21, NDP 5, Green 1, vacant 6.",
+    "value_fr": "La Chambre des communes compte 343 sièges. Répartition actuelle (13 octobre 2026) : libéraux 173, conservateurs 137, Bloc Québécois 21, NPD 5, Parti vert 1, 6 sièges vacants.",
     "sourceUrl": "https://www.ourcommons.ca/members/en/party-standings",
-    "verified": "2026-09-04",
-    "note": "Seat total rose from 338 to 343 with the 2022 redistribution, first used in the April 2025 election. Party standings are volatile; the 343 total is the stable fact to test."
+    "verified": "2026-10-24",
+    "note": "ourcommons.ca party standings as archived Oct 13, 2026 (live site down Oct 24). Change since Sept 4: Conservative MP Larry Brock (Brantford—Brant South) resigned Sept 18, 2026."
   },
   {
     "key": "senate_seats",
     "value_en": "The Senate of Canada has 105 seats.",
     "value_fr": "Le Sénat du Canada compte 105 sièges.",
     "sourceUrl": "https://sencanada.ca/en/senators/",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "sencanada.ca live: 'Canada's 105 senators give regions and underrepresented groups a strong voice in Parliament.' Vacancy count not shown on page."
   },
   {
@@ -60,7 +60,7 @@
     "value_en": "Pierre Poilievre (Conservative Party of Canada, MP for Battle River—Crowfoot) is the Leader of the Official Opposition.",
     "value_fr": "Pierre Poilievre (Parti conservateur du Canada, député de Battle River—Crowfoot) est le chef de l'opposition officielle.",
     "sourceUrl": "https://www.ourcommons.ca/members/en/party-standings",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Conservatives confirmed as largest opposition party (139 seats) on ourcommons.ca live standings. Poilievre lost his Carleton seat in April 2025, returned via the Battle River—Crowfoot by-election and resumed as Opposition Leader in August 2025 (Andrew Scheer was interim in between); still leader as of Aug 2026."
   },
   {
@@ -68,7 +68,7 @@
     "value_en": "Danielle Smith is the Premier of Alberta (United Conservative Party).",
     "value_fr": "Danielle Smith est la première ministre de l'Alberta (Parti conservateur uni).",
     "sourceUrl": "https://www.alberta.ca/premier",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since 2022; confirmed still premier in Aug 2026 search results."
   },
   {
@@ -76,7 +76,7 @@
     "value_en": "David Eby is the Premier of British Columbia (BC NDP).",
     "value_fr": "David Eby est le premier ministre de la Colombie-Britannique (NPD de la C.-B.).",
     "sourceUrl": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/premier",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since 2022, re-elected 2024; confirmed still premier in 2026 search results."
   },
   {
@@ -84,7 +84,7 @@
     "value_en": "Wab Kinew is the Premier of Manitoba (Manitoba NDP).",
     "value_fr": "Wab Kinew est le premier ministre du Manitoba (NPD du Manitoba).",
     "sourceUrl": "https://www.manitoba.ca/premier/",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "25th premier, since 2023; live Aug 2026 news confirms (Kinew statements dated Aug 2026)."
   },
   {
@@ -92,7 +92,7 @@
     "value_en": "Susan Holt is the Premier of New Brunswick (Liberal).",
     "value_fr": "Susan Holt est la première ministre du Nouveau-Brunswick (libérale).",
     "sourceUrl": "https://www2.gnb.ca/content/gnb/en/departments/premier.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since the October 2024 NB election; no change found in 2026 searches."
   },
   {
@@ -100,7 +100,7 @@
     "value_en": "Tony Wakeham is the Premier of Newfoundland and Labrador (Progressive Conservative), sworn in October 29, 2025.",
     "value_fr": "Tony Wakeham est le premier ministre de Terre-Neuve-et-Labrador (progressiste-conservateur), assermenté le 29 octobre 2025.",
     "sourceUrl": "https://www.gov.nl.ca/premier/",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "CHANGED since 2025 packs: PCs under Wakeham won the Oct 14, 2025 provincial election, ending Liberal government (Andrew Furey → John Hogan → Wakeham). gov.nl.ca shows live 2026 'Premier Wakeham' releases."
   },
   {
@@ -108,7 +108,7 @@
     "value_en": "Tim Houston is the Premier of Nova Scotia (Progressive Conservative).",
     "value_fr": "Tim Houston est le premier ministre de la Nouvelle-Écosse (progressiste-conservateur).",
     "sourceUrl": "https://novascotia.ca/premier/",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since August 31, 2021; re-elected 2024; confirmed in 2026 search results."
   },
   {
@@ -116,7 +116,7 @@
     "value_en": "Doug Ford is the Premier of Ontario (Progressive Conservative).",
     "value_fr": "Doug Ford est le premier ministre de l'Ontario (progressiste-conservateur).",
     "sourceUrl": "https://www.ontario.ca/page/premier",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since 2018, re-elected Feb 2025; live Aug 2026 news confirms he is premier."
   },
   {
@@ -124,23 +124,23 @@
     "value_en": "Rob Lantz is the Premier of Prince Edward Island (Progressive Conservative).",
     "value_fr": "Rob Lantz est le premier ministre de l'Île-du-Prince-Édouard (progressiste-conservateur).",
     "sourceUrl": "https://www.princeedwardisland.ca/en/news/rob-lantz-sworn-in-as-premier-of-prince-edward-island",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Became premier Feb 2025 after Dennis King resigned; stepped aside briefly during the PC PEI leadership race (Dec 2025), won the leadership and was sworn in again Feb 9, 2026. Confirmed premier as of Aug 2026 (Legislative Assembly of PEI lists 'Hon. Rob Lantz')."
   },
   {
     "key": "premier_qc",
-    "value_en": "Christine Fréchette is the Premier of Quebec (Coalition Avenir Québec), sworn in April 15, 2026.",
-    "value_fr": "Christine Fréchette est la première ministre du Québec (Coalition avenir Québec), assermentée le 15 avril 2026.",
-    "sourceUrl": "https://www.quebec.ca/en/premier",
-    "verified": "2026-09-04",
-    "note": "Sworn in 15 April 2026 after winning the CAQ leadership; earlier record said the 16th."
+    "value_en": "Paul St-Pierre Plamondon is the Premier of Quebec (Parti Québécois), sworn in October 21, 2026.",
+    "value_fr": "Paul St-Pierre Plamondon est le premier ministre du Québec (Parti Québécois), assermenté le 21 octobre 2026.",
+    "sourceUrl": "https://www.quebec.ca/premier-ministre/a-propos",
+    "verified": "2026-10-24",
+    "note": "Parti Québécois won the October 5, 2026 general election (minority, 59 seats); sworn in as Quebec's 34th premier on October 21, 2026 (quebec.ca premier page; Noovo, CTV). Previously Christine Fréchette (CAQ)."
   },
   {
     "key": "premier_sk",
     "value_en": "Scott Moe is the Premier of Saskatchewan (Saskatchewan Party).",
     "value_fr": "Scott Moe est le premier ministre de la Saskatchewan (Parti saskatchewanais).",
     "sourceUrl": "https://www.saskatchewan.ca/government/government-structure/cabinet/premier-of-saskatchewan",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since February 2, 2018; re-elected 2024; confirmed in 2026 search results."
   },
   {
@@ -148,31 +148,31 @@
     "value_en": "R.J. Simpson is the Premier of the Northwest Territories (consensus government, non-partisan).",
     "value_fr": "R.J. Simpson est le premier ministre des Territoires du Nord-Ouest (gouvernement de consensus, non partisan).",
     "sourceUrl": "https://www.gov.nt.ca/",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "In office since December 8, 2023; next NWT election due 2027; confirmed in 2026 search results."
   },
   {
     "key": "premier_nu",
-    "value_en": "John Main is the Premier of Nunavut (consensus government, non-partisan), chosen November 20, 2025.",
-    "value_fr": "John Main est le premier ministre du Nunavut (gouvernement de consensus, non partisan), choisi le 20 novembre 2025.",
+    "value_en": "John Main is the Premier of Nunavut (consensus government, non-partisan), chosen by MLAs on November 18, 2025 and sworn in November 20, 2025.",
+    "value_fr": "John Main est le premier ministre du Nunavut (gouvernement de consensus, non partisan), choisi par les députés le 18 novembre 2025 et assermenté le 20 novembre 2025.",
     "sourceUrl": "https://www.gov.nu.ca/",
-    "verified": "2026-09-04",
-    "note": "CHANGED since 2025 packs: after the Oct 27, 2025 Nunavut general election, MLAs chose John Main as 7th premier (Nov 20, 2025), succeeding P.J. Akeeagok. Verified via search; gov.nu.ca is the official source."
+    "verified": "2026-10-24",
+    "note": "Leadership Forum results, Legislative Assembly of Nunavut, Nov 18, 2025; sworn in Nov 20, 2025 (premier.gov.nu.ca)."
   },
   {
     "key": "premier_yt",
-    "value_en": "Currie Dixon is the Premier of Yukon (Yukon Party), in office since the November 3, 2025 territorial election.",
-    "value_fr": "Currie Dixon est le premier ministre du Yukon (Parti du Yukon), en fonction depuis l'élection territoriale du 3 novembre 2025.",
+    "value_en": "Currie Dixon is the Premier of Yukon (Yukon Party), sworn in November 22, 2025, after the Yukon Party won the November 3, 2025 territorial election.",
+    "value_fr": "Currie Dixon est le premier ministre du Yukon (Parti du Yukon), assermenté le 22 novembre 2025, après la victoire du Parti du Yukon à l'élection territoriale du 3 novembre 2025.",
     "sourceUrl": "https://yukon.ca/en/premier",
-    "verified": "2026-09-04",
-    "note": "CHANGED since 2025 packs: Yukon Party won a large majority Nov 3, 2025; Dixon is the first Yukon-born premier (succeeding Liberal Mike Pemberton, who had replaced Ranj Pillai in 2025). yukon.ca blocked automated fetch (403) — verified via Elections Yukon and multiple news sources."
+    "verified": "2026-10-24",
+    "note": "yukon.ca news release 'Currie Dixon sworn in as Yukon's 12th premier' (Nov 22, 2025); CBC; Yukon News."
   },
   {
     "key": "capital_ab",
     "value_en": "The capital of Alberta is Edmonton.",
     "value_fr": "La capitale de l'Alberta est Edmonton.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact (Discover Canada study guide)."
   },
   {
@@ -180,7 +180,7 @@
     "value_en": "The capital of British Columbia is Victoria.",
     "value_fr": "La capitale de la Colombie-Britannique est Victoria.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -188,7 +188,7 @@
     "value_en": "The capital of Manitoba is Winnipeg.",
     "value_fr": "La capitale du Manitoba est Winnipeg.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -196,7 +196,7 @@
     "value_en": "The capital of New Brunswick is Fredericton.",
     "value_fr": "La capitale du Nouveau-Brunswick est Fredericton.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -204,7 +204,7 @@
     "value_en": "The capital of Newfoundland and Labrador is St. John's.",
     "value_fr": "La capitale de Terre-Neuve-et-Labrador est St. John's.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -212,7 +212,7 @@
     "value_en": "The capital of Nova Scotia is Halifax.",
     "value_fr": "La capitale de la Nouvelle-Écosse est Halifax.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -220,7 +220,7 @@
     "value_en": "The capital of Ontario is Toronto. (Ottawa, in Ontario, is the capital of Canada.)",
     "value_fr": "La capitale de l'Ontario est Toronto. (Ottawa, en Ontario, est la capitale du Canada.)",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact; common test trap between Toronto (provincial capital) and Ottawa (national capital)."
   },
   {
@@ -228,7 +228,7 @@
     "value_en": "The capital of Prince Edward Island is Charlottetown.",
     "value_fr": "La capitale de l'Île-du-Prince-Édouard est Charlottetown.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -236,7 +236,7 @@
     "value_en": "The capital of Quebec is Québec City.",
     "value_fr": "La capitale du Québec est la ville de Québec.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -244,7 +244,7 @@
     "value_en": "The capital of Saskatchewan is Regina.",
     "value_fr": "La capitale de la Saskatchewan est Regina.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -252,7 +252,7 @@
     "value_en": "The capital of the Northwest Territories is Yellowknife.",
     "value_fr": "La capitale des Territoires du Nord-Ouest est Yellowknife.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -260,7 +260,7 @@
     "value_en": "The capital of Nunavut is Iqaluit.",
     "value_fr": "La capitale du Nunavut est Iqaluit.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -268,7 +268,7 @@
     "value_en": "The capital of Yukon is Whitehorse.",
     "value_fr": "La capitale du Yukon est Whitehorse.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Stable fact."
   },
   {
@@ -276,7 +276,7 @@
     "value_en": "Salma Lakhani is the Lieutenant Governor of Alberta.",
     "value_fr": "Salma Lakhani est la lieutenante-gouverneure de l'Alberta.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live 'Viceregal Representatives' page, 2026-08-28."
   },
   {
@@ -284,7 +284,7 @@
     "value_en": "Wendy Cocchia is the Lieutenant Governor of British Columbia.",
     "value_fr": "Wendy Cocchia est la lieutenante-gouverneure de la Colombie-Britannique.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "gg.ca lists 'Wendy Cocchia'; some sources use the fuller form 'Wendy Lisogar-Cocchia'. Prefer the gg.ca form. Full name Wendy Lisogar-Cocchia; styled Wendy Cocchia by the Province."
   },
   {
@@ -292,7 +292,7 @@
     "value_en": "Anita Neville is the Lieutenant Governor of Manitoba.",
     "value_fr": "Anita Neville est la lieutenante-gouverneure du Manitoba.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -300,7 +300,7 @@
     "value_en": "Louise Imbeault is the Lieutenant Governor of New Brunswick.",
     "value_fr": "Louise Imbeault est la lieutenante-gouverneure du Nouveau-Brunswick.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -308,7 +308,7 @@
     "value_en": "Joan Marie Aylward is the Lieutenant Governor of Newfoundland and Labrador.",
     "value_fr": "Joan Marie Aylward est la lieutenante-gouverneure de Terre-Neuve-et-Labrador.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "gg.ca lists 'Joan Marie J. Aylward'. Verified 2026-08-28."
   },
   {
@@ -316,7 +316,7 @@
     "value_en": "Mike Savage is the Lieutenant Governor of Nova Scotia.",
     "value_fr": "Mike Savage est le lieutenant-gouverneur de la Nouvelle-Écosse.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28. (Former mayor of Halifax; appointed 2024.)"
   },
   {
@@ -324,7 +324,7 @@
     "value_en": "Edith Dumont is the Lieutenant Governor of Ontario.",
     "value_fr": "Edith Dumont est la lieutenante-gouverneure de l'Ontario.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -332,7 +332,7 @@
     "value_en": "Wassim Salamoun is the Lieutenant Governor of Prince Edward Island.",
     "value_fr": "Wassim Salamoun est le lieutenant-gouverneur de l'Île-du-Prince-Édouard.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -340,7 +340,7 @@
     "value_en": "Manon Jeannotte is the Lieutenant Governor of Quebec.",
     "value_fr": "Manon Jeannotte est la lieutenante-gouverneure du Québec.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -348,7 +348,7 @@
     "value_en": "Bernadette McIntyre is the Lieutenant Governor of Saskatchewan.",
     "value_fr": "Bernadette McIntyre est la lieutenante-gouverneure de la Saskatchewan.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "gg.ca lists 'M. Bernadette McIntyre'. Verified 2026-08-28."
   },
   {
@@ -356,7 +356,7 @@
     "value_en": "Gerry Kisoun is the Commissioner of the Northwest Territories.",
     "value_fr": "Gerry Kisoun est le commissaire des Territoires du Nord-Ouest.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Territories have federally appointed commissioners, not lieutenant governors. Verified on gg.ca live page, 2026-08-28. Full name Gerald Kisoun; styled Gerry Kisoun. Commissioner since 14 May 2024."
   },
   {
@@ -364,7 +364,7 @@
     "value_en": "Adeline Webber is the Commissioner of Yukon.",
     "value_fr": "Adeline Webber est la commissaire du Yukon.",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified on gg.ca live page, 2026-08-28."
   },
   {
@@ -380,7 +380,7 @@
     "value_en": "The citizenship test has 20 questions (multiple choice and true/false), based on the official study guide Discover Canada.",
     "value_fr": "L'examen pour la citoyenneté comporte 20 questions (choix multiples et vrai ou faux), fondées sur le guide d'étude officiel Découvrir le Canada.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/citizenship-test.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "canada.ca blocks automated fetch (403); verified via search snippets of the live canada.ca test pages.",
     "scope": "app"
   },
@@ -389,7 +389,7 @@
     "value_en": "You must answer at least 15 of the 20 questions correctly to pass the citizenship test (75%).",
     "value_fr": "Vous devez répondre correctement à au moins 15 des 20 questions pour réussir l'examen (75 %).",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/citizenship-test.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified via live canada.ca content in search index, 2026-08-28.",
     "scope": "app"
   },
@@ -407,7 +407,7 @@
     "value_en": "Applicants get up to 3 chances to pass the citizenship test; after a third failure, IRCC schedules a hearing with a citizenship official instead of another written test.",
     "value_fr": "Les demandeurs ont jusqu'à 3 chances de réussir l'examen; après un troisième échec, IRCC convoque une audience avec un agent de la citoyenneté plutôt qu'un autre examen écrit.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/test/results.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "'You'll have 3 chances to pass the test' confirmed via live canada.ca results page content, 2026-08-28.",
     "scope": "app"
   },
@@ -416,15 +416,15 @@
     "value_en": "Applicants aged 18 to 54 (on the day they sign their citizenship application) must take the citizenship test.",
     "value_fr": "Les demandeurs âgés de 18 à 54 ans (le jour où ils signent leur demande de citoyenneté) doivent passer l'examen pour la citoyenneté.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/citizenship-test.html",
-    "verified": "2026-09-04",
+    "verified": "2026-10-24",
     "note": "Verified via live canada.ca content in search index, 2026-08-28."
   },
   {
     "key": "banknote_5",
     "value_en": "Sir Wilfrid Laurier appears on the Canadian $5 note (Frontier/Polymer series).",
     "value_fr": "Sir Wilfrid Laurier figure sur le billet canadien de 5 dollars (série Frontière/polymère).",
-    "sourceUrl": "https://www.bankofcanada.ca/banknotes/bank-note-series/polymer/",
-    "verified": "2026-08-29",
+    "sourceUrl": "https://www.bankofcanada.ca/banknotes/bank-note-series/frontiers/5-polymer-note/",
+    "verified": "2026-10-24",
     "note": "A redesigned $5 note has been announced but not issued. Re-check when the Bank of Canada issues it."
   }
 ]

@@ -1,12 +1,12 @@
 {
   "checksums": {
-    "facts.json": "18fdcd08e3f2b3785a84af94b230eafcdb5eff338b1e0e35fa89c9482cc75a66",
+    "facts.json": "5ba734221e94964e30d78037eb80bfff4666cb82d26881853f0cf0b1c7814c02",
     "glossary.json": "3b1a1d6bb7c493664df0d33af1f7996cc2ef800b9a93f7c6538427d7dcdb5139",
     "lessons.json": "d0acb4d3993dccccd96272927a52c04dcc36966d6666ca0af466af4383241407",
-    "questions.json": "4c4eeb51956cf4bb1c949cc3d3a7c0fe8ee242c78be81291a81a21c1ff8abc5f"
+    "questions.json": "307c6a6080038b862dda330e00851891bdcb0cdde593be431602d805fef326e1"
   },
-  "contentVersion": 8,
-  "notes": "2026-09-15: French guide references (guideRef_fr) on every question",
-  "publishedAt": "2026-09-15T02:54:33+00:00",
+  "contentVersion": 9,
+  "notes": "fact check 2026-10-24: Quebec premier is Paul St-Pierre Plamondon; Nunavut and Yukon swearing-in dates; House standings; all other facts re-verified",
+  "publishedAt": "2026-10-24T16:30:39+00:00",
   "schemaVersion": 1
 }

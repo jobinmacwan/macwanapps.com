@@ -1582,7 +1582,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "easy",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_fr": "Quel monarque est actuellement nommé dans le serment de citoyenneté du Canada?",
     "options_fr": [
       "Le roi Charles III",
@@ -6053,7 +6053,7 @@
     "factType": "volatile",
     "volatileKey": "banknote_5",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "history-100",
@@ -9691,7 +9691,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "easy",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "govern-053",
@@ -9857,7 +9857,7 @@
     "factType": "volatile",
     "volatileKey": "governor_general",
     "difficulty": "easy",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "govern-059",
@@ -10027,7 +10027,7 @@
     "factType": "volatile",
     "volatileKey": "pm",
     "difficulty": "easy",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "govern-067",
@@ -10367,7 +10367,7 @@
     "factType": "volatile",
     "volatileKey": "premier_on",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "govern-081",
@@ -10620,7 +10620,7 @@
     "guideRef": "How Canadians Govern Themselves — Parliamentary democracy",
     "guideRef_fr": "Les Canadiens et leur système de gouvernement — La démocratie parlementaire",
     "sourceUrl": "https://www.ourcommons.ca/members/en/party-standings",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "govern-090",
@@ -10649,7 +10649,7 @@
     "guideRef": "How Canadians Govern Themselves — Parliamentary democracy",
     "guideRef_fr": "Les Canadiens et leur système de gouvernement — La démocratie parlementaire",
     "sourceUrl": "https://sencanada.ca/en/senators/",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "chapter": "govern",
@@ -10898,7 +10898,7 @@
     "factType": "volatile",
     "volatileKey": "federal_election",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_fr": "En quelle année la plus récente élection générale fédérale s'est-elle tenue au Canada?",
     "options_fr": [
       "2025",
@@ -10927,7 +10927,7 @@
     "factType": "volatile",
     "volatileKey": "house_seats",
     "difficulty": "hard",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_fr": "Combien de circonscriptions fédérales, ayant chacune son siège à la Chambre des communes, le Canada compte-t-il actuellement?",
     "options_fr": [
       "343",
@@ -11811,7 +11811,7 @@
     "factType": "volatile",
     "volatileKey": "pm",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_fr": "Qui occupe actuellement le poste de premier ministre du Canada?",
     "options_fr": [
       "Mark Carney",
@@ -11985,7 +11985,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "hard",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_fr": "Quel titre traditionnel désigne aussi l'opposition officielle à la Chambre des communes?",
     "options_fr": [
       "La loyale Opposition de Sa Majesté",
@@ -12275,7 +12275,7 @@
     "guideRef": "Federal Elections — After an Election",
     "guideRef_fr": "Les élections fédérales — Après une élection",
     "sourceUrl": "https://www.ourcommons.ca/members/en/party-standings",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "justice-001",
@@ -12897,7 +12897,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "hard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "justice-023",
@@ -14145,7 +14145,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "symbols-008",
@@ -15344,7 +15344,7 @@
     "factType": "volatile",
     "volatileKey": "test_age_range",
     "difficulty": "hard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "symbols-052",
@@ -15456,7 +15456,7 @@
     "factType": "volatile",
     "volatileKey": "monarch",
     "difficulty": "standard",
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "symbols-056",
@@ -18206,7 +18206,7 @@
     "factType": "stable",
     "volatileKey": "capital_nl",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-018",
@@ -18231,7 +18231,7 @@
     "factType": "stable",
     "volatileKey": "capital_pe",
     "difficulty": "easy",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-019",
@@ -18260,7 +18260,7 @@
     "factType": "stable",
     "volatileKey": "capital_ns",
     "difficulty": "easy",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-020",
@@ -18289,7 +18289,7 @@
     "factType": "stable",
     "volatileKey": "capital_nb",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-021",
@@ -18314,7 +18314,7 @@
     "factType": "stable",
     "volatileKey": "capital_qc",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-022",
@@ -18343,7 +18343,7 @@
     "factType": "stable",
     "volatileKey": "capital_on",
     "difficulty": "easy",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-023",
@@ -18372,7 +18372,7 @@
     "factType": "stable",
     "volatileKey": "capital_mb",
     "difficulty": "easy",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-024",
@@ -18401,7 +18401,7 @@
     "factType": "stable",
     "volatileKey": "capital_sk",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-025",
@@ -18430,7 +18430,7 @@
     "factType": "stable",
     "volatileKey": "capital_ab",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-026",
@@ -18455,7 +18455,7 @@
     "factType": "stable",
     "volatileKey": "capital_bc",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-027",
@@ -18484,7 +18484,7 @@
     "factType": "stable",
     "volatileKey": "capital_nu",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-028",
@@ -18509,7 +18509,7 @@
     "factType": "stable",
     "volatileKey": "capital_nt",
     "difficulty": "easy",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-029",
@@ -18538,7 +18538,7 @@
     "factType": "stable",
     "volatileKey": "capital_yt",
     "difficulty": "standard",
-    "lastVerified": "2026-08-28"
+    "lastVerified": "2026-10-24"
   },
   {
     "id": "regions-032",
@@ -20149,7 +20149,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.alberta.ca/premier",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Alberta?",
     "options_en": [
       "Danielle Smith",
@@ -20179,7 +20179,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Alberta?",
     "options_en": [
       "Salma Lakhani",
@@ -20389,7 +20389,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/premier",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of British Columbia?",
     "options_en": [
       "David Eby",
@@ -20419,7 +20419,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of British Columbia?",
     "options_en": [
       "Wendy Cocchia",
@@ -20629,7 +20629,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.manitoba.ca/premier/",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Manitoba?",
     "options_en": [
       "Wab Kinew",
@@ -20659,7 +20659,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Manitoba?",
     "options_en": [
       "Anita Neville",
@@ -20869,7 +20869,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www2.gnb.ca/content/gnb/en/departments/premier.html",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of New Brunswick?",
     "options_en": [
       "Susan Holt",
@@ -20899,7 +20899,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of New Brunswick?",
     "options_en": [
       "Louise Imbeault",
@@ -21109,7 +21109,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gov.nl.ca/premier/",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Newfoundland and Labrador?",
     "options_en": [
       "Tony Wakeham",
@@ -21139,7 +21139,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Newfoundland and Labrador?",
     "options_en": [
       "Joan Marie Aylward",
@@ -21349,7 +21349,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://novascotia.ca/premier/",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Nova Scotia?",
     "options_en": [
       "Tim Houston",
@@ -21379,7 +21379,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Nova Scotia?",
     "options_en": [
       "Mike Savage",
@@ -21589,7 +21589,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.ontario.ca/page/premier",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Ontario?",
     "options_en": [
       "Doug Ford",
@@ -21619,7 +21619,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Ontario?",
     "options_en": [
       "Edith Dumont",
@@ -21829,7 +21829,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.princeedwardisland.ca/en/news/rob-lantz-sworn-in-as-premier-of-prince-edward-island",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Prince Edward Island?",
     "options_en": [
       "Rob Lantz",
@@ -21859,7 +21859,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Prince Edward Island?",
     "options_en": [
       "Wassim Salamoun",
@@ -22068,24 +22068,27 @@
     "province": "QC",
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
-    "sourceUrl": "https://www.quebec.ca/en/premier",
-    "lastVerified": "2026-09-04",
+    "sourceUrl": "https://www.quebec.ca/premier-ministre/a-propos",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Quebec?",
     "options_en": [
+      "Paul St-Pierre Plamondon",
       "Christine Fréchette",
       "Danielle Smith",
-      "David Eby",
-      "Wab Kinew"
+      "David Eby"
     ],
-    "explanation_en": "Christine Fréchette is the Premier of Quebec (Coalition Avenir Québec), sworn in April 16, 2026.",
+    "explanation_en": "Paul St-Pierre Plamondon is the Premier of Quebec (Parti Québécois), sworn in October 21, 2026, after the October 5 election. Christine Fréchette held the office before him.",
     "stem_fr": "Qui est l'actuel premier ministre du Québec?",
     "options_fr": [
+      "Paul St-Pierre Plamondon",
       "Christine Fréchette",
       "Danielle Smith",
-      "David Eby",
-      "Wab Kinew"
+      "David Eby"
     ],
-    "explanation_fr": "Christine Fréchette est la première ministre du Québec (Coalition avenir Québec), assermentée le 16 avril 2026."
+    "explanation_fr": "Paul St-Pierre Plamondon est le premier ministre du Québec (Parti Québécois), assermenté le 21 octobre 2026, après l'élection du 5 octobre. Christine Fréchette occupait la fonction avant lui.",
+    "changedOn": "2026-10-24",
+    "previousAnswer_en": "Christine Fréchette",
+    "previousAnswer_fr": "Christine Fréchette"
   },
   {
     "id": "prov-qc-002",
@@ -22099,7 +22102,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Quebec?",
     "options_en": [
       "Manon Jeannotte",
@@ -22309,7 +22312,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.saskatchewan.ca/government/government-structure/cabinet/premier-of-saskatchewan",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Saskatchewan?",
     "options_en": [
       "Scott Moe",
@@ -22339,7 +22342,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Lieutenant Governor of Saskatchewan?",
     "options_en": [
       "Bernadette McIntyre",
@@ -22549,7 +22552,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gov.nt.ca/",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of the Northwest Territories?",
     "options_en": [
       "R.J. Simpson",
@@ -22579,7 +22582,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Commissioner of the Northwest Territories?",
     "options_en": [
       "Gerry Kisoun",
@@ -22789,7 +22792,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gov.nu.ca/",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Nunavut?",
     "options_en": [
       "John Main",
@@ -22797,7 +22800,7 @@
       "David Eby",
       "Wab Kinew"
     ],
-    "explanation_en": "John Main is the Premier of Nunavut (consensus government, non-partisan), chosen November 20, 2025.",
+    "explanation_en": "John Main is the Premier of Nunavut (consensus government, non-partisan), chosen by MLAs on November 18, 2025 and sworn in November 20, 2025.",
     "stem_fr": "Qui est l'actuel premier ministre du Nunavut?",
     "options_fr": [
       "John Main",
@@ -22805,7 +22808,7 @@
       "David Eby",
       "Wab Kinew"
     ],
-    "explanation_fr": "John Main est le premier ministre du Nunavut (gouvernement de consensus, non partisan), choisi le 20 novembre 2025."
+    "explanation_fr": "John Main est le premier ministre du Nunavut (gouvernement de consensus, non partisan), choisi par les députés le 18 novembre 2025 et assermenté le 20 novembre 2025."
   },
   {
     "id": "prov-nu-002",
@@ -23029,7 +23032,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://yukon.ca/en/premier",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Premier of Yukon?",
     "options_en": [
       "Currie Dixon",
@@ -23037,7 +23040,7 @@
       "David Eby",
       "Wab Kinew"
     ],
-    "explanation_en": "Currie Dixon is the Premier of Yukon (Yukon Party), in office since the November 3, 2025 territorial election.",
+    "explanation_en": "Currie Dixon is the Premier of Yukon (Yukon Party), sworn in November 22, 2025, after his party won the November 3, 2025 territorial election.",
     "stem_fr": "Qui est l'actuel premier ministre du Yukon?",
     "options_fr": [
       "Currie Dixon",
@@ -23045,7 +23048,7 @@
       "David Eby",
       "Wab Kinew"
     ],
-    "explanation_fr": "Currie Dixon est le premier ministre du Yukon (Parti du Yukon), en fonction depuis l'élection territoriale du 3 novembre 2025."
+    "explanation_fr": "Currie Dixon est le premier ministre du Yukon (Parti du Yukon), assermenté le 22 novembre 2025, après la victoire de son parti à l'élection territoriale du 3 novembre 2025."
   },
   {
     "id": "prov-yt-002",
@@ -23059,7 +23062,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
+    "lastVerified": "2026-10-24",
     "stem_en": "Who is the current Commissioner of Yukon?",
     "options_en": [
       "Adeline Webber",
