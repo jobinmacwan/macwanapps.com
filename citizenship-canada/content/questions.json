@@ -22811,36 +22811,6 @@
     "explanation_fr": "John Main est le premier ministre du Nunavut (gouvernement de consensus, non partisan), choisi par les députés le 18 novembre 2025 et assermenté le 20 novembre 2025."
   },
   {
-    "id": "prov-nu-002",
-    "chapter": "govern",
-    "type": "mcq",
-    "answerIndex": 0,
-    "difficulty": "hard",
-    "factType": "volatile",
-    "volatileKey": "commissioner_nu",
-    "province": "NU",
-    "guideRef": "Discover Canada, 'Canada's Regions'",
-    "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
-    "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "lastVerified": "2026-09-04",
-    "stem_en": "Who is the current Commissioner of Nunavut?",
-    "options_en": [
-      "Eva Aariak",
-      "Salma Lakhani",
-      "Wendy Cocchia",
-      "Anita Neville"
-    ],
-    "explanation_en": "Eva Aariak is the Commissioner of Nunavut.",
-    "stem_fr": "Qui est l'actuel commissaire du Nunavut?",
-    "options_fr": [
-      "Eva Aariak",
-      "Salma Lakhani",
-      "Wendy Cocchia",
-      "Anita Neville"
-    ],
-    "explanation_fr": "Eva Aariak est la commissaire du Nunavut."
-  },
-  {
     "id": "prov-nu-003",
     "chapter": "history",
     "type": "mcq",

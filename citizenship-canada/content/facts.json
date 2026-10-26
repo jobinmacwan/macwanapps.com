@@ -369,11 +369,12 @@
   },
   {
     "key": "commissioner_nu",
-    "value_en": "Eva Aariak is the Commissioner of Nunavut.",
-    "value_fr": "Eva Aariak est la commissaire du Nunavut.",
-    "sourceUrl": "https://www.gg.ca/en/crown/viceregal-representatives",
-    "verified": "2026-09-04",
-    "note": "Verified on gg.ca live page, 2026-08-28."
+    "value_en": "The office of Commissioner of Nunavut is vacant; Deputy Commissioner Lew Phillip is acting until a new commissioner is appointed.",
+    "value_fr": "Le poste de commissaire du Nunavut est vacant; le sous-commissaire Lew Phillip assure l'intérim jusqu'à la nomination d'un nouveau commissaire.",
+    "sourceUrl": "https://nunatsiaq.com/stories/article/nunavut-awaits-appointment-of-new-commissioner/",
+    "verified": "2026-10-26",
+    "note": "Eva Aariak's term ended in early 2026 (Legislative Assembly of Nunavut Hansard, May 21, 2026: 'former commissioner, Eva Aariak, whose office recently ended'); no federal appointment as of the Oct 22, 2026 fall sitting (Nunatsiaq, CBC). The pack question about the commissioner is withdrawn until an appointment; build_province_packs.py skips vacant offices.",
+    "vacant": true
   },
   {
     "key": "test_questions",

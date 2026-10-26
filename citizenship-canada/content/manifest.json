@@ -1,12 +1,12 @@
 {
   "checksums": {
-    "facts.json": "5ba734221e94964e30d78037eb80bfff4666cb82d26881853f0cf0b1c7814c02",
+    "facts.json": "ffbe11af7ebf40348bc6b8a02db4962e7d766ff5e594a56b28140feff8a94571",
     "glossary.json": "3b1a1d6bb7c493664df0d33af1f7996cc2ef800b9a93f7c6538427d7dcdb5139",
     "lessons.json": "d0acb4d3993dccccd96272927a52c04dcc36966d6666ca0af466af4383241407",
-    "questions.json": "307c6a6080038b862dda330e00851891bdcb0cdde593be431602d805fef326e1"
+    "questions.json": "2eb273100b7744b94b0695b123bf48d49950c26777f7cd938268ff1b8b844138"
   },
-  "contentVersion": 9,
-  "notes": "fact check 2026-10-24: Quebec premier is Paul St-Pierre Plamondon; Nunavut and Yukon swearing-in dates; House standings; all other facts re-verified",
-  "publishedAt": "2026-10-24T16:30:39+00:00",
+  "contentVersion": 10,
+  "notes": "26 Oct 2026: Nunavut commissioner question withdrawn (office vacant)",
+  "publishedAt": "2026-10-26T12:22:26+00:00",
   "schemaVersion": 1
 }
