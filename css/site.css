@@ -3201,7 +3201,7 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
   .tab-gallery .phone-frame { border-radius: 44px; }
 }
 
-/* Canada Citizenship: launch switch (swap is-prelaunch for is-live on launch day) */
+/* Launch switch, Canada / Australia / US pages: swap is-prelaunch for is-live on <body> on launch day */
 .is-prelaunch .store-live { display: none !important; }
 .is-live .store-prelaunch { display: none !important; }
 .hero-trust { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 18px 0 0; padding: 0; font-size: 14px; color: var(--text-muted); }
