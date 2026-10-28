@@ -1683,6 +1683,21 @@ nav .nav-links a.nav-cta:hover { background: var(--btn-hover); }
   font-weight: 500;
 }
 .press-asset a:hover { text-decoration: underline; }
+.press-subhead {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 28px 0 0;
+}
+.press-assets.phones { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.press-asset.phone { padding: 16px 12px; }
+.press-asset.phone img {
+  width: 100%;
+  max-width: 132px;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+.press-note { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
 
 /* ---------- Footer ---------- */
 
@@ -2971,6 +2986,9 @@ html.noanim .deco-rings::before, html.noanim .float-chip { animation: none; }
 .theme-canada-citizenship .deco-rings::before { border-color: rgba(184, 32, 45, 0.24); }
 .theme-canada-citizenship .deco-rings::after { border-color: rgba(184, 32, 45, 0.10); }
 .theme-canada-citizenship .float-chip { box-shadow: 0 8px 28px rgba(184, 32, 45, 0.16); }
+/* The first chip rides on the status bar, so its float never covers the
+   greeting just below it (28 Oct 2026). */
+.theme-canada-citizenship .chip-1 { top: 0; }
 .hero-mascot {
   position: absolute;
   right: -86px;
