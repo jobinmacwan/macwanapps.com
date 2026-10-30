@@ -1,12 +1,12 @@
 {
   "checksums": {
     "facts.json": "ffbe11af7ebf40348bc6b8a02db4962e7d766ff5e594a56b28140feff8a94571",
-    "glossary.json": "3b1a1d6bb7c493664df0d33af1f7996cc2ef800b9a93f7c6538427d7dcdb5139",
+    "glossary.json": "0a3246c4ab75f05a1f1c4fefd80fa440930f89e282822a2d5d063dc4b03a9a12",
     "lessons.json": "d0acb4d3993dccccd96272927a52c04dcc36966d6666ca0af466af4383241407",
-    "questions.json": "2eb273100b7744b94b0695b123bf48d49950c26777f7cd938268ff1b8b844138"
+    "questions.json": "7fc9ba889f8446d5ce7df9f3d1d5880ef19ad4fc308b4005a6f8c7ba97fd09b0"
   },
-  "contentVersion": 10,
-  "notes": "26 Oct 2026: Nunavut commissioner question withdrawn (office vacant)",
-  "publishedAt": "2026-10-26T12:22:26+00:00",
+  "contentVersion": 11,
+  "notes": "29 Oct 2026: French spacing \u2014 a space before ? : ; in questions and the glossary",
+  "publishedAt": "2026-10-29T04:45:34+00:00",
   "schemaVersion": 1
 }
