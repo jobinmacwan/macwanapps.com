@@ -20389,7 +20389,7 @@
     "guideRef": "Discover Canada, 'Canada's Regions'",
     "guideRef_fr": "Découvrir le Canada, « Les régions du Canada »",
     "sourceUrl": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/premier",
-    "lastVerified": "2026-10-24",
+    "lastVerified": "2026-10-30",
     "stem_en": "Who is the current Premier of British Columbia?",
     "options_en": [
       "David Eby",
@@ -20397,7 +20397,7 @@
       "Wab Kinew",
       "Susan Holt"
     ],
-    "explanation_en": "David Eby is the Premier of British Columbia (BC NDP).",
+    "explanation_en": "David Eby is the Premier of British Columbia (BC NDP). Lorne Doerkson's Conservatives won the October 24, 2026 election, and he becomes premier when he is sworn in, expected in late November 2026.",
     "stem_fr": "Qui est l'actuel premier ministre de la Colombie-Britannique ?",
     "options_fr": [
       "David Eby",
@@ -20405,7 +20405,7 @@
       "Wab Kinew",
       "Susan Holt"
     ],
-    "explanation_fr": "David Eby est le premier ministre de la Colombie-Britannique (NPD de la C.-B.)."
+    "explanation_fr": "David Eby est le premier ministre de la Colombie-Britannique (NPD de la C.-B.). Les conservateurs de Lorne Doerkson ont remporté l'élection du 24 octobre 2026, et il deviendra premier ministre à son assermentation, prévue fin novembre 2026."
   },
   {
     "id": "prov-bc-002",

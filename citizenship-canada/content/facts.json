@@ -76,8 +76,8 @@
     "value_en": "David Eby is the Premier of British Columbia (BC NDP).",
     "value_fr": "David Eby est le premier ministre de la Colombie-Britannique (NPD de la C.-B.).",
     "sourceUrl": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/premier",
-    "verified": "2026-10-24",
-    "note": "In office since 2022, re-elected 2024; confirmed still premier in 2026 search results."
+    "verified": "2026-10-30",
+    "note": "Eby stays premier until the swearing-in. Conservatives won a majority in the Oct 24, 2026 snap election (63 of 93 seats; final count Nov 6-10, results returned Nov 18); Lorne Doerkson is premier-designate, swearing-in expected late November 2026 (CBC, CTV, Globe and Mail, Wikipedia, 30 Oct). On that day: value -> Doerkson, prov-bc-001 answer + previousAnswer Eby, govern-079 explanation."
   },
   {
     "key": "premier_mb",

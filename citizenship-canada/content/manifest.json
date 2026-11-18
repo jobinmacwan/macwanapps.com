@@ -1,12 +1,12 @@
 {
   "checksums": {
-    "facts.json": "ffbe11af7ebf40348bc6b8a02db4962e7d766ff5e594a56b28140feff8a94571",
+    "facts.json": "ae645736443c17b66a0ae17d3186841df6e1cfda2c766ad77eaf5dcdf5e4e5fc",
     "glossary.json": "0a3246c4ab75f05a1f1c4fefd80fa440930f89e282822a2d5d063dc4b03a9a12",
-    "lessons.json": "d0acb4d3993dccccd96272927a52c04dcc36966d6666ca0af466af4383241407",
-    "questions.json": "7fc9ba889f8446d5ce7df9f3d1d5880ef19ad4fc308b4005a6f8c7ba97fd09b0"
+    "lessons.json": "3552e2ca2ece5a9f0596f19e4078999b8b4326c2ccbef986a318986b59960071",
+    "questions.json": "51d09a0765c8d451a794d74f45d0a5a937ebb559520305168e33f1a962e2dca5"
   },
-  "contentVersion": 11,
-  "notes": "29 Oct 2026: French spacing \u2014 a space before ? : ; in questions and the glossary",
-  "publishedAt": "2026-10-29T04:45:34+00:00",
+  "contentVersion": 13,
+  "notes": "FR lesson spacing; premiers lesson (BC election, Quebec); BC premier-designate note",
+  "publishedAt": "2026-10-30T14:23:16+00:00",
   "schemaVersion": 1
 }
