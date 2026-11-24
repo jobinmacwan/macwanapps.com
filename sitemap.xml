@@ -73,6 +73,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/practice-test/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/fr/test-pratique/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/test-guide/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/fr/guide-examen/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://macwanapps.com/apps/canada-citizenship/fr/support/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
