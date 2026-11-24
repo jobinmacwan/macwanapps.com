@@ -1,5 +1,8 @@
 # Canadian Citizenship Test Ace — launch-day switch
 
+**DONE 24 Nov 2026.** The app went live on 18 Nov; all five steps below were
+applied, plus the press page now says "live".
+
 (In French: Test citoyenneté Canada Ace. Until 18 Nov 2026 the pages said
 "Canada Citizenship 2027" / "Citoyenneté canadienne 2027"; the names, the
 four OG cards and content version 13 were brought up to date that day. Only
