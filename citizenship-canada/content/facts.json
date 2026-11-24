@@ -396,11 +396,11 @@
   },
   {
     "key": "test_time_limit",
-    "value_en": "The online citizenship test has a 45-minute time limit (it auto-submits when time runs out). The in-person written test is 30 minutes.",
-    "value_fr": "L'examen en ligne pour la citoyenneté a une limite de 45 minutes (il est soumis automatiquement à la fin du temps). L'examen écrit en personne dure 30 minutes.",
+    "value_en": "The citizenship test has a 45-minute time limit. Taken online, it is submitted automatically when time runs out.",
+    "value_fr": "L'examen de citoyenneté a une limite de 45 minutes. En ligne, il est soumis automatiquement à la fin du temps.",
     "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/test/online.html",
-    "verified": "2026-09-04",
-    "note": "45-minute online countdown confirmed on the live 'Take the online test' page. The 30-minute in-person figure comes from IRCC's general test description; if quizzing on time limit, prefer the online 45-minute figure or specify the format in the question.",
+    "verified": "2026-11-24",
+    "note": "IRCC's test pages (updated 31 Mar 2026, checked 24 Nov 2026) give 45 minutes for the test and no longer mention a 30-minute in-person written test. The online page confirms the 45-minute countdown and auto-submit.",
     "scope": "app"
   },
   {

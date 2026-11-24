@@ -1,12 +1,12 @@
 {
   "checksums": {
-    "facts.json": "ae645736443c17b66a0ae17d3186841df6e1cfda2c766ad77eaf5dcdf5e4e5fc",
+    "facts.json": "512f72e03ce9c1df8db82e177232759138142fb998c81940413107c5b7859af5",
     "glossary.json": "0a3246c4ab75f05a1f1c4fefd80fa440930f89e282822a2d5d063dc4b03a9a12",
-    "lessons.json": "3552e2ca2ece5a9f0596f19e4078999b8b4326c2ccbef986a318986b59960071",
+    "lessons.json": "788b5dc00a4b0d8b5666782d4f9f9572878ef1b30e3d5443fef882bedd76cf45",
     "questions.json": "51d09a0765c8d451a794d74f45d0a5a937ebb559520305168e33f1a962e2dca5"
   },
-  "contentVersion": 13,
-  "notes": "FR lesson spacing; premiers lesson (BC election, Quebec); BC premier-designate note",
-  "publishedAt": "2026-10-30T14:23:16+00:00",
+  "contentVersion": 14,
+  "notes": "Test length: 45 minutes in every format, per IRCC (fact test_time_limit, lesson govern-l06)",
+  "publishedAt": "2026-11-24T18:49:53+00:00",
   "schemaVersion": 1
 }
