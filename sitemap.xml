@@ -232,4 +232,56 @@
   <url><loc>https://macwanapps.com/blog/morning-routine-you-will-keep/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://macwanapps.com/blog/phone-in-bed-morning/</loc><lastmod>2026-08-12</lastmod></url>
   <url><loc>https://macwanapps.com/blog/steps-per-day-by-goal/</loc><lastmod>2026-08-11</lastmod></url>
+  <!-- blog:canada:start -->
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/fail-canadian-citizenship-test/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/discover-canada-study-plan/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/canadian-citizenship-test-format/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- blog:canada:end -->
+  <!-- blog:walkfirst:start -->
+  <url>
+    <loc>https://macwanapps.com/apps/walkfirst/blog/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/walkfirst/blog/walking-plan-for-beginners/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/walkfirst/blog/walking-after-eating-blood-sugar/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/walkfirst/blog/does-walking-count-as-exercise/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- blog:walkfirst:end -->
 </urlset>

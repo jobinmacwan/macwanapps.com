@@ -29,3 +29,5 @@ commit and push:
 
 Everything else (badge links, Smart App Banner, FAQ) is already in place
 and only hidden by the CSS switch.
+6. Run `python3 _blog/build.py`. The blog pages copy the landing page's
+   launch state, so this flips their App Store buttons too.
