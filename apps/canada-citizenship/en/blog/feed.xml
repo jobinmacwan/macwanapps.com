@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Canadian Citizenship Blog</title>
+  <link>https://macwanapps.com/apps/canada-citizenship/en/blog/</link>
+  <description>The Canadian citizenship blog: test tips, Discover Canada study help, the interview, ceremony and oath, each checked against canada.ca.</description>
+  <language>en-ca</language>
+  <atom:link href="https://macwanapps.com/apps/canada-citizenship/en/blog/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Canadian citizenship ceremony: how long it takes, what to bring and what to wear</title>
+    <link>https://macwanapps.com/apps/canada-citizenship/en/blog/canadian-citizenship-ceremony/</link>
+    <guid>https://macwanapps.com/apps/canada-citizenship/en/blog/canadian-citizenship-ceremony/</guid>
+    <pubDate>Wed, 25 Nov 2026 09:00:00 +0000</pubDate>
+    <description>The citizenship ceremony lasts a few hours. The documents to bring, what to wear, virtual vs in person, and what happens on the day, from IRCC.</description>
+  </item>
+  <item>
+    <title>What happens if you fail the Canadian citizenship test?</title>
+    <link>https://macwanapps.com/apps/canada-citizenship/en/blog/fail-canadian-citizenship-test/</link>
+    <guid>https://macwanapps.com/apps/canada-citizenship/en/blog/fail-canadian-citizenship-test/</guid>
+    <pubDate>Tue, 24 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Failing once doesn&#x27;t end your application. You get 3 chances in 30 days, then a hearing. What the hearing involves and how to pass next time.</description>
+  </item>
+  <item>
+    <title>How to study Discover Canada: a 4-week plan for the citizenship test</title>
+    <link>https://macwanapps.com/apps/canada-citizenship/en/blog/discover-canada-study-plan/</link>
+    <guid>https://macwanapps.com/apps/canada-citizenship/en/blog/discover-canada-study-plan/</guid>
+    <pubDate>Tue, 24 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Every citizenship test question comes from Discover Canada. A 4-week plan, chapter by chapter, plus the facts that have changed since 2012.</description>
+  </item>
+</channel>
+</rss>
