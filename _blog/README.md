@@ -14,7 +14,8 @@ them). The WalkFirst blog page lists them alongside the new ones.
 ## Add a post
 
 1. Write `_blog/posts/<app>/<slug>.html`. Front matter and format are
-   described at the top of `build.py`; copy an existing post.
+   described at the top of `build.py`; copy an existing post. `category`
+   is required.
 2. `node _blog/covers.js` makes the 1200x630 cover for any post without one.
 3. `python3 _blog/build.py` regenerates the post pages, the blog page, the
    RSS feed, the sitemap entries and the "From the blog" block on the landing
@@ -58,9 +59,17 @@ pull request for approval:
 - Canada: Monday, Wednesday, Friday
 - WalkFirst: Tuesday, Thursday, Saturday
 
-Topics come from `_blog/topics.md`. The writer takes the first unchecked
-topic, checks it off in the same pull request, and skips anything already
-covered.
+Topics come from `_blog/topics.md`, ordered by search demand (method and
+clusters in `_blog/keywords.md`; refresh with `python3 _blog/keywords.py
+<app>`). The writer takes the first unchecked topic, checks it off in the
+same pull request, and skips anything already covered.
+
+## Categories and pillar pages
+
+Every post has a `category:` from the app's list in `build.py`; the blog
+page shows a filter chip per category. Canada's test guide and practice
+test are pillar pages: posts go deep on one question and link to them,
+and never repeat their whole subject.
 
 ## Launch day (Canada)
 

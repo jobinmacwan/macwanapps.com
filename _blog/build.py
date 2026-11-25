@@ -23,7 +23,8 @@ Post source format (_blog/posts/<app>/<slug>.html):
     title: Headline shown on the page (H1)
     seo_title: Shorter title for search results (<= ~60 chars)
     description: Meta description (~150 chars), also the card excerpt
-    kicker: TEST FORMAT
+    category: Test prep        (one of the app's categories in APPS below)
+    kicker: TEST FORMAT        (optional label above the title; defaults to the category)
     date: 2026-11-24
     updated: 2026-11-24
     cover_line: Short text for the cover card (optional; defaults to title)
@@ -59,32 +60,42 @@ APPS = {
         "lang": "en-CA",
         "locale": "en_CA",
         "itunes_id": "6806622124",
-        "store_url": "https://apps.apple.com/ca/app/id6806622124",
-        "blog_title": "Canadian Citizenship Test Blog",
+        # pt/ct are App Store Connect campaign tokens: downloads from the blog show up as "web-en-blog".
+        "store_url": "https://apps.apple.com/ca/app/id6806622124?pt=128156141&ct=web-en-blog&mt=8",
+        "blog_title": "Canadian Citizenship Blog",
         "short_name": "Test Ace",
-        "hub_title": "Canadian Citizenship Test Guides and Study Tips",
-        "hub_h1": "Canadian citizenship test guides",
-        "hub_subtitle": "Plain-language guides to the Canadian citizenship test: how it works, how to study "
-                        "<em>Discover Canada</em>, and what happens on test day and after.",
+        "hub_title": "Canadian Citizenship Blog: Test, Ceremony and Study Tips",
+        "hub_h1": "The Canadian citizenship blog",
+        "hub_subtitle": "Test tips, help with <em>Discover Canada</em>, the interview, the ceremony and "
+                        "the oath, and life as a new Canadian, from the maker of Canadian Citizenship Test Ace.",
         "hub_note": "Every fact links to its official source on canada.ca. This is an independent blog, "
                     "not affiliated with the Government of Canada or IRCC.",
-        "hub_description": "Guides to the Canadian citizenship test: format, pass mark, study plans for "
-                           "Discover Canada, retakes and test day, each checked against canada.ca.",
+        "hub_description": "The Canadian citizenship blog: test tips, Discover Canada study help, the "
+                           "interview, ceremony and oath, each checked against canada.ca.",
+        "categories": ["Test prep", "Discover Canada", "Citizenship process", "Life in Canada", "App news"],
+        # Pillar pages the blog points to first: they cover the whole subject, posts go deep on one question.
+        "start_here": [
+            ("/apps/canada-citizenship/en/test-guide/", "The Canadian citizenship test in 2026",
+             "How the test works, start to finish: format, pass mark, online rules, results."),
+            ("/apps/canada-citizenship/en/practice-test/", "Free practice test",
+             "20 questions from Discover Canada, scored like the real test. No sign-up."),
+        ],
         "nav_links": [
             ("/apps/canada-citizenship/en/", "The app", ""),
+            ("/apps/canada-citizenship/en/practice-test/", "Practice test", ""),
             ("/apps/canada-citizenship/en/blog/", "Blog", "blog"),
             ("/apps/canada-citizenship/en/support/", "Support", ""),
             ("/apps/canada-citizenship/fr/", "Français", ' hreflang="fr-CA" lang="fr"'),
         ],
-        "nav_cta": ("/apps/canada-citizenship/en/#get", "Get the app"),
+        "nav_cta": ("https://apps.apple.com/ca/app/id6806622124?pt=128156141&ct=web-en-blog-nav&mt=8", "Get the app"),
         "cta_title": "Practise for the real test with Canadian Citizenship Test Ace",
         "cta_text": "800+ questions checked against <em>Discover Canada</em>, lessons you can read or "
                     "listen to in English or French, and 20-question mock exams with the real pass mark.",
         "mid_cta": "Want to check where you stand? <strong>Canadian Citizenship Test Ace</strong> has "
                    "20-question mock exams with the real pass mark and a question set for every "
                    "province and territory.",
-        "legacy": [],
-        "latest_heading": "Guides for your citizenship test",
+        "legacy": {},
+        "latest_heading": "From the blog",
     },
     "walkfirst": {
         "name": "WalkFirst",
@@ -98,6 +109,8 @@ APPS = {
         "blog_title": "WalkFirst Blog",
         "short_name": "WalkFirst",
         "hub_title": "WalkFirst Blog: Walking, Steps and Screen Time",
+        "categories": ["Walking", "Weight loss", "Screen time", "Habits", "App news"],
+        "start_here": [],
         "hub_h1": "Walking, screen time and habits that stick",
         "hub_subtitle": "Honest, research-backed writing on walking, steps and getting your time back "
                         "from your phone, from the developer of WalkFirst.",
@@ -117,10 +130,13 @@ APPS = {
         "mid_cta": "Struggling to fit the walk in? <strong>WalkFirst</strong> keeps your most "
                    "distracting apps locked until you've walked, so the walk comes first.",
         # Older posts that live at /blog/<slug>/ keep their URLs; the hub lists them too.
-        "legacy": ["block-instagram-iphone", "friction-habit-hack", "morning-routine-you-will-keep",
-                   "phone-in-bed-morning", "steps-per-day-by-goal", "stop-doomscrolling",
-                   "healthy-daily-schedule-desk-job", "how-much-screen-time-is-too-much",
-                   "walking-30-minutes-a-day", "10000-steps-myth", "introducing-walkfirst"],
+        "legacy": {"block-instagram-iphone": "Screen time", "friction-habit-hack": "Habits",
+                   "morning-routine-you-will-keep": "Habits", "phone-in-bed-morning": "Screen time",
+                   "steps-per-day-by-goal": "Walking", "stop-doomscrolling": "Screen time",
+                   "healthy-daily-schedule-desk-job": "Habits",
+                   "how-much-screen-time-is-too-much": "Screen time",
+                   "walking-30-minutes-a-day": "Walking", "10000-steps-myth": "Walking",
+                   "introducing-walkfirst": "App news"},
         "latest_heading": "From the WalkFirst blog",
     },
 }
@@ -169,10 +185,12 @@ def parse_post(app, path):
             elif line.startswith("A:") and q:
                 faq.append((q, line[2:].strip()))
                 q = None
-    for key in ("title", "description", "kicker", "date"):
+    for key in ("title", "description", "category", "date"):
         if key not in meta:
             sys.exit(f"{path}: front matter needs '{key}'")
     slug = os.path.splitext(os.path.basename(path))[0]
+    if meta["category"] not in APPS[app]["categories"]:
+        sys.exit(f"{path}: category must be one of {APPS[app]['categories']}")
     words = len(strip_tags(body).split()) + sum(len(strip_tags(q + " " + a).split()) for q, a in faq)
     cfg = APPS[app]
     return {
@@ -180,7 +198,8 @@ def parse_post(app, path):
         "title": meta["title"],
         "seo_title": meta.get("seo_title", meta["title"]),
         "description": meta["description"],
-        "kicker": meta["kicker"].upper(),
+        "kicker": meta.get("kicker", meta["category"]).upper(),
+        "category": meta["category"],
         "date": date.fromisoformat(meta["date"]),
         "updated": date.fromisoformat(meta.get("updated", meta["date"])),
         "related": [s.strip() for s in meta.get("related", "").split(",") if s.strip()],
@@ -193,7 +212,7 @@ def parse_post(app, path):
     }
 
 
-def parse_legacy(slug):
+def parse_legacy(slug, category):
     s = read(f"blog/{slug}/index.html")
     title = strip_tags(re.search(r"<h1[^>]*>(.*?)</h1>", s, re.S).group(1)).strip()
     desc = html.unescape(re.search(r'<meta name="description" content="([^"]*)"', s).group(1))
@@ -202,6 +221,7 @@ def parse_legacy(slug):
     kicker = re.search(r'class="row-kicker[^"]*">([^<]*)<', s)
     meta = re.search(r'(\d+) min read', s)
     return {"slug": slug, "title": title, "description": desc, "kicker": kicker.group(1) if kicker else "",
+            "category": category,
             "date": date.fromisoformat(pub), "updated": date.fromisoformat(pub),
             "minutes": int(meta.group(1)) if meta else 4, "url": f"/blog/{slug}/",
             "image": img.group(1) if img else "", "legacy": True}
@@ -228,7 +248,7 @@ def nav_html(cfg, brand, active):
         attrs = extra if extra != "blog" else ""
         links.append(f'      <a href="{href}"{cls}{attrs}>{label}</a>')
     cta_href, cta_label = cfg["nav_cta"]
-    links.append(f'      <a href="{cta_href}" class="nav-cta" data-ph-event="blog_cta_click" '
+    links.append(f'      <a href="{esc(cta_href)}" class="nav-cta" data-ph-event="blog_cta_click" '
                  f'data-ph-label="nav">{cta_label}</a>')
     return f"""<nav>
   <div class="nav-inner">
@@ -246,7 +266,7 @@ def nav_html(cfg, brand, active):
 def store_buttons(cfg, label):
     """Prelaunch pill + live badge; the landing's body class decides which one shows."""
     return (f'<span class="coming-soon-pill store-prelaunch">Coming soon to the App Store</span>'
-            f'<a href="{cfg["store_url"]}" class="appstore-badge-link store-live" '
+            f'<a href="{esc(cfg["store_url"])}" class="appstore-badge-link store-live" '
             f'data-ph-event="appstore_badge_click" data-ph-label="{label}">'
             f'<img src="/images/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>')
 
@@ -307,6 +327,7 @@ def render_post(app, cfg, post, posts, parts):
          "headline": post["title"], "description": post["description"],
          "image": SITE + post["image"], "datePublished": post["date"].isoformat(),
          "dateModified": post["updated"].isoformat(), "inLanguage": cfg["lang"],
+         "articleSection": post["category"],
          "url": SITE + post["url"], "author": AUTHOR, "publisher": PUBLISHER,
          "isPartOf": {"@type": "Blog", "@id": SITE + blog_url, "name": cfg["blog_title"]}},
         breadcrumb_ld(crumbs),
@@ -407,10 +428,10 @@ def page_title(title, cfg):
 def card(p, cover_loading="lazy"):
     img = f'<img class="post-cover" src="{p["image"]}" alt="" width="1200" height="630" loading="{cover_loading}">' \
         if p["image"] else ""
-    return f"""    <a href="{p['url']}" class="post-card fade-in">
+    return f"""    <a href="{p['url']}" class="post-card fade-in" data-cat="{esc(p['category'])}">
       {img}
       <div class="post-card-body">
-        <div class="row-kicker">{esc(p['kicker'])}</div>
+        <div class="row-kicker">{esc(p['category'])}</div>
         <h2>{esc(p['title'])}</h2>
         <p>{esc(p['description'])}</p>
         <div class="row-meta"><time datetime="{p['date'].isoformat()}">{fmt_date(p['date'])}</time> &middot; {p['minutes']} min read</div>
@@ -431,6 +452,36 @@ def render_hub(app, cfg, entries, parts):
         breadcrumb_ld([("Home", "/"), (cfg["name"], cfg["landing_url"]), ("Blog", blog_url)]),
     ]
     cards = "\n".join(card(p, "eager" if i < 3 else "lazy") for i, p in enumerate(entries))
+    start = ""
+    if cfg["start_here"]:
+        links = "\n".join(f'''    <a href="{u}" class="start-here-link"><strong>{esc(t)}</strong><span>{esc(d)}</span></a>'''
+                          for u, t, d in cfg["start_here"])
+        start = f'''
+  <div class="start-here fade-in" aria-label="Start here">
+    <div class="all-posts-label">Start here</div>
+    <div class="start-here-grid">
+{links}
+    </div>
+  </div>
+'''
+    used = [c for c in cfg["categories"] if any(p["category"] == c for p in entries)]
+    filters = ""
+    if len(used) > 1:
+        chips = "".join(f'<button type="button" class="blog-chip" data-cat="{esc(c)}" aria-pressed="false">{esc(c)}</button>'
+                        for c in used)
+        filters = f'''
+  <div class="blog-filters" role="group" aria-label="Filter posts by topic">
+    <button type="button" class="blog-chip" data-cat="" aria-pressed="true">All</button>{chips}
+  </div>
+  <script>
+  document.querySelectorAll('.blog-chip').forEach(function (b) {{
+    b.addEventListener('click', function () {{
+      var cat = b.dataset.cat;
+      document.querySelectorAll('.blog-chip').forEach(function (x) {{ x.setAttribute('aria-pressed', String(x === b)); }});
+      document.querySelectorAll('.post-grid .post-card').forEach(function (c) {{ c.hidden = !!cat && c.dataset.cat !== cat; }});
+    }});
+  }});
+  </script>'''
     return f"""{head(cfg, title=cfg['hub_title'], description=cfg['hub_description'],
                  canonical=blog_url, og_type='website', image=entries[0]['image'] if entries else '',
                  jsonld=jsonld, feed_url=feed_url)}
@@ -448,14 +499,14 @@ def render_hub(app, cfg, entries, parts):
   <p class="blog-note hero-anim stagger-2">{cfg['hub_note']}</p>
 </section>
 
-<section class="post-list" aria-label="All posts">
+<section class="post-list" aria-label="All posts">{start}{filters}
   <div class="post-grid">
 {cards}
   </div>
 
   <div class="blog-subscribe fade-in">
     <h2>Get new posts</h2>
-    <p>New guides as they're published, straight to your feed reader.</p>
+    <p>New posts as they're published, straight to your feed reader.</p>
     <a href="{feed_url}" class="btn-primary subscribe-btn">Subscribe via RSS</a>
   </div>
 </section>
@@ -547,7 +598,7 @@ def build(app):
     parts = landing_parts(cfg)
     for p in posts:
         write(f"{cfg['blog_dir']}/{p['slug']}/index.html", render_post(app, cfg, p, posts, parts))
-    entries = posts + [parse_legacy(s) for s in cfg["legacy"]]
+    entries = posts + [parse_legacy(s, c) for s, c in cfg["legacy"].items()]
     entries.sort(key=lambda p: (p["date"], not p["legacy"]), reverse=True)
     write(f"{cfg['blog_dir']}/index.html", render_hub(app, cfg, entries, parts))
     write(f"{cfg['blog_dir']}/feed.xml", render_feed(cfg, entries))

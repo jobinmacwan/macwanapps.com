@@ -1,51 +1,56 @@
 # Blog topic backlog
 
-The scheduled writer takes the first unchecked topic for its app, checks it
-off in the same pull request, and adds the slug. Jobin can reorder, add or
-delete topics at any time. Prefer questions people actually search for.
+Ordered by search demand (see `keywords.md`). The scheduled writer takes the
+first unchecked topic for its app, checks it off in the same pull request
+and adds the slug. Each line gives the category and the phrase to target.
+Jobin can reorder, add or delete topics at any time.
+
+Canada categories: Test prep · Discover Canada · Citizenship process · Life in Canada · App news
+WalkFirst categories: Walking · Weight loss · Screen time · Habits · App news
 
 ## Canada (Canadian Citizenship Test Ace)
 
-- [x] How the test works: format, pass mark, time limit (`canadian-citizenship-test-format`)
-- [x] What happens if you fail the test (`fail-canadian-citizenship-test`)
-- [x] Discover Canada 4-week study plan (`discover-canada-study-plan`)
-- [ ] Online citizenship test checklist: device, browser, ID and room
-- [ ] When does the citizenship test invitation arrive, and what's in it?
-- [ ] Missed your citizenship test? What to do next
-- [ ] Citizenship interview: who gets one and what to bring
-- [ ] After you pass: the citizenship ceremony and the Oath of Citizenship
-- [ ] The Oath of Citizenship explained, line by line
-- [ ] Rights vs responsibilities of citizenship (Discover Canada chapter)
-- [ ] Who We Are: Indigenous peoples, the Métis and Inuit (Discover Canada chapter)
-- [ ] Key dates in Canadian history to know for the test
-- [ ] How Canadians govern themselves: the three levels of government
-- [ ] Governor General, Lieutenant Governor, Commissioner: who does what?
-- [ ] Federal elections: how MPs are chosen and who can vote
-- [ ] The justice system chapter in plain language
-- [ ] Canadian symbols that come up on the test
-- [ ] Canada's economy chapter summary
-- [ ] Canada's regions, provinces, territories and capitals
-- [ ] Study by listening: the Discover Canada audio guide
-- [ ] Taking the citizenship test in French
-- [ ] Facts in Discover Canada that have changed since 2012
-- [ ] Who has to take the test, and who is exempt (ages 18 to 54, waivers)
+- [x] Citizenship process: the citizenship ceremony (`canadian-citizenship-ceremony`)
+- [x] Test prep: what happens if you fail (`fail-canadian-citizenship-test`)
+- [x] Discover Canada: 4-week study plan (`discover-canada-study-plan`)
+- [ ] Citizenship process: "what is the oath to become a canadian citizen" (oath text, swear vs affirm, King Charles III)
+- [ ] Citizenship process: "is there an interview for canadian citizenship" (who gets one, what's asked, what to bring)
+- [ ] Citizenship process: "what happens after the citizenship ceremony" (certificate, passport, SIN, voting)
+- [ ] Test prep: "is the canadian citizenship test hard" (honest answer, what trips people up)
+- [ ] Discover Canada: "discover canada important dates" (dates to know for the test)
+- [ ] Test prep: "who is exempt from the citizenship test canada" (ages, waivers, language)
+- [ ] Citizenship process: "how long after the citizenship test for the oath" (test to oath timeline)
+- [ ] Test prep: "can you take the canadian citizenship test online" (devices, webcam, does it record)
+- [ ] Discover Canada: "discover canada summary" (chapter-by-chapter summary)
+- [ ] Discover Canada: how Canadians govern themselves (three levels of government)
+- [ ] Discover Canada: Governor General, Lieutenant Governor, Commissioner: who does what?
+- [ ] Discover Canada: federal elections, how MPs are chosen and who can vote
+- [ ] Discover Canada: Canadian symbols that come up on the test
+- [ ] Discover Canada: Canada's regions, provinces, territories and capitals
+- [ ] Discover Canada: Who We Are: Indigenous peoples, the Métis and Inuit
+- [ ] Test prep: "canadian citizenship test in french"
+- [ ] Discover Canada: "discover canada audio" (study by listening)
+- [ ] Citizenship process: missed your citizenship test? What to do
+- [ ] Life in Canada: rights and responsibilities of a new citizen (voting, jury duty)
 
 ## WalkFirst
 
-- [x] Walking after eating and blood sugar (`walking-after-eating-blood-sugar`)
-- [x] Does walking count as exercise? (`does-walking-count-as-exercise`)
-- [x] 4-week walking plan for beginners (`walking-plan-for-beginners`)
-- [ ] How many calories does walking burn?
-- [ ] Walking for weight loss: what the research says
-- [ ] What's the best time of day to walk?
-- [ ] Does walking help you sleep better?
-- [ ] Walking for anxiety and low mood: what studies show
-- [ ] Sitting all day: why breaking it up matters
-- [ ] Interval walking: does alternating fast and slow help?
-- [ ] Walking in winter: how to keep the habit when it's cold and dark
-- [ ] Steps or minutes: which should you track?
-- [ ] Why you keep checking your phone, and how to stop
-- [ ] Phone before bed: what screens do to sleep
-- [ ] Walking meetings: do they work?
-- [ ] Walking with a friend: accountability that sticks
-- [ ] Is a walking pad worth it for desk workers?
+- [x] Walking: walking after eating and blood sugar (`walking-after-eating-blood-sugar`)
+- [x] Walking: does walking count as exercise? (`does-walking-count-as-exercise`)
+- [x] Walking: 4-week walking plan for beginners (`walking-plan-for-beginners`)
+- [ ] Weight loss: "walking for weight loss" (what research shows, a realistic plan)
+- [ ] Screen time: "do app blockers work" (what the research says, why most get bypassed)
+- [ ] Screen time: "phone addiction symptoms" (signs, what helps; not a diagnosis)
+- [ ] Weight loss: "steps a day to lose weight"
+- [ ] Weight loss: "is walking better than running for weight loss"
+- [ ] Screen time: "app blocker for iPhone" (Screen Time vs third-party, honestly compared)
+- [ ] Weight loss: "how many calories does walking burn" (CDC calories page)
+- [ ] Walking: "walking after eating for digestion" / "how long after eating should you walk"
+- [ ] Screen time: "how to stop scrolling on social media"
+- [ ] Habits: "does phone addiction cause anxiety" (what studies show)
+- [ ] Walking: what's the best time of day to walk?
+- [ ] Walking: does walking help you sleep better?
+- [ ] Habits: sitting all day: why breaking it up matters
+- [ ] Walking: walking in winter: keeping the habit when it's cold and dark
+- [ ] Screen time: phone before bed: what screens do to sleep
+- [ ] Walking: is a walking pad worth it for desk workers?

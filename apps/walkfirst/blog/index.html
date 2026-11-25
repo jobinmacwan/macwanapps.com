@@ -193,128 +193,140 @@
 </section>
 
 <section class="post-list" aria-label="All posts">
+  <div class="blog-filters" role="group" aria-label="Filter posts by topic">
+    <button type="button" class="blog-chip" data-cat="" aria-pressed="true">All</button><button type="button" class="blog-chip" data-cat="Walking" aria-pressed="false">Walking</button><button type="button" class="blog-chip" data-cat="Screen time" aria-pressed="false">Screen time</button><button type="button" class="blog-chip" data-cat="Habits" aria-pressed="false">Habits</button><button type="button" class="blog-chip" data-cat="App news" aria-pressed="false">App news</button>
+  </div>
+  <script>
+  document.querySelectorAll('.blog-chip').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var cat = b.dataset.cat;
+      document.querySelectorAll('.blog-chip').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      document.querySelectorAll('.post-grid .post-card').forEach(function (c) { c.hidden = !!cat && c.dataset.cat !== cat; });
+    });
+  });
+  </script>
   <div class="post-grid">
-    <a href="/apps/walkfirst/blog/walking-plan-for-beginners/" class="post-card fade-in">
+    <a href="/apps/walkfirst/blog/walking-plan-for-beginners/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog/walkfirst-walking-plan-for-beginners.png" alt="" width="1200" height="630" loading="eager">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING PLAN</div>
+        <div class="row-kicker">Walking</div>
         <h2>A 4-week walking plan for beginners: from 10 minutes to 150 a week</h2>
         <p>Start with 10 minutes a day and build to the 150 minutes a week health guidelines recommend. A simple 4-week walking plan, with pace and habit tips.</p>
         <div class="row-meta"><time datetime="2026-11-24">November 24, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/apps/walkfirst/blog/walking-after-eating-blood-sugar/" class="post-card fade-in">
+    <a href="/apps/walkfirst/blog/walking-after-eating-blood-sugar/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog/walkfirst-walking-after-eating-blood-sugar.png" alt="" width="1200" height="630" loading="eager">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING</div>
+        <div class="row-kicker">Walking</div>
         <h2>Walking after eating: does a 10-minute walk lower blood sugar?</h2>
         <p>A short walk after meals blunts the blood sugar spike. What the studies found, why timing matters, and how to make a 10-minute walk after dinner a habit.</p>
         <div class="row-meta"><time datetime="2026-11-24">November 24, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/apps/walkfirst/blog/does-walking-count-as-exercise/" class="post-card fade-in">
+    <a href="/apps/walkfirst/blog/does-walking-count-as-exercise/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog/walkfirst-does-walking-count-as-exercise.png" alt="" width="1200" height="630" loading="eager">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING</div>
+        <div class="row-kicker">Walking</div>
         <h2>Does walking count as exercise? How much you need each week</h2>
         <p>Brisk walking counts as moderate exercise. How fast &quot;brisk&quot; is, the 150 minutes a week adults need, and whether short walks add up.</p>
         <div class="row-meta"><time datetime="2026-11-24">November 24, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/block-instagram-iphone/" class="post-card fade-in">
+    <a href="/blog/block-instagram-iphone/" class="post-card fade-in" data-cat="Screen time">
       <img class="post-cover" src="/images/blog-cover-block-instagram-iphone.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">APP BLOCKING</div>
+        <div class="row-kicker">Screen time</div>
         <h2>How to block Instagram on iPhone — every method, honestly ranked</h2>
         <p>Screen Time limits, Downtime, deleting the app, and third-party blockers — every way to block Instagram on iPhone, ranked by how hard it is to bypass.</p>
         <div class="row-meta"><time datetime="2026-08-15">August 15, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/blog/friction-habit-hack/" class="post-card fade-in">
+    <a href="/blog/friction-habit-hack/" class="post-card fade-in" data-cat="Habits">
       <img class="post-cover" src="/images/blog-cover-friction-habit-hack.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">HABITS</div>
+        <div class="row-kicker">Habits</div>
         <h2>Friction is the only habit hack that ever worked for me</h2>
         <p>Motivation fades and discipline runs out. Redesigning the friction around your habits — making bad ones harder and good ones easier — is what actually lasts.</p>
         <div class="row-meta"><time datetime="2026-08-14">August 14, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/blog/morning-routine-you-will-keep/" class="post-card fade-in">
+    <a href="/blog/morning-routine-you-will-keep/" class="post-card fade-in" data-cat="Habits">
       <img class="post-cover" src="/images/blog-cover-morning-routine-you-will-keep.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">ROUTINES</div>
+        <div class="row-kicker">Habits</div>
         <h2>A morning routine you&#x27;ll actually keep has only three pieces</h2>
         <p>Forget the 5am club and the 12-step rituals. A durable morning routine has three pieces: water, light, and movement — in any order, at any hour.</p>
         <div class="row-meta"><time datetime="2026-08-13">August 13, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/phone-in-bed-morning/" class="post-card fade-in">
+    <a href="/blog/phone-in-bed-morning/" class="post-card fade-in" data-cat="Screen time">
       <img class="post-cover" src="/images/blog-cover-phone-in-bed-morning.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">SCREEN TIME</div>
+        <div class="row-kicker">Screen time</div>
         <h2>Checking your phone in bed is ruining your morning — here&#x27;s the fix</h2>
         <p>Why the first ten minutes of phone use set your whole day&#x27;s attention pattern, and a three-tier fix from gentle to bulletproof.</p>
         <div class="row-meta"><time datetime="2026-08-12">August 12, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/steps-per-day-by-goal/" class="post-card fade-in">
+    <a href="/blog/steps-per-day-by-goal/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog-cover-steps-per-day-by-goal.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING</div>
+        <div class="row-kicker">Walking</div>
         <h2>How many steps a day do you really need? It depends on your goal</h2>
         <p>Longevity, weight, mood, or just getting started — the right daily step goal is different for each. Here are the honest numbers per goal.</p>
         <div class="row-meta"><time datetime="2026-08-11">August 11, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/stop-doomscrolling/" class="post-card fade-in">
+    <a href="/blog/stop-doomscrolling/" class="post-card fade-in" data-cat="Screen time">
       <img class="post-cover" src="/images/blog-cover-stop-doomscrolling.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">DOOMSCROLLING</div>
+        <div class="row-kicker">Screen time</div>
         <h2>Doomscrolling: why your brain can&#x27;t stop — and the fix that isn&#x27;t willpower</h2>
         <p>Doomscrolling isn&#x27;t a discipline problem — it&#x27;s a design problem. Here&#x27;s the psychology behind the loop and the friction-based fix that actually works.</p>
         <div class="row-meta"><time datetime="2026-08-10">August 10, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/blog/healthy-daily-schedule-desk-job/" class="post-card fade-in">
+    <a href="/blog/healthy-daily-schedule-desk-job/" class="post-card fade-in" data-cat="Habits">
       <img class="post-cover" src="/images/blog-cover-healthy-daily-schedule-desk-job.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">ROUTINES</div>
+        <div class="row-kicker">Habits</div>
         <h2>A realistic healthy daily schedule for people with desk jobs</h2>
         <p>No 5am club, no two-hour routines — a sustainable daily structure for desk workers built around movement, light, and a phone that knows its place.</p>
         <div class="row-meta"><time datetime="2026-08-09">August 9, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/blog/how-much-screen-time-is-too-much/" class="post-card fade-in">
+    <a href="/blog/how-much-screen-time-is-too-much/" class="post-card fade-in" data-cat="Screen time">
       <img class="post-cover" src="/images/blog-cover-how-much-screen-time-is-too-much.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">SCREEN TIME</div>
+        <div class="row-kicker">Screen time</div>
         <h2>How much screen time is too much? An honest answer</h2>
         <p>There&#x27;s no magic number of hours. Here&#x27;s the honest way to judge your screen time — three questions that matter more than any average.</p>
         <div class="row-meta"><time datetime="2026-08-08">August 8, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/walking-30-minutes-a-day/" class="post-card fade-in">
+    <a href="/blog/walking-30-minutes-a-day/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog-cover-walking-30-minutes-a-day.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING</div>
+        <div class="row-kicker">Walking</div>
         <h2>What 30 minutes of walking a day actually changes</h2>
         <p>The realistic benefits of a daily 30-minute walk — mood, sleep, blood pressure, creativity — from someone who builds walking software for a living.</p>
         <div class="row-meta"><time datetime="2026-08-07">August 7, 2026</time> &middot; 5 min read</div>
       </div>
     </a>
-    <a href="/blog/10000-steps-myth/" class="post-card fade-in">
+    <a href="/blog/10000-steps-myth/" class="post-card fade-in" data-cat="Walking">
       <img class="post-cover" src="/images/blog-cover-10000-steps-myth.jpg" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">WALKING</div>
+        <div class="row-kicker">Walking</div>
         <h2>Is 10,000 steps a myth? What the science actually says</h2>
         <p>10,000 steps started as pedometer marketing, not medicine. Here&#x27;s what step-count research really shows, and how to pick a goal that fits you.</p>
         <div class="row-meta"><time datetime="2026-08-06">August 6, 2026</time> &middot; 4 min read</div>
       </div>
     </a>
-    <a href="/blog/introducing-walkfirst/" class="post-card fade-in">
+    <a href="/blog/introducing-walkfirst/" class="post-card fade-in" data-cat="App news">
       <img class="post-cover" src="/images/wf-og-card.png" alt="" width="1200" height="630" loading="lazy">
       <div class="post-card-body">
-        <div class="row-kicker">LAUNCH</div>
+        <div class="row-kicker">App news</div>
         <h2>Introducing WalkFirst: your steps are the key to your apps</h2>
         <p>Why I built an app that blocks distracting apps until you&#x27;ve walked enough — and how Apple&#x27;s Screen Time framework makes it possible fully on-device.</p>
         <div class="row-meta"><time datetime="2026-07-07">July 7, 2026</time> &middot; 4 min read</div>
@@ -324,7 +336,7 @@
 
   <div class="blog-subscribe fade-in">
     <h2>Get new posts</h2>
-    <p>New guides as they're published, straight to your feed reader.</p>
+    <p>New posts as they're published, straight to your feed reader.</p>
     <a href="/apps/walkfirst/blog/feed.xml" class="btn-primary subscribe-btn">Subscribe via RSS</a>
   </div>
 </section>

@@ -235,9 +235,15 @@
   <!-- blog:canada:start -->
   <url>
     <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/canadian-citizenship-ceremony/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/fail-canadian-citizenship-test/</loc>
@@ -247,12 +253,6 @@
   </url>
   <url>
     <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/discover-canada-study-plan/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://macwanapps.com/apps/canada-citizenship/en/blog/canadian-citizenship-test-format/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
